@@ -1,0 +1,32 @@
+---
+layout: default
+title: BEPHPUG -- HomePage
+---
+
+<h1>Willkommen bei der Berliner PHP Usergroup</h1>
+<div class="text">
+<p>
+Wir treffen uns <strong>jeden ersten Dienstag im Monat bei <a href="http://co-up.de">co-up</a> in Berlin, Kreuzberg</strong>, um uns zu PHP, Webentwicklung, Freier Software und angrenzenden Themen auszutauschen. Es gibt regelmäßig spannende Vorträge und Diskussionen in lockerer Atmosphäre. Besonders gern sind Themen und Projekte gesehen, mit denen sich der Vortragende gerade selbst beschäftigt.
+</p>
+<p>Hast Du Lust, Gleichgesinnte zu treffen, Neues über PHP und verwandte Technologien des Internets zu lernen oder selbst einen Vortrag zu halten? Dann komm einfach beim nächsten Treffen vorbei.</p>
+<p>Für Fragen, Absprachen und aktuelle Informationen steht unsere Mailingliste zu Verfügung (siehe unten).</p>
+</div>
+
+
+<h3>Location:</h3>
+<p>
+  <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Adalbertstr.+7-8,+10999+Berlin,+Germany&ie=UTF8&hq=&hnear=Adalbertstra%C3%9Fe+7,+Kreuzberg+10999+Berlin,+Germany&ll=52.504075,13.419671&spn=0.010214,0.027595&z=15&iwloc=A">
+    co-up / Upstream Berlin, Adalbertstr. 7-8, 10999 Berlin
+  </a>
+</p>
+<h3>Mailingliste: </h3>
+<p>
+  bephpug@thing.org (will possibly change to a google group soon)
+</p>
+
+<h2>Blog Posts</h2>
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
