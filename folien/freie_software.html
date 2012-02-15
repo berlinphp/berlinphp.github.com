@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.4.1: http://docutils.sourceforge.net/" />
+<title>Freie Software</title>
+<style type="text/css">
+
+/*
+:Author: David Goodger
+:Contact: goodger@users.sourceforge.net
+:Date: $Date: 2005-12-18 01:56:14 +0100 (Sun, 18 Dec 2005) $
+:Revision: $Revision: 4224 $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin-left: 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left {
+  clear: left }
+
+img.align-right {
+  clear: right }
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font-family: serif ;
+  font-size: 100% }
+
+pre.literal-block, pre.doctest-block {
+  margin-left: 2em ;
+  margin-right: 2em ;
+  background-color: #eeeeee }
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+tt.docutils {
+  background-color: #eeeeee }
+
+ul.auto-toc {
+  list-style-type: none }
+/*
+:Author: Volker Grabsch
+:Contact: vog@notjusthosting.com
+:Date: 2007/03/16
+:Version: 0.1
+:Copyright: This stylesheet has been placed in the public domain.
+
+Stylesheet for Docutils.
+*/
+
+
+dt                { font-weight: bold; }
+
+table.docutils    { border-collapse: collapse; }
+
+p                 { width: 400pt; }
+
+pre.literal-block,
+pre.doctest-block { border: thin dotted #000;
+                    padding: 2pt; }
+
+pre.literal-block,
+pre.doctest-block,
+table.docutils,
+tt.docutils       { background-color: #ffc; }
+
+h1,h2,h3,h4,h5,h6 { padding: 2pt; }
+
+h1                { background-color: #afa; }
+h2,h3,h4,h5,h6    { background-color: #aff; }
+
+</style>
+</head>
+<body>
+<div class="document" id="freie-software">
+<h1 class="title">Freie Software</h1>
+<table class="docinfo" frame="void" rules="none">
+<col class="docinfo-name" />
+<col class="docinfo-content" />
+<tbody valign="top">
+<tr class="field"><th class="docinfo-name">Autor:</th><td class="field-body">Volker Grabsch</td>
+</tr>
+</tbody>
+</table>
+<!-- vim: filetype=rst softtabstop=4: -->
+<div class="contents topic">
+<p class="topic-title first"><a id="inhalt" name="inhalt">Inhalt</a></p>
+<ul class="simple">
+<li><a class="reference" href="#definition" id="id5" name="id5">Definition</a><ul>
+<li><a class="reference" href="#the-free-software-definition" id="id6" name="id6">The Free Software Definition</a></li>
+<li><a class="reference" href="#the-debian-free-software-guidelines-dfsg" id="id7" name="id7">The Debian Free Software Guidelines (DFSG)</a></li>
+<li><a class="reference" href="#id1" id="id8" name="id8">The Free Software Definition</a></li>
+</ul>
+</li>
+<li><a class="reference" href="#software-lizenzen" id="id9" name="id9">Software-Lizenzen</a><ul>
+<li><a class="reference" href="#gemeingut" id="id10" name="id10">Gemeingut</a></li>
+<li><a class="reference" href="#bsd-artig" id="id11" name="id11">BSD-artig</a></li>
+<li><a class="reference" href="#copyleft" id="id12" name="id12">Copyleft</a></li>
+</ul>
+</li>
+<li><a class="reference" href="#lizenzen-f-r-nicht-software" id="id13" name="id13">Lizenzen für Nicht-Software</a><ul>
+<li><a class="reference" href="#id2" id="id14" name="id14">Gemeingut</a></li>
+<li><a class="reference" href="#id3" id="id15" name="id15">BSD-artig</a></li>
+<li><a class="reference" href="#id4" id="id16" name="id16">Copyleft</a></li>
+</ul>
+</li>
+<li><a class="reference" href="#vorsicht" id="id17" name="id17">Vorsicht!</a><ul>
+<li><a class="reference" href="#unfreie-lizenzen" id="id18" name="id18">Unfreie Lizenzen</a></li>
+<li><a class="reference" href="#abh-ngigkeit-von-unfreier-software" id="id19" name="id19">Abhängigkeit von unfreier Software</a></li>
+</ul>
+</li>
+<li><a class="reference" href="#komplexit-t-der-lizenzen" id="id20" name="id20">Komplexität der Lizenzen</a><ul>
+<li><a class="reference" href="#beispiel-mit-x11" id="id21" name="id21">Beispiel: MIT/X11</a></li>
+<li><a class="reference" href="#beispiel-bsd-3-klausel" id="id22" name="id22">Beispiel: BSD (3-Klausel)</a></li>
+<li><a class="reference" href="#beispiel-gpl" id="id23" name="id23">Beispiel: GPL</a></li>
+<li><a class="reference" href="#gr-envergleich" id="id24" name="id24">Größenvergleich</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section">
+<h1><a class="toc-backref" href="#id5" id="definition" name="definition">Definition</a></h1>
+<p>Begriff:</p>
+<blockquote>
+<ul class="simple">
+<li>ursprünglich: <cite>Freie Software</cite> / <cite>Free Software</cite></li>
+<li>Marketing: <cite>Open Source</cite></li>
+<li>politisch korrekt: <cite>FOSS</cite>?</li>
+</ul>
+</blockquote>
+<p>Konstrast:</p>
+<blockquote>
+<ul class="simple">
+<li>propritäere Software</li>
+<li>Freeware</li>
+</ul>
+</blockquote>
+<p>Rechtsgrundlage:</p>
+<blockquote>
+<ul class="simple">
+<li>Urheberrecht / Copyright.</li>
+<li>Es kommt nur auf die Lizenz an</li>
+</ul>
+</blockquote>
+<p>Womit es nichts zu tun hat:</p>
+<blockquote>
+<ul class="simple">
+<li>kommerziell vs. nicht-kommerziell</li>
+<li>Kommunismus</li>
+<li>Patente</li>
+</ul>
+</blockquote>
+<div class="section">
+<h2><a class="toc-backref" href="#id6" id="the-free-software-definition" name="the-free-software-definition">The Free Software Definition</a></h2>
+<dl class="docutils">
+<dt>Quellen:</dt>
+<dd><ul class="first last simple">
+<li><a class="reference" href="http://www.gnu.org/philosophy/free-sw.html">http://www.gnu.org/philosophy/free-sw.html</a></li>
+<li>Glaswand im newthinking store :-)</li>
+</ul>
+</dd>
+</dl>
+<p><cite>free</cite> as in <cite>free speech</cite>, not as in <cite>free beer</cite></p>
+<p>It refers to four kinds of freedom, for the <cite>users</cite> of the software:</p>
+<ol class="arabic" start="0">
+<li><p class="first">The freedom to run the program, for any purpose.</p>
+</li>
+<li><p class="first">The freedom to study how the program works, and adapt it to your needs.</p>
+<p>(Access to the <cite>source code</cite> is a precondition for this.)</p>
+</li>
+<li><p class="first">The freedom to redistribute copies so you can help your neighbor.</p>
+</li>
+<li><p class="first">The freedom to improve the program,
+and release your improvements to the public,
+so that the whole community benefits.</p>
+<p>(Access to the <cite>source code</cite> is a precondition for this.)</p>
+</li>
+</ol>
+</div>
+<div class="section">
+<h2><a class="toc-backref" href="#id7" id="the-debian-free-software-guidelines-dfsg" name="the-debian-free-software-guidelines-dfsg">The Debian Free Software Guidelines (DFSG)</a></h2>
+<dl class="docutils">
+<dt>Quelle:</dt>
+<dd><a class="reference" href="http://www.debian.org/social_contract.en.html">http://www.debian.org/social_contract.en.html</a></dd>
+</dl>
+<ol class="arabic">
+<li><p class="first">Free Redistribution</p>
+<blockquote>
+<p>The license</p>
+<p>... may not restrict any party from selling or giving away the software</p>
+<p>... may not require a royalty ...</p>
+</blockquote>
+</li>
+<li><p class="first">Source Code</p>
+<blockquote>
+<p>The program</p>
+<p>must include source code, and</p>
+<p>must allow distribution in source code as well as compiled form.</p>
+</blockquote>
+</li>
+<li><p class="first">Derived Works</p>
+<blockquote>
+<p>The license must allow modifications and derived works,
+...
+under the same terms as the license of the original software.</p>
+</blockquote>
+</li>
+<li><p class="first">Integrity of The Author's Source Code</p>
+<blockquote>
+<p>The license may restrict source-code
+from being distributed in modified form
+_only_ if the license allows the distribution of &quot;patch files&quot;
+...
+The license must explicitly permit distribution of software built
+from modified source code.</p>
+<p>The license may require derived works to carry a different name or
+version number from the original software.
+(This is a compromise. ...)</p>
+</blockquote>
+</li>
+<li><p class="first">No Discrimination Against Persons or Groups</p>
+<blockquote>
+<p>The license must not discriminate against any person or group of persons.</p>
+</blockquote>
+</li>
+<li><p class="first">No Discrimination Against Fields of Endeavor</p>
+<blockquote>
+<p>The license must not restrict anyone from making use of the program
+in a specific field of endeavor.</p>
+<p>For example, it may not restrict the program from being used in a business,
+or from being used for genetic research.</p>
+</blockquote>
+</li>
+<li><p class="first">Distribution of License</p>
+<blockquote>
+<p>The rights attached to the program must apply to all to whom the program
+is redistributed without the need for execution of an additional license
+by those parties.</p>
+</blockquote>
+</li>
+<li><p class="first">License Must Not Be Specific to Debian</p>
+<blockquote>
+<p>The rights attached to the program must not depend on the program's being
+part of a Debian system.</p>
+<p>If the program is
+...
+used or distributed without Debian
+...
+all parties to whom the program is redistributed
+should have the same rights as
+...
+with the Debian system.</p>
+</blockquote>
+</li>
+<li><p class="first">License Must Not Contaminate Other Software</p>
+<blockquote>
+<p>The license must not place restrictions on other software
+that is distributed along with the licensed software.</p>
+<p>For example,
+the license must not insist that
+all other programs distributed on the same medium must be free software.</p>
+</blockquote>
+</li>
+<li><p class="first">Example Licenses</p>
+<blockquote>
+<p>The &quot;GPL&quot;, &quot;BSD&quot;, and &quot;Artistic&quot; licenses are examples
+of licenses that we consider &quot;free&quot;.</p>
+</blockquote>
+</li>
+</ol>
+</div>
+<div class="section">
+<h2><a class="toc-backref" href="#id8" id="id1" name="id1">The Free Software Definition</a></h2>
+<dl class="docutils">
+<dt>Quelle:</dt>
+<dd><a class="reference" href="http://www.opensource.org/docs/osd">http://www.opensource.org/docs/osd</a></dd>
+</dl>
+<ol class="arabic">
+<li><p class="first">Free Redistribution</p>
+<blockquote>
+<p>...</p>
+</blockquote>
+</li>
+<li><p class="first">Source Code</p>
+<blockquote>
+<p>...</p>
+</blockquote>
+</li>
+<li><p class="first">Derived Works</p>
+<blockquote>
+<p>...</p>
+</blockquote>
+</li>
+<li><p class="first">Integrity of The Author's Source Code</p>
+<blockquote>
+<p>...</p>
+</blockquote>
+</li>
+<li><p class="first">No Discrimination Against Persons or Groups</p>
+<blockquote>
+<p>...</p>
+</blockquote>
+</li>
+<li><p class="first">No Discrimination Against Fields of Endeavor</p>
+<blockquote>
+<p>...</p>
+</blockquote>
+</li>
+<li><p class="first">Distribution of License</p>
+<blockquote>
+<p>...</p>
+</blockquote>
+</li>
+<li><p class="first">License Must Not Be Specific to a Product</p>
+<blockquote>
+<p>The rights attached to the program must not depend
+on the program's being part of a particular software distribution.
+...</p>
+</blockquote>
+</li>
+<li><p class="first">License Must Not Restrict Other Software</p>
+<blockquote>
+<p>...</p>
+</blockquote>
+</li>
+<li><p class="first">License Must Be Technology-Neutral</p>
+<blockquote>
+<p>No provision of the license may be predicated
+on any individual technology or style of interface.</p>
+</blockquote>
+</li>
+</ol>
+</div>
+</div>
+<div class="section">
+<h1><a class="toc-backref" href="#id9" id="software-lizenzen" name="software-lizenzen">Software-Lizenzen</a></h1>
+<dl class="docutils">
+<dt>Liste freier Lizenzen:</dt>
+<dd><a class="reference" href="http://www.opensource.org/licenses">http://www.opensource.org/licenses</a></dd>
+</dl>
+<div class="section">
+<h2><a class="toc-backref" href="#id10" id="gemeingut" name="gemeingut">Gemeingut</a></h2>
+<ul>
+<li><p class="first">keine echte Lizenz</p>
+</li>
+<li><p class="first">in angelsächsischer Rechtsprechung:</p>
+<blockquote>
+<ul class="simple">
+<li><cite>Public Domain</cite> genannt</li>
+<li>Abtritt des Copyrights</li>
+</ul>
+</blockquote>
+</li>
+<li><p class="first">in Deutschland:</p>
+<blockquote>
+<ul class="simple">
+<li>Man kann seine Urheberrechte nicht abtreten!</li>
+<li>Urheberrechte erlöschen 70 Jahre nach Tod des Autors</li>
+<li>gibt es (noch) nicht bei Software</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</div>
+<div class="section">
+<h2><a class="toc-backref" href="#id11" id="bsd-artig" name="bsd-artig">BSD-artig</a></h2>
+<ul>
+<li><p class="first">&quot;Macht damit, was ihr wollt&quot;</p>
+</li>
+<li><p class="first">&quot;Ehre, wem Ehre gebührt&quot;</p>
+</li>
+<li><p class="first">kann in propritäre Software eingebaut werden</p>
+</li>
+<li><p class="first">Beispiele:</p>
+<blockquote>
+<ul class="simple">
+<li>BSD (2,3,4-Klausel)</li>
+<li>MIT/X11-Lizenz</li>
+<li>Artistic</li>
+<li>unüblich: Creative Commons (<tt class="docutils literal"><span class="pre">BY</span></tt>)</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</div>
+<div class="section">
+<h2><a class="toc-backref" href="#id12" id="copyleft" name="copyleft">Copyleft</a></h2>
+<ul>
+<li><p class="first">Abwandlungen sollen frei bleiben</p>
+</li>
+<li><p class="first">Beispiele:</p>
+<blockquote>
+<ul class="simple">
+<li>GPL</li>
+<li>LGPL</li>
+<li>GPLv3</li>
+<li>unüblich: Creative Commons (<tt class="docutils literal"><span class="pre">BY-SA</span></tt>)</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</div>
+</div>
+<div class="section">
+<h1><a class="toc-backref" href="#id13" id="lizenzen-f-r-nicht-software" name="lizenzen-f-r-nicht-software">Lizenzen für Nicht-Software</a></h1>
+<div class="section">
+<h2><a class="toc-backref" href="#id14" id="id2" name="id2">Gemeingut</a></h2>
+<ul class="simple">
+<li>bereits alles gesagt</li>
+</ul>
+</div>
+<div class="section">
+<h2><a class="toc-backref" href="#id15" id="id3" name="id3">BSD-artig</a></h2>
+<ul class="simple">
+<li>Klassisches Einsatzgebiet: Logos/Icons von freier Software</li>
+<li>MIT/X11, Artistic, ... auch für Nicht-Software geeignet</li>
+<li>Creative Commons (<tt class="docutils literal"><span class="pre">BY</span></tt>)</li>
+</ul>
+</div>
+<div class="section">
+<h2><a class="toc-backref" href="#id16" id="id4" name="id4">Copyleft</a></h2>
+<ul class="simple">
+<li>Klassisches Einsatzgebiet: Dokumentation von freier Software</li>
+<li>GPL, LGPL, ... meist übertragbar, dennoch nicht ratsam</li>
+<li>FDL für Texte</li>
+<li>Creative Commons (<tt class="docutils literal"><span class="pre">BY-SA</span></tt>)</li>
+</ul>
+</div>
+</div>
+<div class="section">
+<h1><a class="toc-backref" href="#id17" id="vorsicht" name="vorsicht">Vorsicht!</a></h1>
+<div class="section">
+<h2><a class="toc-backref" href="#id18" id="unfreie-lizenzen" name="unfreie-lizenzen">Unfreie Lizenzen</a></h2>
+<p>Klassische Beispiele:</p>
+<ul class="simple">
+<li>FDL mit &quot;Invariant Sections&quot;</li>
+<li>Creative Commons (<tt class="docutils literal"><span class="pre">*-NC</span></tt> oder <tt class="docutils literal"><span class="pre">*-ND</span></tt>)</li>
+</ul>
+</div>
+<div class="section">
+<h2><a class="toc-backref" href="#id19" id="abh-ngigkeit-von-unfreier-software" name="abh-ngigkeit-von-unfreier-software">Abhängigkeit von unfreier Software</a></h2>
+<p>Klassische Beispiele:</p>
+<ul class="simple">
+<li>komplexe Java-Programme</li>
+<li>C-Programme, die nur unter MSVC compilieren</li>
+<li>Verwendung unfreier PHP-Module</li>
+</ul>
+</div>
+</div>
+<div class="section">
+<h1><a class="toc-backref" href="#id20" id="komplexit-t-der-lizenzen" name="komplexit-t-der-lizenzen">Komplexität der Lizenzen</a></h1>
+<p>Empfehlungen:</p>
+<ul class="simple">
+<li>Lizenz nicht größer als das Werk</li>
+<li>1-Datei-Miniprojekte: <cite>MIT/X11</cite>-Lizenz</li>
+<li>keine Scheu vor dem Lesen der Lizenzen! (wenigstens die Präambel)</li>
+</ul>
+<div class="section">
+<h2><a class="toc-backref" href="#id21" id="beispiel-mit-x11" name="beispiel-mit-x11">Beispiel: MIT/X11</a></h2>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.</p>
+</div>
+<div class="section">
+<h2><a class="toc-backref" href="#id22" id="beispiel-bsd-3-klausel" name="beispiel-bsd-3-klausel">Beispiel: BSD (3-Klausel)</a></h2>
+<p>Copyright (c) The Regents of the University of California.
+All rights reserved.</p>
+<p>Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:</p>
+<ol class="arabic simple">
+<li>Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.</li>
+<li>Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.</li>
+<li>Neither the name of the University nor the names of its contributors
+may be used to endorse or promote products derived from this software
+without specific prior written permission.</li>
+</ol>
+<p>THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS <cite>AS IS</cite> AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.</p>
+</div>
+<div class="section">
+<h2><a class="toc-backref" href="#id23" id="beispiel-gpl" name="beispiel-gpl">Beispiel: GPL</a></h2>
+<p>GNU GENERAL PUBLIC LICENSE
+Version 2, June 1991</p>
+<p>Copyright (C) 1989, 1991 Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.</p>
+<p>Preamble</p>
+<p>The licenses for most software are designed to take away your
+freedom to share and change it.  By contrast, the GNU General Public
+License is intended to guarantee your freedom to share and change free
+software--to make sure the software is free for all its users.  This
+General Public License applies to most of the Free Software
+Foundation's software and to any other program whose authors commit to
+using it.  (Some other Free Software Foundation software is covered by
+the GNU Lesser General Public License instead.)  You can apply it to
+your programs, too.</p>
+<p>...</p>
+</div>
+<div class="section">
+<h2><a class="toc-backref" href="#id24" id="gr-envergleich" name="gr-envergleich">Größenvergleich</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="33%" />
+<col width="25%" />
+<col width="21%" />
+<col width="21%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">Lizenz</th>
+<th class="head">Zeilen</th>
+<th class="head">Worte</th>
+<th class="head">Größe</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>MIT/X11</td>
+<td>19</td>
+<td>167</td>
+<td>1 kB</td>
+</tr>
+<tr><td>BSD (3)</td>
+<td>26</td>
+<td>225</td>
+<td>1 kB</td>
+</tr>
+<tr><td>Artistic</td>
+<td>131</td>
+<td>970</td>
+<td>6 kB</td>
+</tr>
+<tr><td>GPL</td>
+<td>339</td>
+<td>2968</td>
+<td>18 kB</td>
+</tr>
+<tr><td>LGPL</td>
+<td>510</td>
+<td>4372</td>
+<td>26 kB</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>
