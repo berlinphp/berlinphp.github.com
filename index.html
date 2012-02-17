@@ -20,7 +20,6 @@ home: active
         {% for post in site.posts limit:2 %}
         <div class="row posts">
             <div class="span8 post">
-                <h5>{{ post.date | date_to_string }}</h5>
                 <h4>{{ post.title }}</h4>
                 <p>{{ post.content }}</p>
              </div>
