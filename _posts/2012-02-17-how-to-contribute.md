@@ -16,7 +16,7 @@ If you want to see the site locally, just follow these steps:
 1. Make sure that you have Ruby on your machine.
 2. Install Jekyll with: `gem install jekyll`
 3. run `jekyll --server` in the project folder
-4. point your browser at [http://localhost:4000](http://localhost:4000)
+4. point your browser to [http://localhost:4000](http://localhost:4000)
 5. You should see the site with all your changes
 
 Happy forking and editing, we love to see your contributions!
