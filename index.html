@@ -5,22 +5,35 @@ home: active
 ---
 
 <div class="row">
-    <div class="span9">
-        <div class="hero-unit">
-            <h1>Willkomen / Welcome</h1>
-            <p><strong>N&auml;chstes Treffen: 6. M&auml;rz / Next meetup: 6th March, 2012</strong></p>
-        </div>
-        <p>
-            Wir treffen uns <strong>jeden ersten Dienstag im Monat bei <a href="http://co-up.de" target="_blank">co-up</a> in Berlin, Kreuzberg</strong>, um uns zu PHP, Webentwicklung, Freier Software und angrenzenden Themen auszutauschen. Es gibt regelmäßig spannende Vorträge und Diskussionen in lockerer Atmosphäre. Besonders gern sind Themen und Projekte gesehen, mit denen sich der Vortragende gerade selbst beschäftigt
-        </p>
-        <p>Hast Du Lust, Gleichgesinnte zu treffen, Neues über PHP und verwandte Technologien des Internets zu lernen oder selbst einen Vortrag zu halten? Dann komm einfach beim nächsten Treffen vorbei.</p>
-        <p>Für Fragen, Absprachen und aktuelle Informationen steht unsere Mailingliste zu Verfügung (siehe unten).</p>
+  <div class="span9">
+    <div class="hero-unit">
+      <h1>Willkomen / Welcome</h1>
+      <p><strong>N&auml;chstes Treffen: 6. M&auml;rz / Next meetup: 6th March, 2012</strong></p>
     </div>
+    <p>
+      Wir treffen uns <strong>jeden ersten Dienstag im Monat bei <a href="http://co-up.de" target="_blank">co-up</a> in Berlin,
+      Kreuzberg</strong>, um uns zu PHP, Webentwicklung, Freier Software und angrenzenden
+      Themen auszutauschen. Es gibt regelmäßig spannende Vorträge und Diskussionen in lockerer Atmosphäre.
+      Besonders gern sind Themen und Projekte gesehen, mit denen sich der Vortragende gerade selbst
+      beschäftigt
+    </p>
+    <p>
+      Hast Du Lust, Gleichgesinnte zu treffen, Neues über PHP und verwandte Technologien
+      des Internets zu lernen oder selbst einen Vortrag zu halten? Dann komm einfach beim
+      nächsten Treffen vorbei.
+    </p>
+    <p>
+      Für Fragen, Absprachen und aktuelle Informationen steht unsere Mailingliste zu Verfügung.
+      Alle wichtigen Kontaktdaten findest du <a href="http://www.bephpug.de/archiv.html">hier</a>
+    </p>
+  </div>
 </div>
 
 <div class="row">
     <div class="span9">
-        <h3>Announcements / Ankündigungen</h3>
+        <div class="page-header">
+            <h1>Announcements / Ankündigungen</h1>
+        </div>
         {% for post in site.posts limit:2 %}
         <div class="row posts">
             <div class="span8 post">
@@ -30,4 +43,5 @@ home: active
         </div>
         {% endfor %}
     </div>
+  </div>
 </div>
