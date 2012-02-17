@@ -11,13 +11,13 @@ title: Location
         function initGmaps(){
             var myOptions = {
                 zoom:15,
-                center:new google.maps.LatLng(50.93949, 7.027780000000007),
+                center:new google.maps.LatLng(52.504075,13.419671),
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             };
             map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
             marker = new google.maps.Marker({
                 map: map,
-                position: new google.maps.LatLng(50.93949, 7.027780000000007)
+                position: new google.maps.LatLng(52.504075,13.419671)
             });
             infowindow = new google.maps.InfoWindow({
                 content: "<b>Co-Up</b><br>Adalbertstrasse 7-8<br>10999 Berlin"
