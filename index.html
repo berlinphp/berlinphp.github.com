@@ -5,93 +5,93 @@ title: BEPHPUG -- HomePage
 
 <h1>Willkommen bei der Berliner PHP Usergroup</h1>
 <div class="text">
-<p>
-Wir treffen uns <strong>jeden ersten Dienstag im Monat bei <a href="http://co-up.de">co-up</a> in Berlin, Kreuzberg</strong>, um uns zu PHP, Webentwicklung, Freier Software und angrenzenden Themen auszutauschen. Es gibt regelmäßig spannende Vorträge und Diskussionen in lockerer Atmosphäre. Besonders gern sind Themen und Projekte gesehen, mit denen sich der Vortragende gerade selbst beschäftigt.
-</p>
-<p>Hast Du Lust, Gleichgesinnte zu treffen, Neues über PHP und verwandte Technologien des Internets zu lernen oder selbst einen Vortrag zu halten? Dann komm einfach beim nächsten Treffen vorbei.</p>
-<p>Für Fragen, Absprachen und aktuelle Informationen steht unsere Mailingliste zu Verfügung (siehe unten).</p>
+    <p>
+        Wir treffen uns <strong>jeden ersten Dienstag im Monat bei <a href="http://co-up.de" target="_blank">co-up</a> in Berlin, Kreuzberg</strong>, um uns zu PHP, Webentwicklung, Freier Software und angrenzenden Themen auszutauschen. Es gibt regelmäßig spannende Vorträge und Diskussionen in lockerer Atmosphäre. Besonders gern sind Themen und Projekte gesehen, mit denen sich der Vortragende gerade selbst beschäftigt.
+    </p>
+    <p>Hast Du Lust, Gleichgesinnte zu treffen, Neues über PHP und verwandte Technologien des Internets zu lernen oder selbst einen Vortrag zu halten? Dann komm einfach beim nächsten Treffen vorbei.</p>
+    <p>Für Fragen, Absprachen und aktuelle Informationen steht unsere Mailingliste zu Verfügung (siehe unten).</p>
 </div>
 
 
 <h3>Location:</h3>
 <p>
-  <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Adalbertstr.+7-8,+10999+Berlin,+Germany&ie=UTF8&hq=&hnear=Adalbertstra%C3%9Fe+7,+Kreuzberg+10999+Berlin,+Germany&ll=52.504075,13.419671&spn=0.010214,0.027595&z=15&iwloc=A">
-    co-up / Upstream Berlin, Adalbertstr. 7-8, 10999 Berlin
-  </a>
+    <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Adalbertstr.+7-8,+10999+Berlin,+Germany&ie=UTF8&hq=&hnear=Adalbertstra%C3%9Fe+7,+Kreuzberg+10999+Berlin,+Germany&ll=52.504075,13.419671&spn=0.010214,0.027595&z=15&iwloc=A" target="_blank">
+        co-up / Upstream Berlin, Adalbertstr. 7-8, 10999 Berlin
+    </a>
 </p>
 <h3>Mailingliste: </h3>
 <p>
-  bephpug@thing.org (will possibly change to a google group soon)
+    bephpug@thing.org (will possibly change to a google group soon)
 </p>
 
 <h2>Blog Posts</h2>
 <ul class="posts">
-  {% for post in site.posts %}
+    {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
+    {% endfor %}
 </ul>
 
 <h2>Bisherige Vorträge</h2>
 <ul>
-  <li>La Distribution - François Hodierne, 07.02.2012 </li>
-  <li><a href="http://speakerdeck.com/u/till/p/suhosin-phps-safety-net">suhosin - PHP's safety net</a> - Till Klampaeckel, 07.02.2012</li>
-  <li><a href="http://www.slideshare.net/bashofmann/introduction-to-rginjection">Introduction to rginjection</a> - Bastian Hofmann, 07.02.2012</li>
-  <li>NetBeans - Daniel Fahlke, 17.01.2012</li>
-  <li>Cloud9 IDE - Daniel Fahlke, 17.01.2012</li>
-  <li>phpStorm - Fabian Blechschmit (und Bastian Hofmann), 17.01.2012</li>
-  <li><a href="http://speakerdeck.com/u/till/p/nano">nano – the best editor ever, or maybe not</a> – <a href="http://till.klampaeckel.de/blog/">Till Klampaeckel</a>, 17.01.2012</li>
-  <li><a href="http://www.profv.de/vim-watch-wmii">Vim, Watch, Wmii</a> - <a href="http://www.profv.de/">Volker Grabsch</a>, 17.01.2012</li>
-  <li>Zend Studio - <a href="http://sch0ll.de/">Michael Scholl</a>, 17.01.2012</li>
-  <li>mysqlnd_uh - Gordon Frank, 06.12.2011</li>
-  <li><a href="http://speakerdeck.com/u/joshk/p/travis-ci-101-berlin-php-users-group">travis-ci</a> - Josh Kalderimis, 06.12.2011</li>
-  <li><a href="http://phpcr.github.com/slides.html">PHPCR</a> - <a href="http://pooteeweet.org/">Lukas Smith</a>, 01.11.2011</li>
-  <li><a href="http://www.bephpug.de/folien/11-07-05_FB_Like-Buttons.pdf">Facebook Like Buttons</a> - Fabian Blechschmidt, 05.07.2011</li>
-  <li>???, 07.06.2011</li>
-  <li><a href="http://www.bephpug.de/folien/SilverStripe.pdf">Silverstripe</a> - <a href="http://philipp-staender.com/">Philipp Ständer</a>, 03.05.2011</li>
-  <li>ezmlm - Daniel Fahlke, 03.05.2011</li>
-  <li><a href="http://www.profv.de/texcaller/">Texcaller</a> - <a href="http://www.profv.de/">Volker Grabsch</a>, 05.04.2011</li>
-  <li><a href="http://www.bephpug.de/folien/scaleup_deck_openstack.pdf">OpenStack</a> - Christoph Streit, 05.04.2011</li>
-  <li>codeigniter, ..., 01.03.2011</li>
-  <li><a href="http://www.slideshare.net/mobile/woodworker/zeta-components">zeta components</a> - Martin Holzhauer, 01.03.2011</li>
-  <li><a href="http://www.bephpug.de/folien/yii_presentation.pdf">Yii Framework</a> - Daniel Fahlke, 01.03.2011</li>
-  <li><a href="http://www.bephpug.de/folien/BEPHPUG_ZF_Vortrag.pdf">Zend Framework</a> - Michael Scholl, 01.03.2011</li>
-  <li><a href="http://www.ikonoshirt.de/stuff/11-03-01_symfony.pdf">Symfony</a> - Fabian Blechschmidt, 01.03.2011</li>
-  <li><a href="http://www.bephpug.de/folien/Zend%20Server%20Cluster%20Manager%20-%20Session%20Clustering.pdf">Zend Server Cluster Manager</a> - Jan Burkl, 01.02.2011</li>
-  <li><a href="http://www.bephpug.de/folien/Zf2.pdf">Zend Framework 2.0</a> - Jan Burkl, 01.02.2011</li>
-  <li><a href="http://www.slideshare.net/jweiss/running-on-amazon-ec2">Amazon Web Services</a> - Jonathan Weiss, 01.02.2011</li>
-  <li>PHP 5.3 - <a href="http://coding-robin.de/">Robin Mehner</a>, 04.01.2011</li>
-  <li><a href="https://s3.amazonaws.com/chef-talk/chef-talk.html#intro">Automation with chef-solo!</a> - <a href="http://till.klampaeckel.de/">Till Klampaeckel</a>, 07.12.2010</li>
-  <li><a href="http://fholzhauer.de/varnish-bephpug-weiss.pdf">Varnish</a> - Florian Holzhauer, 01.06.2010</li>
-  <li><a href="http://blog.ulf-wendel.de/?p=283">MySQLNd Plugin API</a> - Ulf Wendel, 01.06.2010</li>
-  <li><a href="http://www.bephpug.de/folien/MyHammer_Vortrag_Open_Source_BEPHPUG_20100406.pdf">Vorstellung der Open Source Projekte von MyHammer</a> - Steven Berg, Jan Christiansen, Max Winde und Manuel Kiessling (MyHammer), 06.04.2010</li>
-  <li><a href="http://www.bephpug.de/folien/PHPUG_Berlin_Zalando_06042010.pdf">Ein Leben mit und ohne Magento</a> - Daniel Nowak (Rocket Internet) und Volker Pilz (Zalando), 06.04.2010</li>
-  <li><a href="http://www.bephpug.de/folien/Drupal_in_10min.pdf">Drupal in 10 Minuten</a> - Alexander Wilde, 02.03.2010</li>
-  <li><a href="http://amauf.de/ecato-entwicklerprogramm-bephpug/">Die Shopping API von Ecato</a> - <a href="http://amauf.de/">Andreas Mauf</a>, 02.03.2010</li>
-  <li><a href="http://coding-robin.de/talks/bephpug-022010-legacy-code-refactoring.pdf">Legacy Code Refactoring</a> - <a href="http://coding-robin.de/">Robin Mehner</a>, 02.02.2010</li>
-  <li><a href="http://www.bephpug.de/folien/Tobias%20Vogel%20PHP%20UG%20Berlin%20Talk.pdf">Web Services und PHP</a> - Tobias Vogel, 05.01.2010</li>
-  <li><a href="http://www.profv.de/fsv/">Freie Software veröffentlichen</a> - <a href="http://www.profv.de/">Volker Grabsch</a>, 08.12.2009</li>
-  <li><a href="http://www.manuel-blechschmidt.de/data/PraesentationSaasKon.pdf">Geschaeftsprozesse</a> - <a href="http://www.manuel-blechschmidt.de/">Manuel Blechschmidt</a>, 03.11.2009</li>
-  <li><a href="http://www.bephpug.de/folien/Performancetuning.ppt">Performance Tuning</a> - Thomas Lohner, 06.10.2009</li>
-  <li><a href="http://docs.google.com/present/edit?id=0ASm2GG96-yQNYWNucWR2bjhyZjdyXzM1cXRxemd2Zzc&amp;hl=en">PHP in schnell</a> - <a href="http://till.klampaeckel.de/">Till Klampaeckel</a>, 01.09.2009</li>
-  <li>Debugging mit XDebug - <a href="http://www.coding-squirrel.de/">Marthin Rothenberger</a>, 05.08.2009</li>
-  <li><a href="http://coding-robin.de/talks/bephpug-072009-zfintro.pdf">Zend Framework Intro</a> - <a href="http://coding-robin.de/">Robin Mehner</a>, 01.07.2009</li>
-  <li><a href="http://docs.google.com/Presentation?id=acnqdvn8rf7r_20hfgtw6cq">Testing (with) PHP</a> - <a href="http://till.klampaeckel.de/">Till Klampaeckel</a>, 06.05.2009</li>
-  <li><a href="http://www.manuel-blechschmidt.de/data/Magento.pdf">Magento in a Nutshell</a> (<a href="http://www.manuel-blechschmidt.de/data/Magento.odp">ODP</a>) - <a href="http://www.manuel-blechschmidt.de/">Manuel Blechschmidt</a>, 04.03.2009</li>
-  <li><a href="http://www.maxhorvath.com/documents/ipc2008_slide_making_selenium_1/ipc2008_slide_making_selenium_test_writing_easier_using_a_dsl.pdf">Making Selenium Test Writing easier using a DSL</a> (<a href="http://selenium.seleniumhq.org/">Selenium Website</a>) - <a href="http://www.maxhorvath.com/">Max</a>, 03.12.2008</li>
-  <li><a href="http://jan.prima.de/BEPHPUG_CouchDB2008.pdf">CouchDB</a> (<a href="http://incubator.apache.org/couchdb/">CouchDB Website</a>) - <a href="http://jan.prima.de/">Jan</a>, 05.11.2008</li>
-  <li><a href="http://instantsvc.sourceforge.net/docs/metaprogramming-and-reflection-with-php-paper.pdf">Metaprogrammierung &amp; Reflection mit PHP</a> (<a href="https://instantsvc.svn.sourceforge.net/svnroot/instantsvc/branches/metaprogramming/src/MetaPHP/">SVN: Demo-Programm</a>) (<a href="http://instantsvc.sourceforge.net/docs/metaprogramming-and-reflection-with-php-v1.0.pdf">Folien</a>) - <a href="https://www.ohloh.net/accounts/falko">Falko</a>, 24.01.2008</li>
-  <li><a href="http://www.bephpug.de/folien/Erfahrungen_aus_der_phpBB3-Entwicklung.pdf">Erfahrungen aus der Entwicklung von phpBB3 (security)</a> (<a href="http://www.bephpug.de/folien/Erfahrungen_aus_der_phpBB3-Entwicklung-src.zip">LaTeX-Quelltext</a>) - Henry, 03.12.2007</li>
-  <li><a href="http://phpcallgraph.sourceforge.net/docs/workshop-2007-12-03-refactoring-and-unit-testing/refactoring-and-unit-testing.html">Refactoring: Von prozeduralem PHP4 zu objektorientiertem PHP5</a> (<a href="http://phpcallgraph.sourceforge.net/docs/workshop-2007-12-03-refactoring-and-unit-testing/workshop-2007-12-03-refactoring-and-unit-testing.zip">Beispiele</a>) - <a href="https://www.ohloh.net/accounts/falko">Falko</a>, 03.12.2007</li>
-  <li><a href="http://instantsvc.sourceforge.net/docs/php5_oop.pdf">Einführung in objektorientiertes Entwickeln mit PHP5</a> - Gregor, 03.12.2007</li>
-  <li><a href="http://phpcallgraph.sourceforge.net/docs/presentation-2007-11-07-berlin-php-usergroup/presentation-2007-11-07-berlin-php-usergroup.pdf">Aufdecken von Designfehlern mit statischen Call-Graphen</a> (als <a href="http://phpcallgraph.sourceforge.net/docs/presentation-2007-11-07-berlin-php-usergroup/presentation-2007-11-07-berlin-php-usergroup.odp">ODP</a>) (<a href="http://phpcallgraph.sourceforge.net/">Website</a>) - <a href="https://www.ohloh.net/accounts/falko">Falko</a>, 06.11.2007</li>
-  <li><a href="https://instantsvc.svn.sourceforge.net/svnroot/instantsvc/branches/transition/doc/presentations/berlin-php-usergroup/InstantSVC%20-%20The%20PHP%20Web%20Services%20Builder.pdf">InstantSVC: Web-Service-Generierung für PHP</a> (als <a href="https://instantsvc.svn.sourceforge.net/svnroot/instantsvc/branches/transition/doc/presentations/berlin-php-usergroup/InstantSVC%20-%20The%20PHP%20Web%20Services%20Builder.odp">ODP</a>) (<a href="http://instantsvc.sf.net/">Website</a>) - <a href="https://www.ohloh.net/accounts/falko">Falko</a>, 04.09.2007</li>
-  <li><a href="http://www.bephpug.de/folien/PHP-Framework_mit_minimalistischem_Ansatz.pdf">PHP-Framework mit minimalistischem Ansatz</a> (als <a href="http://www.bephpug.de/folien/PHP-Framework_mit_minimalistischem_Ansatz.odp">ODP</a>) - Fabian, 07.08.2007</li>
-  <li><a href="http://www.bephpug.de/folien/saubere_urls.html">Saubere URLs</a> - <a href="http://www.profv.de/">Volker Grabsch</a>, 05.06.2007</li>
-  <li><a href="http://www.bephpug.de/folien/freie_software.html">Freie Software</a> - <a href="http://www.profv.de/">Volker Grabsch</a>, 08.05.2007</li>
-  <li><a href="http://www.bephpug.de/folien/soap_php_dotnet.zip">Web Services mit PHP/NuSoap und C#/.NET</a> - Torsten, 06.07.2004</li>
-  <li><a href="http://www.bephpug.de/folien/qualitaet.tar.gz">Unit-Tests und Qualitätssicherung</a> - <a href="http://www.manuel-blechschmidt.de/">Manuel Blechschmidt</a></li>
-  <li><a href="http://www.bephpug.de/folien/fop.zip">FOP &amp; PHP</a> - Robert &amp; Manuel, 2004</li>
-  <li><a href="http://www.bephpug.de/folien/flashphp.zip">Flash &amp; PHP</a> - <a href="http://www.manuel-blechschmidt.de/">Manuel Blechschmidt</a>, 2004</li>
-  <li><a href="http://www.bephpug.de/folien/design_pattern.zip">Design-Patterns</a> - <a href="http://www.manuel-blechschmidt.de/">Manuel Blechschmidt</a>, Juni 2004</li>
-  <li><a href="http://www.bephpug.de/folien/barrierefrei.zip">Barrierefreiheit</a> - <a href="http://www.manuel-blechschmidt.de/">Manuel Blechschmidt</a>, 2004</li>
+    <li>La Distribution - François Hodierne, 07.02.2012 </li>
+    <li><a href="http://speakerdeck.com/u/till/p/suhosin-phps-safety-net" target="_blank">suhosin - PHP's safety net</a> - Till Klampaeckel, 07.02.2012</li>
+    <li><a href="http://www.slideshare.net/bashofmann/introduction-to-rginjection" target="_blank">Introduction to rginjection</a> - Bastian Hofmann, 07.02.2012</li>
+    <li>NetBeans - Daniel Fahlke, 17.01.2012</li>
+    <li>Cloud9 IDE - Daniel Fahlke, 17.01.2012</li>
+    <li>phpStorm - Fabian Blechschmit (und Bastian Hofmann), 17.01.2012</li>
+    <li><a href="http://speakerdeck.com/u/till/p/nano" target="_blank">nano – the best editor ever, or maybe not</a> – <a href="http://till.klampaeckel.de/blog/" target="_blank">Till Klampaeckel</a>, 17.01.2012</li>
+    <li><a href="http://www.profv.de/vim-watch-wmii" target="_blank">Vim, Watch, Wmii</a> - <a href="http://www.profv.de/" target="_blank">Volker Grabsch</a>, 17.01.2012</li>
+    <li>Zend Studio - <a href="http://sch0ll.de/" target="_blank">Michael Scholl</a>, 17.01.2012</li>
+    <li>mysqlnd_uh - Gordon Frank, 06.12.2011</li>
+    <li><a href="http://speakerdeck.com/u/joshk/p/travis-ci-101-berlin-php-users-group" target="_blank">travis-ci</a> - Josh Kalderimis, 06.12.2011</li>
+    <li><a href="http://phpcr.github.com/slides.html" target="_blank">PHPCR</a> - <a href="http://pooteeweet.org/" target="_blank">Lukas Smith</a>, 01.11.2011</li>
+    <li><a href="http://www.bephpug.de/folien/11-07-05_FB_Like-Buttons.pdf" target="_blank">Facebook Like Buttons</a> - Fabian Blechschmidt, 05.07.2011</li>
+    <li>???, 07.06.2011</li>
+    <li><a href="http://www.bephpug.de/folien/SilverStripe.pdf" target="_blank">Silverstripe</a> - <a href="http://philipp-staender.com/" target="_blank">Philipp Ständer</a>, 03.05.2011</li>
+    <li>ezmlm - Daniel Fahlke, 03.05.2011</li>
+    <li><a href="http://www.profv.de/texcaller/" target="_blank">Texcaller</a> - <a href="http://www.profv.de/" target="_blank">Volker Grabsch</a>, 05.04.2011</li>
+    <li><a href="http://www.bephpug.de/folien/scaleup_deck_openstack.pdf" target="_blank">OpenStack</a> - Christoph Streit, 05.04.2011</li>
+    <li>codeigniter, ..., 01.03.2011</li>
+    <li><a href="http://www.slideshare.net/mobile/woodworker/zeta-components" target="_blank">zeta components</a> - Martin Holzhauer, 01.03.2011</li>
+    <li><a href="http://www.bephpug.de/folien/yii_presentation.pdf" target="_blank">Yii Framework</a> - Daniel Fahlke, 01.03.2011</li>
+    <li><a href="http://www.bephpug.de/folien/BEPHPUG_ZF_Vortrag.pdf" target="_blank">Zend Framework</a> - Michael Scholl, 01.03.2011</li>
+    <li><a href="http://www.ikonoshirt.de/stuff/11-03-01_symfony.pdf" target="_blank">Symfony</a> - Fabian Blechschmidt, 01.03.2011</li>
+    <li><a href="http://www.bephpug.de/folien/Zend%20Server%20Cluster%20Manager%20-%20Session%20Clustering.pdf" target="_blank">Zend Server Cluster Manager</a> - Jan Burkl, 01.02.2011</li>
+    <li><a href="http://www.bephpug.de/folien/Zf2.pdf" target="_blank">Zend Framework 2.0</a> - Jan Burkl, 01.02.2011</li>
+    <li><a href="http://www.slideshare.net/jweiss/running-on-amazon-ec2" target="_blank">Amazon Web Services</a> - Jonathan Weiss, 01.02.2011</li>
+    <li>PHP 5.3 - <a href="http://coding-robin.de/" target="_blank">Robin Mehner</a>, 04.01.2011</li>
+    <li><a href="https://s3.amazonaws.com/chef-talk/chef-talk.html#intro" target="_blank">Automation with chef-solo!</a> - <a href="http://till.klampaeckel.de/" target="_blank">Till Klampaeckel</a>, 07.12.2010</li>
+    <li><a href="http://fholzhauer.de/varnish-bephpug-weiss.pdf" target="_blank">Varnish</a> - Florian Holzhauer, 01.06.2010</li>
+    <li><a href="http://blog.ulf-wendel.de/?p=283" target="_blank">MySQLNd Plugin API</a> - Ulf Wendel, 01.06.2010</li>
+    <li><a href="http://www.bephpug.de/folien/MyHammer_Vortrag_Open_Source_BEPHPUG_20100406.pdf" target="_blank">Vorstellung der Open Source Projekte von MyHammer</a> - Steven Berg, Jan Christiansen, Max Winde und Manuel Kiessling (MyHammer), 06.04.2010</li>
+    <li><a href="http://www.bephpug.de/folien/PHPUG_Berlin_Zalando_06042010.pdf" target="_blank">Ein Leben mit und ohne Magento</a> - Daniel Nowak (Rocket Internet) und Volker Pilz (Zalando), 06.04.2010</li>
+    <li><a href="http://www.bephpug.de/folien/Drupal_in_10min.pdf" target="_blank">Drupal in 10 Minuten</a> - Alexander Wilde, 02.03.2010</li>
+    <li><a href="http://amauf.de/ecato-entwicklerprogramm-bephpug/" target="_blank">Die Shopping API von Ecato</a> - <a href="http://amauf.de/" target="_blank">Andreas Mauf</a>, 02.03.2010</li>
+    <li><a href="http://coding-robin.de/talks/bephpug-022010-legacy-code-refactoring.pdf" target="_blank">Legacy Code Refactoring</a> - <a href="http://coding-robin.de/" target="_blank">Robin Mehner</a>, 02.02.2010</li>
+    <li><a href="http://www.bephpug.de/folien/Tobias%20Vogel%20PHP%20UG%20Berlin%20Talk.pdf" target="_blank">Web Services und PHP</a> - Tobias Vogel, 05.01.2010</li>
+    <li><a href="http://www.profv.de/fsv/" target="_blank">Freie Software veröffentlichen</a> - <a href="http://www.profv.de/" target="_blank">Volker Grabsch</a>, 08.12.2009</li>
+    <li><a href="http://www.manuel-blechschmidt.de/data/PraesentationSaasKon.pdf" target="_blank">Geschaeftsprozesse</a> - <a href="http://www.manuel-blechschmidt.de/" target="_blank">Manuel Blechschmidt</a>, 03.11.2009</li>
+    <li><a href="http://www.bephpug.de/folien/Performancetuning.ppt" target="_blank">Performance Tuning</a> - Thomas Lohner, 06.10.2009</li>
+    <li><a href="http://docs.google.com/present/edit?id=0ASm2GG96-yQNYWNucWR2bjhyZjdyXzM1cXRxemd2Zzc&amp;hl=en">PHP in schnell</a> - <a href="http://till.klampaeckel.de/" target="_blank">Till Klampaeckel</a>, 01.09.2009</li>
+    <li>Debugging mit XDebug - <a href="http://www.coding-squirrel.de/" target="_blank">Marthin Rothenberger</a>, 05.08.2009</li>
+    <li><a href="http://coding-robin.de/talks/bephpug-072009-zfintro.pdf" target="_blank">Zend Framework Intro</a> - <a href="http://coding-robin.de/" target="_blank">Robin Mehner</a>, 01.07.2009</li>
+    <li><a href="http://docs.google.com/Presentation?id=acnqdvn8rf7r_20hfgtw6cq" target="_blank">Testing (with) PHP</a> - <a href="http://till.klampaeckel.de/" target="_blank">Till Klampaeckel</a>, 06.05.2009</li>
+    <li><a href="http://www.manuel-blechschmidt.de/data/Magento.pdf" target="_blank">Magento in a Nutshell</a> (<a href="http://www.manuel-blechschmidt.de/data/Magento.odp" target="_blank">ODP</a>) - <a href="http://www.manuel-blechschmidt.de/" target="_blank">Manuel Blechschmidt</a>, 04.03.2009</li>
+    <li><a href="http://www.maxhorvath.com/documents/ipc2008_slide_making_selenium_1/ipc2008_slide_making_selenium_test_writing_easier_using_a_dsl.pdf" target="_blank">Making Selenium Test Writing easier using a DSL</a> (<a href="http://selenium.seleniumhq.org/">Selenium Website</a>) - <a href="http://www.maxhorvath.com/">Max</a>, 03.12.2008</li>
+    <li><a href="http://jan.prima.de/BEPHPUG_CouchDB2008.pdf" target="_blank">CouchDB</a> (<a href="http://incubator.apache.org/couchdb/" target="_blank">CouchDB Website</a>) - <a href="http://jan.prima.de/" target="_blank">Jan</a>, 05.11.2008</li>
+    <li><a href="http://instantsvc.sourceforge.net/docs/metaprogramming-and-reflection-with-php-paper.pdf" target="_blank">Metaprogrammierung &amp; Reflection mit PHP</a> (<a href="https://instantsvc.svn.sourceforge.net/svnroot/instantsvc/branches/metaprogramming/src/MetaPHP/" target="_blank">SVN: Demo-Programm</a>) (<a href="http://instantsvc.sourceforge.net/docs/metaprogramming-and-reflection-with-php-v1.0.pdf" target="_blank">Folien</a>) - <a href="https://www.ohloh.net/accounts/falko" target="_blank">Falko</a>, 24.01.2008</li>
+    <li><a href="http://www.bephpug.de/folien/Erfahrungen_aus_der_phpBB3-Entwicklung.pdf" target="_blank">Erfahrungen aus der Entwicklung von phpBB3 (security)</a> (<a href="http://www.bephpug.de/folien/Erfahrungen_aus_der_phpBB3-Entwicklung-src.zip" target="_blank">LaTeX-Quelltext</a>) - Henry, 03.12.2007</li>
+    <li><a href="http://phpcallgraph.sourceforge.net/docs/workshop-2007-12-03-refactoring-and-unit-testing/refactoring-and-unit-testing.html" target="_blank">Refactoring: Von prozeduralem PHP4 zu objektorientiertem PHP5</a> (<a href="http://phpcallgraph.sourceforge.net/docs/workshop-2007-12-03-refactoring-and-unit-testing/workshop-2007-12-03-refactoring-and-unit-testing.zip" target="_blank">Beispiele</a>) - <a href="https://www.ohloh.net/accounts/falko" target="_blank">Falko</a>, 03.12.2007</li>
+    <li><a href="http://instantsvc.sourceforge.net/docs/php5_oop.pdf" target="_blank">Einführung in objektorientiertes Entwickeln mit PHP5</a> - Gregor, 03.12.2007</li>
+    <li><a href="http://phpcallgraph.sourceforge.net/docs/presentation-2007-11-07-berlin-php-usergroup/presentation-2007-11-07-berlin-php-usergroup.pdf" target="_blank">Aufdecken von Designfehlern mit statischen Call-Graphen</a> (als <a href="http://phpcallgraph.sourceforge.net/docs/presentation-2007-11-07-berlin-php-usergroup/presentation-2007-11-07-berlin-php-usergroup.odp" target="_blank">ODP</a>) (<a href="http://phpcallgraph.sourceforge.net/" target="_blank">Website</a>) - <a href="https://www.ohloh.net/accounts/falko" target="_blank">Falko</a>, 06.11.2007</li>
+    <li><a href="https://instantsvc.svn.sourceforge.net/svnroot/instantsvc/branches/transition/doc/presentations/berlin-php-usergroup/InstantSVC%20-%20The%20PHP%20Web%20Services%20Builder.pdf" target="_blank">InstantSVC: Web-Service-Generierung für PHP</a> (als <a href="https://instantsvc.svn.sourceforge.net/svnroot/instantsvc/branches/transition/doc/presentations/berlin-php-usergroup/InstantSVC%20-%20The%20PHP%20Web%20Services%20Builder.odp" target="_blank">ODP</a>) (<a href="http://instantsvc.sf.net/">Website</a>) - <a href="https://www.ohloh.net/accounts/falko">Falko</a>, 04.09.2007</li>
+    <li><a href="http://www.bephpug.de/folien/PHP-Framework_mit_minimalistischem_Ansatz.pdf" target="_blank">PHP-Framework mit minimalistischem Ansatz</a> (als <a href="http://www.bephpug.de/folien/PHP-Framework_mit_minimalistischem_Ansatz.odp" target="_blank">ODP</a>) - Fabian, 07.08.2007</li>
+    <li><a href="http://www.bephpug.de/folien/saubere_urls.html" target="_blank">Saubere URLs</a> - <a href="http://www.profv.de/" target="_blank">Volker Grabsch</a>, 05.06.2007</li>
+    <li><a href="http://www.bephpug.de/folien/freie_software.html" target="_blank">Freie Software</a> - <a href="http://www.profv.de/" target="_blank">Volker Grabsch</a>, 08.05.2007</li>
+    <li><a href="http://www.bephpug.de/folien/soap_php_dotnet.zip" target="_blank">Web Services mit PHP/NuSoap und C#/.NET</a> - Torsten, 06.07.2004</li>
+    <li><a href="http://www.bephpug.de/folien/qualitaet.tar.gz" target="_blank">Unit-Tests und Qualitätssicherung</a> - <a href="http://www.manuel-blechschmidt.de/" target="_blank">Manuel Blechschmidt</a></li>
+    <li><a href="http://www.bephpug.de/folien/fop.zip" target="_blank">FOP &amp; PHP</a> - Robert &amp; Manuel, 2004</li>
+    <li><a href="http://www.bephpug.de/folien/flashphp.zip" target="_blank">Flash &amp; PHP</a> - <a href="http://www.manuel-blechschmidt.de/" target="_blank">Manuel Blechschmidt</a>, 2004</li>
+    <li><a href="http://www.bephpug.de/folien/design_pattern.zip"target="_blank">Design-Patterns</a> - <a href="http://www.manuel-blechschmidt.de/" target="_blank">Manuel Blechschmidt</a>, Juni 2004</li>
+    <li><a href="http://www.bephpug.de/folien/barrierefrei.zip" target="_blank">Barrierefreiheit</a> - <a href="http://www.manuel-blechschmidt.de/" target="_blank">Manuel Blechschmidt</a>, 2004</li>
 </ul>
