@@ -2,6 +2,7 @@
 layout: post
 title: How to contribute? / Wie kann ich helfen?
 archive: active
+tags: bephpug
 ---
 
 ## English
