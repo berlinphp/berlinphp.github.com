@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Welcome to our new home / Willkommen auf unserer neuen Seite
+archive: active
 ---
 
 ## English

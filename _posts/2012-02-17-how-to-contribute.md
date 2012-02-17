@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to contribute? / Wie kann ich helfen?
+archive: active
 ---
 
 ## English
