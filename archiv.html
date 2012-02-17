@@ -5,7 +5,7 @@ archive: active
 ---
 
 <h2>Ankündigungen / Announcements</h2>
-<ul class="postlist">
+<ul class="postlist unstyled">
   {% for post in site.posts %}
     <li class="post">
       <a href="{{post.url}}">{{ post.date | date_to_string }} - {{ post.title }}</a>
