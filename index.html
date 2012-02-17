@@ -18,10 +18,11 @@ home: active
     <div class="span9">
         <h3>Announcements / Ankündigungen</h2>
         {% for post in site.posts limit:2 %}
-         <div class="row">
-             <div class="span8">
-                 <h4>{{ post.date | date_to_string }}</h4>
-                 <p>{{ post.content | strip_html }}</p>
+        <div class="row">
+            <div class="span8">
+                <h5>{{ post.date | date_to_string }}</h5>
+                <h4>{{ post.title }}</h4>
+                <p>{{ post.content | strip_html | truncatewords: 60 }}</p>
              </div>
         </div>
         {% endfor %}
