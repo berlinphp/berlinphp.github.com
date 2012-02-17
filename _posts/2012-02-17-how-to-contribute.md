@@ -3,9 +3,6 @@ layout: post
 title: How to contribute? / Wie kann ich helfen?
 ---
 
-{{ page.title }}
-================
-
 ## English
 
 Our new page is [hosted on Github](https://github.com/berlinphp/berlinphp.github.com) and is using their awesome [Github Pages](http://pages.github.com/) feature together with the static site generator [Jekyll](https://github.com/mojombo/jekyll).

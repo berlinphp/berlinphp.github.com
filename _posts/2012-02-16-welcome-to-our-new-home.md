@@ -3,9 +3,6 @@ layout: post
 title: Welcome to our new home / Willkommen auf unserer neuen Seite
 ---
 
-{{ page.title }}
-================
-
 ## English
 
 We managed to migrate the old wiki to a new home finally. This comes with all new Github Pages hotness, which means it's easy for you to participate if anything has to be done. Also it should be a lot easier to get all the details of upcoming and past meetups.
