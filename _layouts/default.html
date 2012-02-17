@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/css/style.css" type="text/css" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/bootstrap-2.0.1.css" type="text/css" />
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
 </head>
 <body>
 
+<div class="container">
+    <div class="row">
+        <div class="span8">
+            {{ content }}
+        </div>
+        <div class="span4">
 
-<div id="content">
-  {{ content }}
+            <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+            <script>
+            new TWTR.Widget({
+              version: 2,
+              type: 'profile',
+              rpp: 8,
+              interval: 30000,
+              width: 430,
+              height: 200,
+              theme: {
+                shell: {
+                  background: '#333333',
+                  color: '#ffffff'
+                },
+                tweets: {
+                  background: '#000000',
+                  color: '#ffffff',
+                  links: '#4aed05'
+                }
+              },
+              features: {
+                scrollbar: true,
+                loop: false,
+                live: false,
+                hashtags: true,
+                timestamp: true,
+                avatars: false,
+                behavior: 'all'
+              }
+            }).render().setUser('bephpug').start();
+            </script>
+        </div>
+    </div>
 </div>
 
-
-<script src="http://widgets.twimg.com/j/2/widget.js"></script>
-<script>
-new TWTR.Widget({
-  version: 2,
-  type: 'profile',
-  rpp: 8,
-  interval: 30000,
-  width: 430,
-  height: 200,
-  theme: {
-    shell: {
-      background: '#333333',
-      color: '#ffffff'
-    },
-    tweets: {
-      background: '#000000',
-      color: '#ffffff',
-      links: '#4aed05'
-    }
-  },
-  features: {
-    scrollbar: true,
-    loop: false,
-    live: false,
-    hashtags: true,
-    timestamp: true,
-    avatars: false,
-    behavior: 'all'
-  }
-}).render().setUser('bephpug').start();
-</script>
-
-
 </body>
+</html>
