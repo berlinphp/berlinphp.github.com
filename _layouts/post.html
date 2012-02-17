@@ -2,8 +2,17 @@
 layout: default
 archive: active
 ---
-<div id="post" class="text">
-{{ content }}
+
+<div class="row">
+    <div class="span9">
+        <p id="post">
+            {{ content }}
+
+            {% for tag in tags %}
+                <span class="icon-tag">{{ tag }}></span>
+            {% endfor %}
+        </p>
+    </div>
 </div>
 
 <div id="related">
