@@ -35,3 +35,8 @@ body {
   -moz-box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.5);
 }
+
+// black color
+.post h4 a {
+    color:#000;
+}
