@@ -8,9 +8,11 @@ archive: active
         <p id="post">
             {{ content }}
 
-            {% for tag in tags %}
-                <span class="icon-tag">{{ tag }}></span>
+<!--
+            {% for tag in page.tags %}
+                <span><i class="icon-tag"></i><a href="/tag-{{ tag }}.html">{{ tag }}</a></span>
             {% endfor %}
+-->
         </p>
     </div>
 </div>
