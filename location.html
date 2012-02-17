@@ -16,12 +16,12 @@ subtitle: "Markus et Cornelia in colusseum sedent."
                 center:new google.maps.LatLng(52.504075,13.419671),
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             };
-            map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-            marker = new google.maps.Marker({
+            var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+            var marker = new google.maps.Marker({
                 map: map,
                 position: new google.maps.LatLng(52.504075,13.419671)
             });
-            infowindow = new google.maps.InfoWindow({
+            var infowindow = new google.maps.InfoWindow({
                 content: "<b>Co-Up</b><br>Adalbertstrasse 7-8<br>10999 Berlin"
             });
             google.maps.event.addListener(marker, "click", function(){
