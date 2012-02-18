@@ -37,7 +37,7 @@ Unsere neue Site [liegt auf Github](https://github.com/berlinphp/berlinphp.githu
 und benutzt deren tolles [Github Pages](http://pages.github.com/) Feature zusammen mit
 [Jekyll](https://github.com/mojombo/jekyll) um statische Seiten zu generieren.
 
-Der einfachste Weg zur Seite beizutragen ist einfach Githubs
+Der einfachste Weg zur Seite beizutragen ist Githubs
 [Fork & Edit Feature](https://github.com/blog/844-forking-with-the-edit-button)
 zu benutzen. Dazu musst du einfach auf [unser Repository](https://github.com/berlinphp/berlinphp.github.com)
 gehen, bei der Datei die du editieren willst auf "Fork & Edit" benutzen, deine
