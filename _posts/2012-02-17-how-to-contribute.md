@@ -44,7 +44,7 @@ gehen, bei der Datei die du editieren willst auf "Fork & Edit" benutzen, deine
 Änderungen machen, speichern und den Pull Request absenden. Wir werden versuchen den so schnell wie
 möglich zu mergen.
 
-Für komplexere Änderungen, musst du das komplette Repository forken, die
+Für komplexere Änderungen musst du das komplette Repository forken, die
 Änderungen machen, comitten, pushen und den Pull Request öffnen.
 
 If you want to see the site locally, just follow these steps:
