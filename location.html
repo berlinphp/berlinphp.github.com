@@ -39,39 +39,30 @@ subtitle: "Attending our meetups"
 
         <p><a href="https://foursquare.com/v/coup/4b055dcef964a520f35722e3">Co-Up on Foursquare</a></p>
 
-        <div id="mapdiv"></div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <div id="map" style="width:500px;height:400px;"></div>
+
         <script type="text/javascript">
         /* <![CDATA[ */
-        jQuery.ajax({
-            url: 'http://www.openlayers.org/api/OpenLayers.js',
-            dataType: 'script',
-            success: function(data, status, xhr) {
-                console.log("Success!")
-                var map = new OpenLayers.Map("mapdiv");
-                map.addLayer(new OpenLayers.Layer.OSM());
- 
-                var lonLat = new OpenLayers.LonLat(13.419671, 52.504075);
-                lonLat.transform(
-                    new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
-                    map.getProjectionObject() // to Spherical Mercator Projection
-                );
- 
-                var zoom=16;
- 
-                var markers = new OpenLayers.Layer.Markers("Markers");
-                map.addLayer(markers);
- 
-                markers.addMarker(new OpenLayers.Marker(lonLat));
- 
-                map.setCenter (lonLat, zoom);
-            },
-            error: function() {
-                alert('OpenLayer lulz.');
-            }
-        });
+
+        // adapted from http://derickrethans.nl/archive.html
+
+        var map = new L.Map('map', {zoomControl: true});
+        
+        var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+            osmAttribution = 'Map data &copy; 2012 <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
+            osm = new L.TileLayer(osmUrl, {maxZoom: 18, attribution: osmAttribution}),
+            lat = 52.50035,
+            lon = 13.41984;
+        
+        var latlon = new L.LatLng(lat, lon);
+
+        map.setView(latlon, 16).addLayer(osm);
+
+        var marker = new L.Marker(latlon);
+        map.addLayer(marker)
+        marker.bindPopup("<b>co-up</b><br/>Adalbertstr. 7-8<br/>10999 Berlin").openPopup();
+
         /* ]]> */
         </script>
-
     </div>
 </div>
