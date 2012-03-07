@@ -60,7 +60,13 @@ subtitle: "Attending our meetups"
 
         var marker = new L.Marker(latlon);
         map.addLayer(marker)
-        marker.bindPopup("<b>co-up</b><br/>Adalbertstr. 7-8<br/>10999 Berlin").openPopup();
+        marker.bindPopup("<b>co-up (Upstream Berlin)</b><br/>Adalbertstr. 7-8<br/>10999 Berlin").openPopup();
+
+        map.on('click', onMapClick);
+
+        function onMapClick(e) {
+            alert("You clicked the map at " + e.latlng);
+        }
 
         /* ]]> */
         </script>
