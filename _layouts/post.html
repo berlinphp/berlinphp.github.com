@@ -1,29 +1,12 @@
 ---
 layout: default
-archive: active
+subtitle: Archived
 ---
 
+<div class="textbody container">
 <div class="row">
-    <div class="span9">
-        <p id="post">
-            {{ content }}
-
-<!--
-            {% for tag in page.tags %}
-                <span><i class="icon-tag"></i><a href="/tag-{{ tag }}.html">{{ tag }}</a></span>
-            {% endfor %}
--->
-        </p>
+    <div class="textbody-text span12">
+	{{ content }}
     </div>
 </div>
-
-<div class="row" id="related">
-    <div class="span9">
-        <h3>Related Posts</h3>
-        <ul class="posts">
-            {% for post in site.related_posts limit:3 %}
-            <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
-        </ul>
-    </div>
 </div>
