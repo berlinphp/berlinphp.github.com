@@ -1,43 +1,40 @@
 ---
 layout: default
-title:
-home: active
+title: Home
 ---
 
-<div class="row">
-  <div class="span9">
-    <div class="hero-unit">
-      <h1>Welcome</h1>
-      <p><strong>N&auml;chstes Treffen: 4. Juni / Next meetup: June 4th, 2013</strong></p>
-    </div>
-    <p>
-      Wir treffen uns <a href="/location.html"><strong>jeden ersten Dienstag im Monat bei Co-Up in Berlin,
-      Kreuzberg</strong></a>, um uns zu PHP, Webentwicklung, Freier Software und angrenzenden
-      Themen auszutauschen. Es gibt regelmäßig spannende Vorträge und Diskussionen in lockerer Atmosphäre.
-      Besonders gern sind Themen und Projekte gesehen, mit denen sich der Vortragende gerade selbst
-      beschäftigt.
-    </p>
-    <p>
-      Hast Du Lust, Gleichgesinnte zu treffen, Neues über PHP und verwandte Technologien
-      des Internets zu lernen oder selbst einen Vortrag zu halten? Dann komm einfach beim
-      nächsten Treffen vorbei.
-    </p>
-  </div>
-</div>
 
-<div class="row">
-  <div class="span9">
-    <div class="page-header">
-      <h1>Announcements / Ank&uuml;ndigungen</h1>
-    </div>
+	    {% for post in site.posts limit:1 %}
+        <div class="slots container">
+            <div class="row">
+	      {{ post.content }}
+            </div>
+        </div>
+	    {% endfor %}
+<!--
+        <div class="textbody container">
+            <div class="row">
+                <div class="textbody-text span12">
+			<p> </p>
+                </div>
+            </div>
+        </div>
+-->
+        <!-- Site Description -->
+        <div class="presentation container">
+            <h2>Welcome to the Berlin <span class="violet">PHP</span> Usergroup</h2>
+            <p>Next Meetup: 
+{% for post in site.posts limit:1 %}
+		      <span class="violet">{{ post.datetitle }}</span>, 7:00 pm - save the date!
+		    {% endfor %}
+</p>
+        </div>
 
-    {% for post in site.posts limit:2 %}
-    <div class="row posts">
-      <div class="span8 post">
-        <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-        <p>{{ post.content }}</p>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</div>
+        <div class="textbody container">
+            <div class="row">
+                <div class="textbody-text span12">
+			<p> </p>
+                </div>
+            </div>
+        </div>
+
