@@ -10,8 +10,20 @@
         Berlin PHP Usergroup
       {% endif %}
     </title>
+    
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Berlin PHP Usergroup">
+
+	<meta property="og:title" content="{% if page.title %}{{ page.title }} - Berlin PHP Usergroup{% else %}Berlin PHP Usergroup{% endif %}">
+	<meta property="og:image" content="http://www.bephpug.de/assets/img/logo.png">
+
+        <meta name="Twitter:card" content="summary">
+        <meta name="Twitter:site" content="@bephpug">
+        <meta name="Twitter:creator" content="@bephpug">
+        <meta name="Twitter:title" content="{% if page.title %}{{ page.title }} - Berlin PHP Usergroup{% else %}Berlin PHP Usergroup{% endif %}">
+        <meta name="Twitter:description" content="">
+        <meta name="Twitter:image" content="http://www.bephpug.de/assets/img/logo.png">
+
         <!-- CSS -->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans">
