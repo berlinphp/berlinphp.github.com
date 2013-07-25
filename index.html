@@ -23,13 +23,15 @@ title: Home
         <!-- Site Description -->
         <div class="presentation container">
             <h2>Welcome to the Berlin <span class="violet">PHP</span> Usergroup</h2>
-            <p>Next Meetup: 
+            <p>
+                Next Meetup:
 {% for post in site.posts limit:1 %}
-		      <span class="violet">{{ post.datetitle }}</span><!--, 7:00 pm - save the date!-->
-		    {% endfor %}
+                <span class="violet">{{ post.datetitle }}</span>, 7:00 pm - save the date!
+{% endfor %}
             </p>
-            <p>Special Guest: <a target="_blank" href="https://twitter.com/grmpyprogrammer">grmpyprogrammer</a>
-                - please <a target="_blank" href="http://www.doodle.com/mvaf3xrm3czebq5m#table">vote</a> on a date!</p>
+            <p>
+                Special Guest: <a target="_blank" href="https://twitter.com/grmpyprogrammer">grmpyprogrammer</a>
+            </p>
         </div>
 
         <div class="textbody container">
