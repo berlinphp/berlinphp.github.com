@@ -1,3 +1,4 @@
 pygments: true
 url: http://www.bephpug.de
 name: Berlin PHP Usergroup
+timezone: Europe/Berlin
