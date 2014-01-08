@@ -22,13 +22,23 @@ title: Home
 -->
         <!-- Site Description -->
         <div class="presentation container">
-            <h2>Welcome to the Berlin <span class="violet">PHP</span> Usergroup</h2>
-            <p>
-                Next Meetup:
+            <div class="row">
+                <div class="span8">
+                    <h2>Welcome to the Berlin <span class="violet">PHP</span> Usergroup</h2>
+                    <p>
+                        Next Meetup:
 {% for post in site.posts limit:1 %}
-                <span class="violet">{{ post.datetitle }}</span>, 7:00 pm - save the date!
+                        <span class="violet">{{ post.datetitle }}</span>, 7:00 pm - save the date!
 {% endfor %}
-            </p>
+                    </p>
+                </div>
+                <div class="span4">
+                    <h2><span class="violet">PHP</span> regulars table</h2>
+                    <p>
+                        Every 2nd and 4th monday we have a PHP regulars table on board of the <a href="http://www.c-base.org/cv50f/core/impressum.html">c-base spacestation</a> at 7:30 pm.
+                    </p>
+                </div>
+            </div>
         </div>
 
         <div class="textbody container">
