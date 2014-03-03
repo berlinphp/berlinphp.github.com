@@ -8,7 +8,7 @@ METHOD:PUBLISH
 {% for post in site.posts limit:3 %}BEGIN:VEVENT
 UID:{{ post.date | date: "%Y%m%d" }}@bephpug.de
 ORGANIZER;CN="BEPHPUG Team":MAILTO:bephpug@thing.org
-LOCATION:Co-Up, 3rd Floor, Adalbertstr. 7-8, 10999 Berlin
+LOCATION:Co-Up\, 3rd Floor\, Adalbertstr. 7-8\, 10999 Berlin
 SUMMARY:{{ post.title }}
 DESCRIPTION:Meetings start at 19:00PM Berlin time. More info at {{ site.url }}{{ post.url }}
 CLASS:PUBLIC
