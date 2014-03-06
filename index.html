@@ -29,6 +29,7 @@ title: Home
                         Next Meetup:
 {% for post in site.posts limit:1 %}
                         <span class="violet">{{ post.datetitle }}</span>, 7:00 pm - save the date!
+{% if post.lanyrd %} <br/><span class="lanyrd">Feel free to save your attendance at our <a href="{{ post.lanyrd }}">Lanyrd Event</a></span> {% endif %}
 {% endfor %}
                     </p>
                 </div>
