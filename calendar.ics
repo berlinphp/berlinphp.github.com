@@ -4,8 +4,7 @@ layout: none
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:http://www.bephpug.com/
-METHOD:PUBLISH
-{% for post in site.posts limit:3 %}
+METHOD:PUBLISH{% for post in site.posts limit:3 %}
 BEGIN:VEVENT
 UID:{{ post.date | date: "%Y%m%d" }}@bephpug.de
 ORGANIZER;CN="BEPHPUG Team":MAILTO:bephpug@thing.org
