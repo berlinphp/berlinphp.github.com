@@ -205,7 +205,7 @@ strong { font-weight: bold; }
 }
 
 .slots .slot p {
-    padding-bottom: 10px;
+    padding: 0 10px 10px 10px;
     line-height: 24px;
 }
 
