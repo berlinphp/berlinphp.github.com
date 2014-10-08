@@ -4,13 +4,13 @@ title: Home
 ---
 
 
-        {% for post in site.posts limit:1 %}
-        <div class="slots container">
-            <div class="row">
-          {{ post.content }}
-            </div>
-        </div>
-        {% endfor %}
+{% for post in site.posts limit:1 %}
+<div class="slots container">
+    <div class="row">
+        {{ post.content }}
+    </div>
+</div>
+{% endfor %}
 <!--
         <div class="textbody container">
             <div class="row">
@@ -20,33 +20,32 @@ title: Home
             </div>
         </div>
 -->
-        <!-- Site Description -->
-        <div class="presentation container">
-            <div class="row">
-                <div class="span8">
-                    <h2>Welcome to the Berlin <span class="violet">PHP</span> Usergroup</h2>
-                    <p>
-                        Next Meetup:
+<!-- Site Description -->
+<div class="presentation container">
+    <div class="row">
+        <div class="span8">
+            <h2>Welcome to the Berlin <span class="violet">PHP</span> Usergroup</h2>
+            <p>
+                Next Meetup:
 {% for post in site.posts limit:1 %}
-                        <span class="violet">{{ post.datetitle }}</span>, 7:00 pm - save the date!
+                <span class="violet">{{ post.datetitle }}</span>, 7:00 pm - save the date!
 {% if post.lanyrd %} <br/><span class="lanyrd">Feel free to save your attendance at our <a href="{{ post.lanyrd }}">Lanyrd Event</a></span> {% endif %}
 {% endfor %}
-                    </p>
-                </div>
-                <div class="span4">
-                    <h2><span class="violet">PHP</span> regulars table</h2>
-                    <p>
-                        Every 2nd and 4th monday we have a PHP regulars table on board of the <a href="http://www.c-base.org/cv50f/core/impressum.html">c-base spacestation</a> at 8:00 pm.
-                    </p>
-                </div>
-            </div>
+            </p>
         </div>
-
-        <div class="textbody container">
-            <div class="row">
-                <div class="textbody-text span12">
-            <p> </p>
-                </div>
-            </div>
+        <div class="span4">
+            <h2><span class="violet">PHP</span> regulars table</h2>
+            <p>
+                Every 2nd and 4th monday we have a PHP regulars table on board of the <a href="http://www.c-base.org/cv50f/core/impressum.html">c-base spacestation</a> at 8:00 pm.
+            </p>
         </div>
+    </div>
+</div>
+<div class="textbody container">
+    <div class="row">
+        <div class="textbody-text span12">
+            <p></p>
+        </div>
+    </div>
+</div>
 
