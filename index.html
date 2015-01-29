@@ -34,6 +34,27 @@ title: Home
                         <!-- cancelled announcement START: 
                         <span class="violet">{{ post.datetitle }}</span> <span style="background-color:#d00;color:#fff;">&nbsp;CANCELLED&nbsp;</span>
                         cancelled announcement END -->
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Event",
+  "name": "{{ post.title }}",
+    "location": {
+      "@type": "Place",
+      "name": "co.up coworking",
+      "url": "http://co-up.de/",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Berlin",
+        "postalCode": "10999",
+        "streetAddress": "	Adalbertstraße 8"
+      },
+      "name": "The Hi-Dive"
+    },
+  "startDate": "{{ post.meetupdate }}T19:00",
+  "url": "http://www.bephpug.de/"
+}
+</script>
 {% if post.lanyrd %} <br/><span class="lanyrd">Feel free to save your attendance at our <a href="{{ post.lanyrd }}">Lanyrd Event</a></span> {% endif %}
 {% endfor %}
                     </p>
