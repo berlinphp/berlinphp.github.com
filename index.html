@@ -4,6 +4,24 @@ title: Home
 ---
 
 
+
+        <style type="text/css">
+        .center-block {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        </style>
+        <div class="textbody container">
+            <div class="row">
+                <div class="textbody-text span12">
+                    <a href="http://www.meetup.com/sfugberlin/events/221339664/" target="_blank">
+                        <img src="assets/werbung/blackfire-sf-ug.png" class="center-block"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+
 	    {% for post in site.posts limit:1 %}
         <div class="slots container">
             <div class="row">
@@ -11,15 +29,7 @@ title: Home
             </div>
         </div>
 	    {% endfor %}
-<!--
-        <div class="textbody container">
-            <div class="row">
-                <div class="textbody-text span12">
-			<p> </p>
-                </div>
-            </div>
-        </div>
--->
+
         <!-- Site Description -->
         <div class="presentation container">
             <div class="row">
@@ -31,7 +41,7 @@ title: Home
 			<!-- regular announcement: START -->
                         <span class="violet">{{ post.datetitle }}</span>, Opening at 7:00 pm, Start at 7:30pm.
                         <!-- regular announcement: END -->
-                        <!-- cancelled announcement START: 
+                        <!-- cancelled announcement START:
                         <span class="violet">{{ post.datetitle }}</span> <span style="background-color:#d00;color:#fff;">&nbsp;CANCELLED&nbsp;</span>
                         cancelled announcement END -->
 <script type="application/ld+json">
