@@ -30,12 +30,12 @@ title: Home
                     <p>
                         Next Meetup:
 {% for post in site.posts limit:1 %}
-			<!-- regular announcement: START 
+			<!-- regular announcement: START -->
                         <span class="violet">{{ post.datetitle }}</span>, Opening at 7:00 pm, Start at 7:30pm.
-                         regular announcement: END -->
-                        <!-- cancelled announcement START: -->
+                        <!-- regular announcement: END -->
+                        <!-- cancelled announcement START: 
                         <span class="violet">{{ post.datetitle }}</span> <span style="background-color:#d00;color:#fff;">&nbsp;CANCELLED&nbsp;</span>
-                        <!-- cancelled announcement END -->
+                         cancelled announcement END -->
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
