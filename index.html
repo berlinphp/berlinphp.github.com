@@ -24,12 +24,12 @@ title: Home
 
         <!-- Site Description -->
         <div class="presentation container">
+            {% for post in site.posts limit:1 %}
             <div class="row">
                 <div class="span8">
                     <h2>Welcome to the Berlin <span class="violet">PHP</span> Usergroup</h2>
                     <p>
                         Next Meetup:
-{% for post in site.posts limit:1 %}
                         {% if post.cancelled %}
                         <!-- cancelled announcement START: -->
                         <span class="violet">{{ post.datetitle }}</span> <span style="background-color:#d00;color:#fff;">&nbsp;CANCELLED - {{post.cancelled}}&nbsp;</span>
@@ -60,7 +60,7 @@ title: Home
 }
 </script>
 {% if post.lanyrd %} <br/><span class="lanyrd">Feel free to save your attendance at our <a href="{{ post.lanyrd }}">Lanyrd Event</a></span> {% endif %}
-{% endfor %}
+
                     </p>
                 </div>
                 <div class="span4">
@@ -69,11 +69,17 @@ title: Home
                       Meetup
                     </h2>
                     <p>
-                      You can also find us at
-                      <a href="http://www.meetup.com/de-DE/Berlin-PHP-Usergroup/">Meetup.com</a>
+                        You can find us at
+                        <a href="http://www.meetup.com/Berlin-PHP-Usergroup/">Meetup.com</a>
                     </p>
+                    {% if post.meetupid %}
+                    <p>
+                        <a href="http://www.meetup.com/Berlin-PHP-Usergroup/events/{{ post.meetupid }}/" data-event="{{ post.meetupid }}" class="mu-rsvp-btn">RSVP</a>
+                    </p>
+                    {% endif %}
                 </div>
             </div>
+            {% endfor %}
         </div>
 
         <div class="textbody container">
