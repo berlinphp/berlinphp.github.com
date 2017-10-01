@@ -188,7 +188,7 @@ strong { font-weight: bold; }
     -ms-transition: all .5s;
 }
 
-.slots .slot .icon-awesome {
+.slots .slot .fa {
     margin-top: 15px;
     font-size: 50px;
     line-height: 50px;
@@ -290,13 +290,13 @@ strong { font-weight: bold; }
     -ms-transition: all .5s;
 }
 
-.portfolio .work .icon-awesome {
+.portfolio .work .fa {
     margin-top: 15px;
     font-size: 22px;
     line-height: 22px;
 }
 
-.portfolio .work .icon-awesome a {
+.portfolio .work .fa a {
     display: inline-block;
     padding: 5px 9px;
     background: #9d426b; 
@@ -315,14 +315,14 @@ strong { font-weight: bold; }
         0 -1px 25px 0 rgba(0,0,0,.05) inset;
 }
 
-.portfolio .work .icon-awesome a:hover {
+.portfolio .work .fa a:hover {
     background: #5d5d5d;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 
-.portfolio .work .icon-awesome a:active {
+.portfolio .work .fa a:active {
     -moz-box-shadow:
         0 5px 10px 0 rgba(0,0,0,.15) inset,
         0 -1px 25px 0 rgba(0,0,0,.05) inset;
@@ -490,27 +490,14 @@ footer .social {
     text-align: right;
 }
 
-footer .social a { display: inline-block; width: 24px; height: 24px; margin: 0 0 0 8px; vertical-align: middle; }
+footer .social a i.fa {
+    font-size: 24px;
+    padding: 0 10px;
+    color: #888;
+    color: #888;
+}
 
-footer .social a.twitter { background: url(../img/social-icons/twitter.png) left bottom no-repeat; }
-footer .social a.dribbble { background: url(../img/social-icons/dribbble.png) left bottom no-repeat; }
-footer .social a.rss { background: url(../img/social-icons/rss.png) left bottom no-repeat; }
-footer .social a.pinterest { background: url(../img/social-icons/pinterest.png) left bottom no-repeat; }
-footer .social a.flickr { background: url(../img/social-icons/flickr.png) left bottom no-repeat; }
-footer .social a.forrst { background: url(../img/social-icons/forrst.png) left bottom no-repeat; }
-footer .social a.vimeo { background: url(../img/social-icons/vimeo.png) left bottom no-repeat; }
-footer .social a.linkedin { background: url(../img/social-icons/linkedin.png) left bottom no-repeat; }
-footer .social a.facebook { background: url(../img/social-icons/facebook.png) left bottom no-repeat; }
-footer .social a.email { background: url(../img/social-icons/email.png) left bottom no-repeat; }
-footer .social a.github { background: url(../img/social-icons/github.png) left bottom no-repeat; }
-footer .social a.behance { background: url(../img/social-icons/behance.png) left bottom no-repeat; }
-footer .social a.googleplus { background: url(../img/social-icons/googleplus.png) left bottom no-repeat; }
-footer .social a.youtube { background: url(../img/social-icons/youtube.png) left bottom no-repeat; }
-footer .social a.skype { background: url(../img/social-icons/skype.png) left bottom no-repeat; }
-footer .social a.tumblr { background: url(../img/social-icons/tumblr.png) left bottom no-repeat; }
-
-footer .social a:hover { background-position: left top; }
-
+footer .social a i.fa:hover { color: #666699; }
 
 /* ----- Page title ----- */
 
@@ -629,29 +616,6 @@ footer .social a:hover { background-position: left top; }
     -webkit-transition: all .5s;
     -ms-transition: all .5s;
 }
-
-.team-text .social-links {
-    margin-top: 15px;
-}
-
-.team-text .social-links a { display: inline-block; width: 24px; height: 24px; margin: 0 4px; vertical-align: middle; }
-
-.team-text .social-links a.twitter { background: url(../img/social-icons/twitter.png) left top no-repeat; }
-.team-text .social-links a.dribbble { background: url(../img/social-icons/dribbble.png) left top no-repeat; }
-.team-text .social-links a.pinterest { background: url(../img/social-icons/pinterest.png) left top no-repeat; }
-.team-text .social-links a.flickr { background: url(../img/social-icons/flickr.png) left top no-repeat; }
-.team-text .social-links a.forrst { background: url(../img/social-icons/forrst.png) left top no-repeat; }
-.team-text .social-links a.vimeo { background: url(../img/social-icons/vimeo.png) left top no-repeat; }
-.team-text .social-links a.linkedin { background: url(../img/social-icons/linkedin.png) left top no-repeat; }
-.team-text .social-links a.facebook { background: url(../img/social-icons/facebook.png) left top no-repeat; }
-.team-text .social-links a.email { background: url(../img/social-icons/email.png) left top no-repeat; }
-.team-text .social-links a.behance { background: url(../img/social-icons/behance.png) left top no-repeat; }
-.team-text .social-links a.googleplus { background: url(../img/social-icons/googleplus.png) left top no-repeat; }
-.team-text .social-links a.youtube { background: url(../img/social-icons/youtube.png) left top no-repeat; }
-.team-text .social-links a.skype { background: url(../img/social-icons/skype.png) left top no-repeat; }
-.team-text .social-links a.tumblr { background: url(../img/social-icons/tumblr.png) left top no-repeat; }
-
-.team-text .social-links a:hover { background-position: left bottom; }
 
 .team-text h4 {
     margin-top: 20px;
@@ -1085,7 +1049,7 @@ ul.portfolio-img li {
         padding-right: 10px;
     }
 
-    .what-we-do .service .icon-awesome {
+    .what-we-do .service .fa {
         padding-top: 10px;
     }
 
