@@ -6,3 +6,6 @@ markdown: kramdown
 future: true
 meetupbutton: 3764k5il39e0tsdvm7l04gomc # live
 #meetupbutton: ukhtv4jccfm8lo5rguqrgp78qo # local
+
+exclude:
+  - .editorconfig
