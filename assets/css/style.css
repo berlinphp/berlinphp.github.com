@@ -1090,14 +1090,18 @@ ul.portfolio-img li {
 }
 
 .slot p strong {
-
     cursor: hand;
     cursor: pointer;
+
+    padding: 5px 22px;
+    background: #666699;
+    color: #fff;
+    text-decoration: none;
 }
 
 .slot p strong:hover {
-
-	color: #666699;
+    padding: 7px 26px;
+	color: #fff;
 }
 
 
