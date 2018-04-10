@@ -41,13 +41,13 @@ title: Home
                         {% endif %}
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "Event",
   "name": "{{ post.title }}",
     "location": {
       "@type": "Place",
       "name": "co.up coworking",
-      "url": "http://co-up.de/",
+      "url": "https://co-up.de/",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Berlin",
@@ -56,7 +56,7 @@ title: Home
       }
     },
   "startDate": "{{ post.meetupdate }}T19:00",
-  "url": "http://www.bephpug.de/"
+  "url": "https://www.bephpug.de/"
 }
 </script>
 {% if post.lanyrd %} <br/><span class="lanyrd">Feel free to save your attendance at our <a href="{{ post.lanyrd }}">Lanyrd Event</a></span> {% endif %}
@@ -65,16 +65,16 @@ title: Home
                 </div>
                 <div class="span4">
                     <h2>
-                      <img alt="Meetup.com Logo" src="http://img1.meetupstatic.com/img/logo.svg">
+                      <img alt="Meetup.com Logo" src="https://img1.meetupstatic.com/img/logo.svg">
                       Meetup
                     </h2>
                     <p>
                         You can find us at
-                        <a href="http://www.meetup.com/Berlin-PHP-Usergroup/">Meetup.com</a>
+                        <a href="https://www.meetup.com/Berlin-PHP-Usergroup/">Meetup.com</a>
                     </p>
                     {% if post.meetupid %}
                     <p>
-                        <a href="http://www.meetup.com/Berlin-PHP-Usergroup/events/{{ post.meetupid }}/" data-event="{{ post.meetupid }}" class="mu-rsvp-btn">RSVP</a>
+                        <a href="https://www.meetup.com/Berlin-PHP-Usergroup/events/{{ post.meetupid }}/" data-event="{{ post.meetupid }}" class="mu-rsvp-btn">RSVP</a>
                     </p>
                     {% endif %}
                 </div>
