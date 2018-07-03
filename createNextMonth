@@ -1,0 +1,72 @@
+#!/bin/bash
+
+set -e
+
+DIRECTORY=$(cd `dirname $0` && pwd)
+
+nextMonth=$(date -d"next month" +%Y-%m);
+if [[ $1 =~ ^[0-9]{4}-[0-9]{2}$ ]];then
+  nextMonth=$1
+fi
+
+dayOfWeek=$(date -d"${nextMonth}-01" +%u)
+tuesday=2
+
+if [[ $dayOfWeek > $tuesday ]]; then
+    firstTuesday=$(echo "(7-${dayOfWeek})+1+${tuesday}" | bc)
+else
+    firstTuesday=$(echo "(${tuesday}-${dayOfWeek})+1" | bc)
+fi
+
+fullDate=$(printf "%s-%02d" "${nextMonth}" ${firstTuesday});
+
+n=$(date -d$fullDate  +"%d")
+ 
+if [ $n -ge 11 -a $n -le 13 ] ; then
+  ordinal="th"
+else
+ case $(( $n%10 )) in
+ 1)
+   ordinal=st
+   ;;
+ 2)
+   ordinal=nd
+   ;;
+ 3)
+   ordinal=rd
+   ;;
+ *)
+   ordinal=th
+   ;;
+ esac
+fi
+
+monthName=$(date -d$fullDate +%B)
+day=$(date -d$fullDate +%e | tr -d " ")
+year=$(date -d$fullDate +%Y)
+
+
+head=$(echo "---
+layout: post-slots
+title: Meetup on the ${day}${ordinal} of $monthName, $year
+datetitle: $monthName ${day}${ordinal}, 2015
+published: false
+meetupdate: $fullDate
+---")
+
+content=$(echo "$head"; tail -n +8 "${DIRECTORY}/_posts/_template.html");
+
+
+lowerCaseMonth=$(echo $monthName|tr '[:upper:]' '[:lower:]')
+fileNameMd="${DIRECTORY}/_posts/${fullDate}-${lowerCaseMonth}.md"
+
+echo $fileNameMd
+if [[ ! -f $fileNameMd ]]; then
+    echo "File not found!"
+    echo "Create a new Post"
+
+    echo "$content" > $fileNameMd
+else
+    echo "Post already exists"
+fi
+
