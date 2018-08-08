@@ -2,7 +2,7 @@
 layout: post-slots
 title: Meetup on the 4th of September, 2018
 datetitle: September 4th, 2015
-published: false
+published: true
 meetupdate: 2018-09-04
 ---
 
