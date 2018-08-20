@@ -28,16 +28,18 @@ meetupdate: 2018-09-04
     {% comment %} ==== TALK / PRESENTATION - SLOT #2 ====     {% endcomment %}
 
     {% comment %} TITLE OF YOUR TALK:                         {% endcomment %}
-                  <h4>Free Slot</h4>
+                  <h4>From Legacy To Laravel: A Refactoring Journey</h4>
 
     {% comment %} SUB-TITLE OR DESCRIPTION:                   {% endcomment %}
-                  <p>This 25 minute slot could be yours!</p>
+                  <p>So you have a large, often messy, sometimes convoluted legacy PHP code base.
+There's no framework, no routing, no templates. Hard to maintain, even harder to extend.
 
-    {% comment %} REMOVE NEXT LINE:                           {% endcomment %}
-                  <p><strong>Submit your talk now</strong></p>
+So, how do you clean up your act?
+A complete rewrite? Almost certainly doomed to fail at a startup with limited resources, financial pressure and endless feature requests.
+Extract things step by step? Really hard with an entangled code base without sane boundaries.</p>
 
     {% comment %} UNCOMMENT/EDIT NEXT LINE:                   {% endcomment %}
-    <!-- <p><a class="speaker" target="_blank" href="https://twitter.com/...HOW-TO-CONTACT-YOU">YOUR NAME</a></p> -->
+    <p><a class="speaker" target="_blank" href="https://twitter.com/...HOW-TO-CONTACT-YOU">Christopher Fuchs (ready2order)</a></p>
 
 </div>
 
