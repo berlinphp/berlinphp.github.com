@@ -40,7 +40,7 @@ $(document).ready(function() {
 jQuery(document).ready(function() {
 
     var position = new google.maps.LatLng(52.50035, 13.41984);
-    $('.map').gmap({'center': position,'zoom': 15, 'disableDefaultUI':true, 'callback': function() {
+    $('.map').gmap({'center': position,'zoom': 15, 'key': 'AIzaSyD0nRK4xbhMxqvzd0iUBIpZhehBxKvJyDw','disableDefaultUI':true, 'callback': function() {
             var self = this;
             self.addMarker({'position': this.get('map').getCenter() });	
         }
