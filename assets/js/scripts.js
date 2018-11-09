@@ -34,9 +34,8 @@ $(document).ready(function() {
     });
 });
 
-/*
+/* disabled: using embed API now
     Google maps
-*/
 jQuery(document).ready(function() {
 
     var position = new google.maps.LatLng(52.50035, 13.41984);
@@ -46,6 +45,7 @@ jQuery(document).ready(function() {
         }
     }); 
 });
+*/
 
 
 /*
