@@ -5,8 +5,8 @@ layout: null
 {
     "@context": "https://schema.org",
     "@type": "Event",
-    "name": "{{ post.title | jsonify }}",
-    "description": "{{ post.content | jsonify }}",
+    "name": {{ post.title | jsonify }},
+    "description": {{ post.content | jsonify }},
     {% if post.cancelled %}
     "eventStatus": "http://schema.org/EventCancelled",
     {% endif %}
