@@ -3,22 +3,22 @@ title = "Berlin PHP Usergroup"
 description = "Monthly meetups for PHP developers in Berlin. Join our community for talks, networking, and learning about PHP, web development, and related technologies."
 
 [extra.next_meetup]
-title = "PHP 8.4 Features & Symfony 7 Updates"
-date = "January 18, 2024"
-time = "19:00 - 21:30"
-location = "Co-Up Berlin"
-address = "Adalbertstraße 8, 10999 Berlin"
+title = "Democratic Architecture & TBA"
+date = "September 17, 2025"
+time = "18:30h - 21:00h"
+location = "c-base space station"
+address = "Rungestraße 20, 10179 Berlin"
 meetup_url = "https://www.meetup.com/berlin-php-usergroup/events/298123456/"
 
 [[extra.next_meetup.talks]]
-title = "What's New in PHP 8.4"
-speaker = "Volker Dusch"
-description = "Explore the latest features and improvements in PHP 8.4, including new functions, syntax enhancements, and performance optimizations."
+title = "Democratic Architecture"
+speaker = "Stephan Priebsch"
+description = "Learn how embracing Democratic Architecture can lead to the creation of adaptable and resilient systems, as well as collaborative development cultures where architecture provides guidance rather than dictation. By decoupling architecture from implementation, we can better accommodate evolving requirements and technological shifts, thereby ensuring the long-term viability of systems and their alignment with business goals."
 
 [[extra.next_meetup.talks]]
-title = "Symfony 7: Modern Web Development"
-speaker = "Anna Mueller"
-description = "Deep dive into Symfony 7's new features, improved DX, and how to migrate your existing applications."
+title = "TBA"
+speaker = "tba"
+description = "Stay tuned for the second talk announcement!"
 
 [[extra.recent_talks]]
 title = "Building Scalable APIs with Laravel"
@@ -92,7 +92,7 @@ Whether you're a **seasoned PHP architect** or just **getting started** with web
 **Time:** 19:00 - 21:30 (7:00 - 9:30 PM)  
 **Where:** Co-Up Berlin, Adalbertstraße 8, 10999 Berlin  
 **Cost:** Free! Drinks and snacks provided  
-**Languages:** Talks in German or English, discussions in both
+**Languages:** All talks and discussions in English
 
 ### Get Involved
 
