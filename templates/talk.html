@@ -1,0 +1,145 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="section">
+    <div class="container">
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/archive/">Archive</a></li>
+                <li class="is-active"><a href="#" aria-current="page">{{ page.date | date(format="%B %Y") }}</a></li>
+            </ul>
+        </nav>
+        
+        <div class="columns">
+            <div class="column is-three-quarters">
+                <article class="content">
+                    <h1 class="title is-1">{{ page.title }}</h1>
+                    <p class="subtitle is-4">{{ page.date | date(format="%B %d, %Y") }}</p>
+                    
+                    {% if page.extra.location %}
+                    <div class="notification is-light">
+                        <div class="columns is-vcentered">
+                            <div class="column">
+                                <strong>📍 Location:</strong> {{ page.extra.location }}
+                                {% if page.extra.meetup_id and page.extra.meetup_id != "" %}
+                                <br><strong>🔗 Meetup:</strong> 
+                                <a href="https://www.meetup.com/berlin-php-usergroup/events/{{ page.extra.meetup_id }}/" target="_blank">
+                                    View on Meetup.com
+                                </a>
+                                {% endif %}
+                            </div>
+                            {% if page.extra.speakers %}
+                            <div class="column is-narrow">
+                                <div class="field is-grouped is-grouped-multiline">
+                                    {% for speaker in page.extra.speakers %}
+                                    <div class="control">
+                                        <div class="tags has-addons">
+                                            <span class="tag">👤</span>
+                                            <span class="tag is-primary">{{ speaker.name }}</span>
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endif %}
+                    
+                    <div class="content">
+                        {{ page.content | safe }}
+                    </div>
+                </article>
+            </div>
+            
+            <div class="column">
+                {% if page.extra.slides %}
+                <div class="box">
+                    <h4 class="title is-4">📄 Slides</h4>
+                    <div class="content">
+                        {% for slide in page.extra.slides %}
+                        <div class="field">
+                            <a class="button is-fullwidth is-outlined" href="{{ get_url(path=page.relative_path ~ slide.file) }}" target="_blank">
+                                <span>{{ slide.title }}</span>
+                                <span class="icon is-small">
+                                    <i>📄</i>
+                                </span>
+                            </a>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+                
+                {% if page.extra.speakers %}
+                <div class="box">
+                    <h4 class="title is-4">👥 Speakers</h4>
+                    <div class="content">
+                        {% for speaker in page.extra.speakers %}
+                        <div class="media">
+                            <div class="media-content">
+                                <p><strong>{{ speaker.name }}</strong></p>
+                                {% if speaker.twitter or speaker.github %}
+                                <div class="field is-grouped">
+                                    {% if speaker.twitter %}
+                                    <div class="control">
+                                        <a class="button is-small" href="https://twitter.com/{{ speaker.twitter | replace(from='@', to='') }}" target="_blank">
+                                            Twitter
+                                        </a>
+                                    </div>
+                                    {% endif %}
+                                    {% if speaker.github %}
+                                    <div class="control">
+                                        <a class="button is-small" href="https://github.com/{{ speaker.github }}" target="_blank">
+                                            GitHub
+                                        </a>
+                                    </div>
+                                    {% endif %}
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                        {% if not loop.last %}<hr>{% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+                
+                {% if page.extra.tags %}
+                <div class="box">
+                    <h4 class="title is-4">🏷️ Topics</h4>
+                    <div class="field is-grouped is-grouped-multiline">
+                        {% for tag in page.extra.tags %}
+                        <div class="control">
+                            <span class="tag is-php">{{ tag }}</span>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+                
+                <div class="box">
+                    <h4 class="title is-4">📅 More Events</h4>
+                    <div class="content">
+                        <p>Browse more meetups in our archive.</p>
+                        <a class="button is-fullwidth" href="/archive/">
+                            <span>View All Meetups</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <h4 class="title is-4">📧 Stay Updated</h4>
+                    <div class="content">
+                        <p>Get notified about upcoming meetups.</p>
+                        <a class="button is-fullwidth" href="/feed.xml">
+                            <span>RSS Feed</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}

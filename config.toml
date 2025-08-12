@@ -1,0 +1,52 @@
+# Berlin PHP Usergroup Website
+# Zola Configuration
+
+base_url = "https://www.bephpug.de"
+title = "Berlin PHP Usergroup"
+description = "The Berlin PHP Usergroup community - Monthly meetups, talks, and networking for PHP developers in Berlin"
+
+# Build settings
+compile_sass = true
+minify_html = true
+build_search_index = true
+
+# Default language
+default_language = "en"
+
+# RSS feed
+generate_feeds = true
+
+# Taxonomies
+taxonomies = [
+    { name = "tags", feed = true },
+]
+
+# Markdown configuration
+[markdown]
+highlight_code = true
+highlight_theme = "base16-ocean-dark"
+
+# Slugify configuration  
+[slugify]
+paths = "on"
+paths_keep_dates = true
+
+# Single language setup - English only
+
+# Extra settings
+[extra]
+# Social media links
+mastodon_url = "https://mastodon.social/@berlinphp"
+twitter_url = "https://twitter.com/berlinphp"
+github_url = "https://github.com/berlinphp"
+flickr_url = "https://www.flickr.com/groups/bephpug/"
+
+# Default meetup location
+default_location = "Co-Up Berlin"
+default_address = "Adalbertstraße 8, 10999 Berlin"
+
+# Analytics (optional)
+# google_analytics = "UA-XXXXXXXX-X"
+
+# OpenGraph and Twitter Cards
+og_image = "/images/berlinphp-og.png"

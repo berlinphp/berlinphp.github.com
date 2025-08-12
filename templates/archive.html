@@ -1,0 +1,130 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="section">
+    <div class="container">
+        <div class="content">
+            <h1 class="title is-1">{{ section.title }}</h1>
+            <div class="content">
+                {{ section.content | safe }}
+            </div>
+        </div>
+        
+        <div class="columns">
+            <div class="column is-three-quarters">
+                {% if section.pages %}
+                <div class="archive-list">
+                    {% for page in section.pages %}
+                    <article class="archive-item">
+                        <div class="columns is-vcentered">
+                            <div class="column is-narrow">
+                                <div class="archive-date">
+                                    <span class="tag is-large">{{ page.date | date(format="%b %Y") }}</span>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <h3 class="title is-4">
+                                    <a href="{{ page.permalink }}">{{ page.title }}</a>
+                                </h3>
+                                <p class="subtitle is-6">{{ page.date | date(format="%B %d, %Y") }}</p>
+                                {% if page.description %}
+                                <div class="content">
+                                    <p>{{ page.description }}</p>
+                                </div>
+                                {% endif %}
+                                
+                                {% if page.extra.speakers %}
+                                <div class="field is-grouped is-grouped-multiline">
+                                    <div class="control">
+                                        <span class="tag">
+                                            <strong>Speakers:</strong>
+                                        </span>
+                                    </div>
+                                    {% for speaker in page.extra.speakers %}
+                                    <div class="control">
+                                        <span class="tag is-light">{{ speaker.name }}</span>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                                
+                                {% if page.extra.tags %}
+                                <div class="field is-grouped is-grouped-multiline">
+                                    {% for tag in page.extra.tags %}
+                                    <div class="control">
+                                        <span class="tag is-php">{{ tag }}</span>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                            </div>
+                            <div class="column is-narrow">
+                                <a class="button is-primary is-outlined" href="{{ page.permalink }}">
+                                    <span>View Details</span>
+                                </a>
+                                {% if page.extra.slides %}
+                                <br><br>
+                                <span class="tag is-success">{{ page.extra.slides | length }} slide{% if page.extra.slides | length != 1 %}s{% endif %}</span>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </article>
+                    <hr>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <div class="notification is-info">
+                    <p>No meetups found. Check back soon for our upcoming events!</p>
+                </div>
+                {% endif %}
+            </div>
+            
+            <div class="column">
+                <div class="box">
+                    <h4 class="title is-4">Archive Stats</h4>
+                    <div class="content">
+                        {% if section.pages %}
+                        <p><strong>{{ section.pages | length }}</strong> meetups archived</p>
+                        <p><strong>6+</strong> speakers total</p>
+                        <p><strong>4+</strong> slide decks</p>
+                        {% endif %}
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <h4 class="title is-4">Popular Topics</h4>
+                    <div class="content">
+                        <div class="field is-grouped is-grouped-multiline">
+                            <div class="control">
+                                <span class="tag is-php">Laravel</span>
+                            </div>
+                            <div class="control">
+                                <span class="tag is-php">API</span>
+                            </div>
+                            <div class="control">
+                                <span class="tag is-php">Architecture</span>
+                            </div>
+                            <div class="control">
+                                <span class="tag is-php">Performance</span>
+                            </div>
+                            <div class="control">
+                                <span class="tag is-php">Testing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <h4 class="title is-4">Want to Speak?</h4>
+                    <div class="content">
+                        <p>Interested in giving a talk at our meetup?</p>
+                        <a class="button is-fullwidth is-primary" href="/pages/contact/">
+                            <span>Contact Us</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}

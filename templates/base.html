@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="{{ config.default_language }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.title }}</title>
+    
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ config.description }}{% endif %}">
+    
+    <!-- OpenGraph -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ config.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ config.description }}{% endif %}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ current_url }}">
+    {% if config.extra.og_image %}
+    <meta property="og:image" content="{{ config.base_url }}{{ config.extra.og_image }}">
+    {% endif %}
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ config.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ config.description }}{% endif %}">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ get_url(path='lib/bulma.min.css') }}">
+    <link rel="stylesheet" href="{{ get_url(path='styles.css') }}">
+    
+    <!-- RSS Feed -->
+    <link rel="alternate" type="application/rss+xml" title="{{ config.title }}" href="{{ get_url(path='feed.xml') }}">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ get_url(path='favicon.ico') }}">
+</head>
+<body>
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="{{ get_url(path='/') }}">
+                    <strong>Berlin PHP</strong>
+                </a>
+                
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            
+            <div id="navbarMain" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="{{ get_url(path='/') }}">Home</a>
+                    <a class="navbar-item" href="{{ get_url(path='/archive/') }}">Archive</a>
+                    <a class="navbar-item" href="{{ get_url(path='/pages/contact/') }}">Contact</a>
+                    <a class="navbar-item" href="{{ get_url(path='/pages/code-of-conduct/') }}">Code of Conduct</a>
+                </div>
+                
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            {% if config.extra.mastodon_url %}
+                            <a class="button is-small" href="{{ config.extra.mastodon_url }}" target="_blank">
+                                <span>Mastodon</span>
+                            </a>
+                            {% endif %}
+                            {% if config.extra.github_url %}
+                            <a class="button is-small" href="{{ config.extra.github_url }}" target="_blank">
+                                <span>GitHub</span>
+                            </a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <main>
+        {% block content %}{% endblock content %}
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <div class="columns">
+                    <div class="column">
+                        <h6 class="title is-6">Berlin PHP Usergroup</h6>
+                        <p>Monthly meetups for PHP developers in Berlin</p>
+                    </div>
+                    <div class="column">
+                        <h6 class="title is-6">Links</h6>
+                        <p>
+                            {% if config.extra.mastodon_url %}
+                            <a href="{{ config.extra.mastodon_url }}" target="_blank">Mastodon</a> •
+                            {% endif %}
+                            {% if config.extra.github_url %}
+                            <a href="{{ config.extra.github_url }}" target="_blank">GitHub</a> •
+                            {% endif %}
+                            {% if config.extra.flickr_url %}
+                            <a href="{{ config.extra.flickr_url }}" target="_blank">Flickr</a> •
+                            {% endif %}
+                            <a href="{{ get_url(path='feed.xml') }}">RSS</a>
+                        </p>
+                    </div>
+                    <div class="column">
+                        <h6 class="title is-6">Legal</h6>
+                        <p>
+                            <a href="{{ get_url(path='/pages/imprint/') }}">Imprint</a> •
+                            <a href="{{ get_url(path='/pages/code-of-conduct/') }}">Code of Conduct</a>
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <p class="is-size-7">
+                    Built with <a href="https://www.getzola.org" target="_blank">Zola</a> • 
+                    Hosted on <a href="https://pages.github.com" target="_blank">GitHub Pages</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Mobile navbar burger toggle
+        document.addEventListener('DOMContentLoaded', () => {
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+            if ($navbarBurgers.length > 0) {
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+</html>

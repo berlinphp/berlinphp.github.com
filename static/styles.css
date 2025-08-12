@@ -1,0 +1,231 @@
+/* Berlin PHP Custom Styles */
+
+/* Brand colors - https://coolors.co/333333-4f5b93-8892bf-f75900-f2f2f2 */
+:root {
+    --dark-charcoal: #333333;
+    --dark-blue: #4F5B93;
+    --php-blue: #8892BF;
+    --orange-red: #F75900;
+    --light-gray: #F2F2F2;
+    
+    /* Legacy aliases for compatibility */
+    --php-light-blue: #8892BF;
+    --berlin-red: #F75900;
+}
+
+/* Custom navbar styling */
+.navbar.is-dark {
+    background-color: var(--dark-blue);
+}
+
+.navbar.is-dark .navbar-brand .navbar-item:hover,
+.navbar.is-dark .navbar-menu .navbar-item:hover {
+    background-color: var(--php-blue);
+    color: white;
+}
+
+/* Hero section with PHP theming */
+.hero.is-primary {
+    background: linear-gradient(135deg, var(--dark-blue) 0%, var(--php-blue) 100%);
+}
+
+.hero.is-primary .title,
+.hero.is-primary .subtitle {
+    color: white;
+}
+
+/* Cards and boxes */
+.card:hover {
+    box-shadow: 0 8px 16px rgba(79, 91, 147, 0.15);
+    transform: translateY(-2px);
+    transition: all 0.2s ease;
+}
+
+/* Next meetup box styling */
+.box.next-meetup {
+    border-left: 5px solid var(--php-blue);
+}
+
+/* Box with accent border */
+.box {
+    border-top: 3px solid var(--light-gray);
+}
+
+.box:hover {
+    border-top-color: var(--php-blue);
+    transition: border-color 0.2s ease;
+}
+
+/* Orange highlights for special elements */
+.highlight-orange {
+    color: var(--orange-red) !important;
+}
+
+.border-orange {
+    border-left: 3px solid var(--orange-red) !important;
+}
+
+.bg-orange {
+    background-color: var(--orange-red) !important;
+    color: white !important;
+}
+
+/* Tag styling */
+.tag.is-php {
+    background-color: var(--php-blue);
+    color: white;
+}
+
+.tag.is-highlight {
+    background-color: var(--orange-red);
+    color: white;
+}
+
+.tag.is-dark {
+    background-color: var(--dark-charcoal);
+    color: white;
+}
+
+/* Special accent elements */
+.accent-orange::before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 1em;
+    background-color: var(--orange-red);
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+/* Talk tags */
+.tag {
+    border-radius: 20px;
+}
+
+.tag.is-php {
+    background-color: var(--php-blue);
+    color: white;
+}
+
+/* Footer improvements */
+.footer {
+    background-color: var(--light-gray);
+    border-top: 1px solid var(--dark-charcoal);
+    color: var(--dark-charcoal);
+}
+
+.footer .title {
+    color: var(--dark-charcoal);
+}
+
+.footer a {
+    color: var(--dark-blue);
+}
+
+.footer a:hover {
+    color: var(--php-blue);
+}
+
+/* Responsive improvements */
+@media screen and (max-width: 768px) {
+    .hero .title.is-1 {
+        font-size: 2rem;
+    }
+    
+    .hero .subtitle.is-3 {
+        font-size: 1.25rem;
+    }
+}
+
+/* Archive page styling */
+.archive-item {
+    border-left: 3px solid var(--php-blue);
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.archive-date {
+    color: var(--dark-blue);
+    font-weight: 600;
+}
+
+.archive-item:hover {
+    border-left-color: var(--php-blue);
+    background-color: rgba(242, 242, 242, 0.3);
+    transition: all 0.2s ease;
+}
+
+/* Code blocks */
+pre {
+    background-color: var(--light-gray);
+    border: 1px solid var(--dark-charcoal);
+    border-radius: 4px;
+    color: var(--dark-charcoal);
+}
+
+/* Links */
+a {
+    color: var(--dark-blue);
+}
+
+a:hover {
+    color: var(--php-blue);
+}
+
+/* Navigation links */
+.navbar a {
+    color: white !important;
+}
+
+/* Content links */
+.content a {
+    color: var(--dark-blue);
+    text-decoration: underline;
+}
+
+.content a:hover {
+    color: var(--php-blue);
+    text-decoration: none;
+}
+
+/* Buttons - Primary for CTAs and highlights */
+.button.is-primary {
+    background-color: var(--dark-blue);
+    border-color: var(--dark-blue);
+    color: white;
+}
+
+.button.is-primary:hover {
+    background-color: var(--php-blue);
+    border-color: var(--php-blue);
+    color: white;
+}
+
+/* Special CTA buttons with orange highlight */
+.button.is-cta,
+.button.is-primary.is-large {
+    background-color: var(--orange-red);
+    border-color: var(--orange-red);
+    color: white;
+}
+
+.button.is-cta:hover,
+.button.is-primary.is-large:hover {
+    background-color: var(--dark-blue);
+    border-color: var(--dark-blue);
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(247, 89, 0, 0.2);
+}
+
+/* Secondary buttons */
+.button.is-outlined {
+    border-color: var(--php-blue);
+    color: var(--php-blue);
+}
+
+.button.is-outlined:hover {
+    background-color: var(--php-blue);
+    border-color: var(--php-blue);
+    color: white;
+}

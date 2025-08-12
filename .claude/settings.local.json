@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:bephpug.de)",
+      "WebFetch(domain:berlinphp.github.io)",
+      "WebFetch(domain:www.bephpug.de)",
+      "Bash(mkdir:*)",
+      "Bash(curl:*)",
+      "Bash(zola serve:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": []
+  }
+}

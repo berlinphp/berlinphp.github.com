@@ -1,0 +1,143 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero is-primary">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h1 class="title is-1">{{ config.title }}</h1>
+                    <h2 class="subtitle is-3">{{ config.description }}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        {% if section.extra.next_meetup %}
+        <div class="box">
+            <div class="content">
+                <h3 class="title is-3">Next Meetup</h3>
+                <div class="columns">
+                    <div class="column is-two-thirds">
+                        <h4 class="title is-4">{{ section.extra.next_meetup.title }}</h4>
+                        <p><strong>Date:</strong> {{ section.extra.next_meetup.date }}</p>
+                        <p><strong>Time:</strong> {{ section.extra.next_meetup.time }}</p>
+                        <p><strong>Location:</strong> {{ section.extra.next_meetup.location }}</p>
+                        {% if section.extra.next_meetup.address %}
+                        <p><strong>Address:</strong> {{ section.extra.next_meetup.address }}</p>
+                        {% endif %}
+                        
+                        {% if section.extra.next_meetup.talks %}
+                        <h5 class="title is-5">Talks</h5>
+                        {% for talk in section.extra.next_meetup.talks %}
+                        <div class="box is-small">
+                            <h6 class="title is-6">{{ talk.title }}</h6>
+                            <p><strong>Speaker:</strong> {{ talk.speaker }}</p>
+                            {% if talk.description %}
+                            <p>{{ talk.description }}</p>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                        {% endif %}
+                    </div>
+                    <div class="column">
+                        {% if section.extra.next_meetup.meetup_url %}
+                        <a class="button is-primary is-large is-fullwidth" href="{{ section.extra.next_meetup.meetup_url }}" target="_blank">
+                            <strong>RSVP on Meetup.com</strong>
+                        </a>
+                        {% endif %}
+                        <br>
+                        <div class="content is-small">
+                            <p><strong>When:</strong> Monthly, usually third Thursday</p>
+                            <p><strong>Cost:</strong> Free</p>
+                            <p><strong>Languages:</strong> German & English</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        
+        <div class="columns">
+            <div class="column is-two-thirds">
+                <div class="content">
+                    {{ section.content | safe }}
+                </div>
+                
+                {% if section.extra.recent_talks %}
+                <h3 class="title is-3">Recent Talks</h3>
+                <div class="columns is-multiline">
+                    {% for talk in section.extra.recent_talks %}
+                    <div class="column is-half">
+                        <div class="card">
+                            <div class="card-content">
+                                <p class="title is-5">
+                                    <a href="{{ talk.url }}">{{ talk.title }}</a>
+                                </p>
+                                <p class="subtitle is-6">{{ talk.date }} • {{ talk.speaker }}</p>
+                                <div class="content">
+                                    <p>{{ talk.description }}</p>
+                                    {% if talk.tags %}
+                                    <div class="tags">
+                                        {% for tag in talk.tags %}
+                                        <span class="tag">{{ tag }}</span>
+                                        {% endfor %}
+                                    </div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+            
+            <div class="column">
+                <div class="box">
+                    <h4 class="title is-4">About Us</h4>
+                    <div class="content">
+                        <p>The Berlin PHP Usergroup is a community of PHP developers, enthusiasts, and professionals in Berlin.</p>
+                        <p>We meet monthly to share knowledge, discuss trends, and network with fellow developers.</p>
+                        <p><strong>All skill levels welcome!</strong></p>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <h4 class="title is-4">Follow Us</h4>
+                    <div class="buttons">
+                        {% if config.extra.mastodon_url %}
+                        <a class="button is-fullwidth" href="{{ config.extra.mastodon_url }}" target="_blank">
+                            <span>Mastodon</span>
+                        </a>
+                        {% endif %}
+                        {% if config.extra.github_url %}
+                        <a class="button is-fullwidth" href="{{ config.extra.github_url }}" target="_blank">
+                            <span>GitHub</span>
+                        </a>
+                        {% endif %}
+                        {% if config.extra.flickr_url %}
+                        <a class="button is-fullwidth" href="{{ config.extra.flickr_url }}" target="_blank">
+                            <span>Photos on Flickr</span>
+                        </a>
+                        {% endif %}
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <h4 class="title is-4">RSS Feed</h4>
+                    <div class="content">
+                        <p>Stay updated with our latest meetups and talks.</p>
+                        <a class="button is-fullwidth" href="{{ get_url(path='feed.xml') }}">
+                            <span>Subscribe to RSS</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}
