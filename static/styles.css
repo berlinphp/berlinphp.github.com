@@ -24,6 +24,21 @@
     color: white;
 }
 
+/* Logo styling in navbar */
+.navbar-brand img {
+    max-height: 3rem;
+    filter: brightness(1.1);
+    transition: filter 0.2s ease;
+}
+
+.navbar-brand .navbar-item:hover img {
+    filter: brightness(1.3);
+}
+
+.navbar-brand .navbar-item {
+    padding: 1rem 1.5rem;
+}
+
 /* Hero section with PHP theming */
 .hero.is-primary {
     background: linear-gradient(135deg, var(--dark-blue) 0%, var(--php-blue) 100%);
@@ -95,6 +110,102 @@
     background-color: var(--orange-red);
     margin-right: 0.5rem;
     vertical-align: middle;
+}
+
+/* Event Landing Page Styling */
+.hero.is-large {
+    min-height: 10rem;
+    display: flex;
+    align-items: center;
+    transition: min-height 0.3s ease, padding 0.3s ease;
+}
+
+/* Push content down when navbar is fixed */
+body.has-navbar-fixed-top {
+    padding-top: 3.25rem;
+}
+
+/* Ensure hero-body centers content */
+.hero.is-large .hero-body {
+    display: flex;
+    align-items: center;
+    transition: padding 0.3s ease;
+}
+
+/* Shrunk state when scrolling */
+.hero.is-large.shrunk {
+    min-height: 6rem;
+}
+
+.hero.is-large.shrunk .hero-body {
+    padding: 2rem 6rem;
+}
+
+.button.is-warning {
+    background-color: #FFD700;
+    color: var(--dark-charcoal);
+    border: none;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.button.is-warning:hover {
+    background-color: var(--orange-red);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(247, 89, 0, 0.3);
+}
+
+.button.is-rounded {
+    border-radius: 25px;
+    padding: 1.5rem 2rem;
+}
+
+/* Event Card Styling */
+.card.is-shadowless {
+    box-shadow: none;
+    transition: all 0.3s ease;
+}
+
+.card.is-shadowless:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(79, 91, 147, 0.1);
+}
+
+/* Icon styling */
+.icon.is-rounded {
+    border-radius: 50%;
+    padding: 1rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CTA Section */
+.has-background-primary {
+    background: linear-gradient(135deg, var(--dark-blue) 0%, var(--php-blue) 100%) !important;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .hero .title.is-1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero .subtitle.is-3 {
+        font-size: 1.5rem;
+    }
+    
+    .navbar-brand img {
+        max-height: 2.5rem;
+    }
+    
+    .button.is-large {
+        font-size: 1.1rem;
+        padding: 1rem 1.5rem;
+    }
 }
 
 /* Talk tags */
@@ -180,12 +291,14 @@ a:hover {
 /* Content links */
 .content a {
     color: var(--dark-blue);
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
 }
 
 .content a:hover {
     color: var(--php-blue);
-    text-decoration: none;
+    border-bottom-color: var(--php-blue);
 }
 
 /* Buttons - Primary for CTAs and highlights */
@@ -218,6 +331,17 @@ a:hover {
     box-shadow: 0 4px 8px rgba(247, 89, 0, 0.2);
 }
 
+/* Override Bulma button hover states to respect our color scheme */
+.button:hover {
+    border-color: var(--php-blue) !important;
+}
+
+.button.is-outlined:hover {
+    background-color: var(--php-blue) !important;
+    border-color: var(--php-blue) !important;
+    color: white !important;
+}
+
 /* Secondary buttons */
 .button.is-outlined {
     border-color: var(--php-blue);
@@ -228,4 +352,33 @@ a:hover {
     background-color: var(--php-blue);
     border-color: var(--php-blue);
     color: white;
+}
+
+/* Hero large padding for desktop */
+@media screen and (min-width: 769px), print {
+    .hero.is-large .hero-body {
+        padding: 6rem 6rem;
+    }
+}
+
+/* Equal height cards for Featured Talks section only */
+.section .columns .card {
+    height: 100%;
+}
+
+.section .columns .card .card-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Reset card heights for About section */
+.section .columns .column:nth-child(2) .card {
+    height: auto;
+}
+
+.section .columns .column:nth-child(2) .card .card-content {
+    height: auto;
+    display: block;
 }

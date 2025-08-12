@@ -13,14 +13,16 @@
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ config.description }}{% endif %}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ current_url }}">
-    {% if config.extra.og_image %}
-    <meta property="og:image" content="{{ config.base_url }}{{ config.extra.og_image }}">
-    {% endif %}
+    <meta property="og:image" content="{{ config.base_url }}{{ get_url(path='social-banner.png') }}">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ config.title }}{% endif %}">
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ config.description }}{% endif %}">
+    <meta name="twitter:image" content="{{ config.base_url }}{{ get_url(path='social-banner.png') }}">
     
     <!-- CSS -->
     <link rel="stylesheet" href="{{ get_url(path='lib/bulma.min.css') }}">
@@ -29,14 +31,17 @@
     <!-- RSS Feed -->
     <link rel="alternate" type="application/rss+xml" title="{{ config.title }}" href="{{ get_url(path='feed.xml') }}">
     
-    <!-- Favicon -->
+    <!-- Favicon and Icons -->
     <link rel="icon" type="image/x-icon" href="{{ get_url(path='favicon.ico') }}">
+    <link rel="icon" type="image/svg+xml" href="{{ get_url(path='logo.svg') }}">
+    <link rel="apple-touch-icon" href="{{ get_url(path='logo.svg') }}">
 </head>
-<body>
-    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+<body class="has-navbar-fixed-top">
+    <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="container">
             <div class="navbar-brand">
-                <a class="navbar-item" href="{{ get_url(path='/') }}">
+                <a class="navbar-item is-size-4" href="{{ get_url(path='/') }}">
+                    <img src="{{ get_url(path='logo.svg') }}" alt="Berlin PHP" width="48" height="48" style="margin-right: 1rem;">
                     <strong>Berlin PHP</strong>
                 </a>
                 
@@ -48,24 +53,23 @@
             </div>
             
             <div id="navbarMain" class="navbar-menu">
-                <div class="navbar-start">
-                    <a class="navbar-item" href="{{ get_url(path='/') }}">Home</a>
-                    <a class="navbar-item" href="{{ get_url(path='/archive/') }}">Archive</a>
-                    <a class="navbar-item" href="{{ get_url(path='/pages/contact/') }}">Contact</a>
-                    <a class="navbar-item" href="{{ get_url(path='/pages/code-of-conduct/') }}">Code of Conduct</a>
-                </div>
-                
                 <div class="navbar-end">
                     <div class="navbar-item">
                         <div class="buttons">
                             {% if config.extra.mastodon_url %}
-                            <a class="button is-small" href="{{ config.extra.mastodon_url }}" target="_blank">
-                                <span>Mastodon</span>
+                            <a class="button is-small is-outlined is-white" href="{{ config.extra.mastodon_url }}" target="_blank">
+                                <span class="icon-text">
+                                    <span class="icon">🐘</span>
+                                    <span>Mastodon</span>
+                                </span>
                             </a>
                             {% endif %}
                             {% if config.extra.github_url %}
-                            <a class="button is-small" href="{{ config.extra.github_url }}" target="_blank">
-                                <span>GitHub</span>
+                            <a class="button is-small is-outlined is-white" href="{{ config.extra.github_url }}" target="_blank">
+                                <span class="icon-text">
+                                    <span class="icon">💻</span>
+                                    <span>GitHub</span>
+                                </span>
                             </a>
                             {% endif %}
                         </div>
@@ -88,7 +92,16 @@
                         <p>Monthly meetups for PHP developers in Berlin</p>
                     </div>
                     <div class="column">
-                        <h6 class="title is-6">Links</h6>
+                        <h6 class="title is-6">Navigation</h6>
+                        <p>
+                            <a href="{{ get_url(path='/') }}">Home</a> •
+                            <a href="{{ get_url(path='/events/') }}">Previous Events</a> •
+                            <a href="{{ get_url(path='/pages/contact/') }}">Contact</a> •
+                            <a href="{{ get_url(path='feed.xml') }}">RSS</a>
+                        </p>
+                    </div>
+                    <div class="column">
+                        <h6 class="title is-6">Social & Legal</h6>
                         <p>
                             {% if config.extra.mastodon_url %}
                             <a href="{{ config.extra.mastodon_url }}" target="_blank">Mastodon</a> •
@@ -97,14 +110,9 @@
                             <a href="{{ config.extra.github_url }}" target="_blank">GitHub</a> •
                             {% endif %}
                             {% if config.extra.flickr_url %}
-                            <a href="{{ config.extra.flickr_url }}" target="_blank">Flickr</a> •
+                            <a href="{{ config.extra.flickr_url }}" target="_blank">Flickr</a>
+                            <br>
                             {% endif %}
-                            <a href="{{ get_url(path='feed.xml') }}">RSS</a>
-                        </p>
-                    </div>
-                    <div class="column">
-                        <h6 class="title is-6">Legal</h6>
-                        <p>
                             <a href="{{ get_url(path='/pages/imprint/') }}">Imprint</a> •
                             <a href="{{ get_url(path='/pages/code-of-conduct/') }}">Code of Conduct</a>
                         </p>
@@ -131,6 +139,21 @@
                         el.classList.toggle('is-active');
                         $target.classList.toggle('is-active');
                     });
+                });
+            }
+
+            // Hero shrinking on scroll
+            const hero = document.querySelector('.hero.is-large');
+            if (hero) {
+                window.addEventListener('scroll', () => {
+                    const scrolled = window.scrollY;
+                    const threshold = 100; // Start shrinking after 100px of scroll
+                    
+                    if (scrolled > threshold) {
+                        hero.classList.add('shrunk');
+                    } else {
+                        hero.classList.remove('shrunk');
+                    }
                 });
             }
         });

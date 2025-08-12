@@ -36,7 +36,7 @@ paths_keep_dates = true
 # Extra settings
 [extra]
 # Social media links
-mastodon_url = "https://mastodon.social/@berlinphp"
+mastodon_url = "https://phpc.social/@bephpug"
 twitter_url = "https://twitter.com/berlinphp"
 github_url = "https://github.com/berlinphp"
 flickr_url = "https://www.flickr.com/groups/bephpug/"
@@ -48,5 +48,8 @@ default_address = "Adalbertstraße 8, 10999 Berlin"
 # Analytics (optional)
 # google_analytics = "UA-XXXXXXXX-X"
 
-# OpenGraph and Twitter Cards
-og_image = "/images/berlinphp-og.png"
+# Branding assets
+logo = "/logo.svg"
+logo_outset = "/logo_outset.svg"
+social_banner = "/social-banner.png"
+favicon = "/favicon.ico"

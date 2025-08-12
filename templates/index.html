@@ -1,142 +1,192 @@
 {% extends "base.html" %}
 
 {% block content %}
-<section class="hero is-primary">
+{% if section.extra.next_meetup %}
+<!-- Event Hero Section -->
+<section class="hero is-large is-primary" style="position: relative; overflow: hidden;">
     <div class="hero-body">
         <div class="container">
             <div class="columns is-vcentered">
-                <div class="column">
-                    <h1 class="title is-1">{{ config.title }}</h1>
-                    <h2 class="subtitle is-3">{{ config.description }}</h2>
+                <div class="column is-3">
+                    <!-- Logo with white glow -->
+                    <img src="{{ get_url(path='logo.svg') }}" alt="Berlin PHP Logo" width="300" height="300" style="filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.8)) drop-shadow(0 0 40px rgba(255, 255, 255, 0.4));">
+                </div>
+                <div class="column is-6">
+                    <!-- Event details with more space -->
+                    <h1 class="title is-1 has-text-white">
+                        <span class="has-text-warning">Next Event:</span><br>
+                        {{ section.extra.next_meetup.title }}
+                    </h1>
+                    <h2 class="subtitle is-3 has-text-white-ter">
+                        <strong>{{ section.extra.next_meetup.date }}</strong> • {{ section.extra.next_meetup.time }}
+                    </h2>
+                    <div class="content has-text-white-bis is-size-5">
+                        <p><strong>📍 {{ section.extra.next_meetup.location }}</strong> • {{ section.extra.next_meetup.address }}</p>
+                    </div>
+                </div>
+                <div class="column is-3 has-text-centered">
+                    {% if section.extra.next_meetup.meetup_url %}
+                    <a class="button is-large is-rounded" href="{{ section.extra.next_meetup.meetup_url }}" target="_blank" style="background-color: var(--orange-red); color: white; border: none;">
+                        <span class="icon">
+                            <strong>🎫</strong>
+                        </span>
+                        <span><strong>RSVP FREE</strong></span>
+                    </a>
+                    {% endif %}
+                    <div class="content has-text-white-ter mt-4">
+                        <p class="is-size-6"><strong>Monthly Event</strong></p>
+                        <p class="is-size-7">🆓 Free Entry • 🌍 English Language</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+<!-- Talks Preview -->
+{% if section.extra.next_meetup.talks %}
 <section class="section">
     <div class="container">
-        {% if section.extra.next_meetup %}
-        <div class="box">
-            <div class="content">
-                <h3 class="title is-3">Next Meetup</h3>
-                <div class="columns">
-                    <div class="column is-two-thirds">
-                        <h4 class="title is-4">{{ section.extra.next_meetup.title }}</h4>
-                        <p><strong>Date:</strong> {{ section.extra.next_meetup.date }}</p>
-                        <p><strong>Time:</strong> {{ section.extra.next_meetup.time }}</p>
-                        <p><strong>Location:</strong> {{ section.extra.next_meetup.location }}</p>
-                        {% if section.extra.next_meetup.address %}
-                        <p><strong>Address:</strong> {{ section.extra.next_meetup.address }}</p>
-                        {% endif %}
-                        
-                        {% if section.extra.next_meetup.talks %}
-                        <h5 class="title is-5">Talks</h5>
-                        {% for talk in section.extra.next_meetup.talks %}
-                        <div class="box is-small">
-                            <h6 class="title is-6">{{ talk.title }}</h6>
-                            <p><strong>Speaker:</strong> {{ talk.speaker }}</p>
-                            {% if talk.description %}
+        <h3 class="title is-2 has-text-centered mb-6">Featured Talks</h3>
+        <div class="columns is-centered">
+            {% for talk in section.extra.next_meetup.talks %}
+            <div class="column is-5">
+                <div class="card is-shadowless" style="border: 2px solid var(--php-blue); border-radius: 12px;">
+                    <div class="card-content">
+                        <div class="content">
+                            <h4 class="title is-4">{{ talk.title }}</h4>
+                            <p class="subtitle is-6">
+                                <span class="icon-text">
+                                    <span class="icon">👤</span>
+                                    <span><strong>{{ talk.speaker }}</strong></span>
+                                </span>
+                            </p>
                             <p>{{ talk.description }}</p>
-                            {% endif %}
                         </div>
-                        {% endfor %}
-                        {% endif %}
                     </div>
-                    <div class="column">
-                        {% if section.extra.next_meetup.meetup_url %}
-                        <a class="button is-primary is-large is-fullwidth" href="{{ section.extra.next_meetup.meetup_url }}" target="_blank">
-                            <strong>RSVP on Meetup.com</strong>
-                        </a>
-                        {% endif %}
-                        <br>
-                        <div class="content is-small">
-                            <p><strong>When:</strong> Monthly, usually third Thursday</p>
-                            <p><strong>Cost:</strong> Free</p>
-                            <p><strong>Languages:</strong> German & English</p>
+                </div>
+            </div>
+            {% if not loop.last %}
+            <div class="column is-1 has-text-centered">
+                <span class="icon is-large" style="color: var(--php-blue);">
+                    <strong style="font-size: 2rem;">+</strong>
+                </span>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}
+{% endif %}
+
+<!-- About Section -->
+<section class="section" style="background-color: var(--light-gray);">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-8">
+                <div class="content">
+                    <h3 class="title is-3">About Berlin PHP</h3>
+                    {{ section.content | safe }}
+                </div>
+            </div>
+            <div class="column is-4">
+                <div class="card">
+                    <div class="card-content has-background-primary">
+                        <h4 class="title is-4 has-text-white">Join Our Community</h4>
+                        <div class="content has-text-white">
+                            <p><strong>Monthly meetups</strong> with 2-3 technical talks</p>
+                            <p><strong>Networking</strong> with 50+ local developers</p>
+                            <p><strong>All skill levels</strong> welcome</p>
+                            <p><strong>Free drinks & snacks</strong></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mt-4">
+                    <div class="card-content">
+                        <h4 class="title is-5">Follow Us</h4>
+                        <div class="buttons">
+                            {% if config.extra.mastodon_url %}
+                            <a class="button is-fullwidth is-primary" href="{{ config.extra.mastodon_url }}" target="_blank">
+                                <span class="icon-text">
+                                    <span class="icon">🐘</span>
+                                    <span>Mastodon</span>
+                                </span>
+                            </a>
+                            {% endif %}
+                            {% if config.extra.github_url %}
+                            <a class="button is-fullwidth" href="{{ config.extra.github_url }}" target="_blank">
+                                <span class="icon-text">
+                                    <span class="icon">💻</span>
+                                    <span>GitHub</span>
+                                </span>
+                            </a>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        {% endif %}
-        
-        <div class="columns">
-            <div class="column is-two-thirds">
-                <div class="content">
-                    {{ section.content | safe }}
-                </div>
-                
-                {% if section.extra.recent_talks %}
-                <h3 class="title is-3">Recent Talks</h3>
-                <div class="columns is-multiline">
-                    {% for talk in section.extra.recent_talks %}
-                    <div class="column is-half">
-                        <div class="card">
-                            <div class="card-content">
-                                <p class="title is-5">
-                                    <a href="{{ talk.url }}">{{ talk.title }}</a>
-                                </p>
-                                <p class="subtitle is-6">{{ talk.date }} • {{ talk.speaker }}</p>
-                                <div class="content">
-                                    <p>{{ talk.description }}</p>
-                                    {% if talk.tags %}
-                                    <div class="tags">
-                                        {% for tag in talk.tags %}
-                                        <span class="tag">{{ tag }}</span>
-                                        {% endfor %}
-                                    </div>
-                                    {% endif %}
-                                </div>
+    </div>
+</section>
+
+<!-- Recent Talks -->
+{% if section.extra.recent_talks %}
+<section class="section">
+    <div class="container">
+        <h3 class="title is-3 has-text-centered mb-6">Recent Talks</h3>
+        <div class="columns is-multiline">
+            {% for talk in section.extra.recent_talks | slice(end=4) %}
+            <div class="column is-6">
+                <article class="media">
+                    <div class="media-left">
+                        <span class="icon is-large has-background-primary is-rounded">
+                            <span class="has-text-white is-size-4">🎤</span>
+                        </span>
+                    </div>
+                    <div class="media-content">
+                        <div class="content">
+                            <p>
+                                <strong><a href="{{ talk.url }}">{{ talk.title }}</a></strong><br>
+                                <small>{{ talk.speaker }} • {{ talk.date }}</small><br>
+                                {{ talk.description }}
+                            </p>
+                            {% if talk.tags %}
+                            <div class="tags">
+                                {% for tag in talk.tags %}
+                                <span class="tag is-primary is-light">{{ tag }}</span>
+                                {% endfor %}
                             </div>
+                            {% endif %}
                         </div>
                     </div>
-                    {% endfor %}
-                </div>
-                {% endif %}
+                </article>
             </div>
-            
-            <div class="column">
-                <div class="box">
-                    <h4 class="title is-4">About Us</h4>
-                    <div class="content">
-                        <p>The Berlin PHP Usergroup is a community of PHP developers, enthusiasts, and professionals in Berlin.</p>
-                        <p>We meet monthly to share knowledge, discuss trends, and network with fellow developers.</p>
-                        <p><strong>All skill levels welcome!</strong></p>
-                    </div>
-                </div>
-                
-                <div class="box">
-                    <h4 class="title is-4">Follow Us</h4>
-                    <div class="buttons">
-                        {% if config.extra.mastodon_url %}
-                        <a class="button is-fullwidth" href="{{ config.extra.mastodon_url }}" target="_blank">
-                            <span>Mastodon</span>
-                        </a>
-                        {% endif %}
-                        {% if config.extra.github_url %}
-                        <a class="button is-fullwidth" href="{{ config.extra.github_url }}" target="_blank">
-                            <span>GitHub</span>
-                        </a>
-                        {% endif %}
-                        {% if config.extra.flickr_url %}
-                        <a class="button is-fullwidth" href="{{ config.extra.flickr_url }}" target="_blank">
-                            <span>Photos on Flickr</span>
-                        </a>
-                        {% endif %}
-                    </div>
-                </div>
-                
-                <div class="box">
-                    <h4 class="title is-4">RSS Feed</h4>
-                    <div class="content">
-                        <p>Stay updated with our latest meetups and talks.</p>
-                        <a class="button is-fullwidth" href="{{ get_url(path='feed.xml') }}">
-                            <span>Subscribe to RSS</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
+            {% endfor %}
+        </div>
+        <div class="has-text-centered mt-5">
+            <a class="button is-outlined" href="{{ get_url(path='/events/') }}" style="border-color: var(--dark-blue); color: var(--dark-blue);">
+                <span>View All Previous Events</span>
+                <span class="icon">→</span>
+            </a>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<!-- CTA Section -->
+<section class="section has-background-primary">
+    <div class="container has-text-centered">
+        <div class="content">
+            <h3 class="title is-3 has-text-white">Want to Give a Talk?</h3>
+            <p class="subtitle is-5 has-text-white-ter">
+                Share your PHP knowledge with the Berlin community!
+            </p>
+            <a class="button is-large is-rounded" href="{{ get_url(path='/pages/contact/') }}" style="background-color: var(--orange-red); color: white; border: none;">
+                <span class="icon">📢</span>
+                <span><strong>Propose a Talk</strong></span>
+            </a>
         </div>
     </div>
 </section>

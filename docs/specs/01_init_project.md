@@ -60,6 +60,8 @@ This specification outlines the migration of the Berlin PHP Usergroup website fr
 3. **Basic Styling & Layout**
    - Convert Jekyll layouts to Zola templates
    - Implement responsive design
+   - Integrate Berlin PHP logo and branding assets
+   - Configure favicon and social media meta tags
    - Preserve existing visual identity
 
 ### Phase 2: Content & Features (Medium Priority)
@@ -124,7 +126,11 @@ src/
 │   ├── lib/
 │   │   └── bulma.min.css      # Bulma CSS framework
 │   ├── styles.css             # Custom styling
-│   └── images/                # Site images
+│   ├── logo.svg               # Main Berlin PHP logo
+│   ├── logo_outset.svg        # Logo variant with outset
+│   ├── favicon.ico            # Website favicon
+│   ├── social-banner.png      # OpenGraph/Twitter social media banner
+│   └── images/                # Additional site images
 └── config.toml                # Zola configuration
 ```
 
@@ -238,6 +244,12 @@ Information about the speakers, their backgrounds, projects, etc.
 - All CSS/JS dependencies in `static/lib/`
 - Self-hosted assets only
 
+### Branding Assets
+- Berlin PHP logo (SVG format) for navigation and branding
+- Favicon (ICO format) for browser tabs
+- Social media banner (PNG format) for OpenGraph/Twitter cards
+- Logo variants available for different use cases
+
 ### Performance Targets
 - Static file generation under 5 seconds
 - Lighthouse performance score > 90
@@ -275,6 +287,9 @@ Information about the speakers, their backgrounds, projects, etc.
 - [ ] SEO metadata preserved
 - [ ] Schema markup functional
 - [ ] Performance benchmarks met
+- [ ] Logo integrated in navigation
+- [ ] Favicon properly configured
+- [ ] Social media meta tags with banner
 
 ### Content Requirements
 - [ ] All historical content migrated

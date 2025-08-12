@@ -60,9 +60,7 @@ rg --files -g "*.ts"
 ```
 src/
 ├── content/                   # Zola Content (Markdown + Assets)
-│   ├── _index.md              # Mainpage (default language)
-│   ├── _index.de.md           # Mainpage Deutsche Version  
-│   ├── _index.en.md           # Mainpage Englische Version
+│   ├── _index.md              # Homepage (English only)
 │   └── pages/                 # Static pages
 │       └── sub/               # UI Component Library
 ├── templates/                 # Zola HTML Templates
@@ -98,20 +96,26 @@ src/
 └── CLAUDE.md                 # Long Projekt Documentation for Claude Code
 ```
 
-## Features and Requirements
-
-### Sections
+## Sections
 https://www.getzola.org/documentation/content/section/
 
-### Translations
+## Translations
 https://www.getzola.org/documentation/content/multilingual/
 
-### Pagination
+- Check if user wants to add multiple languages first
+
+## Pagination
+https://www.getzola.org/documentation/templates/pagination/
 - If there is only one page, there should be no pagination.
 - If it is the first page, there should be no link to the previous page.
 - If it is the last page, there should be no link to the next page.
 - If there are multiple pages, the first page should have a link to the next page, and the last page should have a link to the previous page.
 - All pages should be visible in the pagination, with the current page highlighted.
+
+## Deployment
+
+### GitHub Pages
+https://www.getzola.org/documentation/deployment/github-pages/
 
 ## ⚠️ CRITICAL GUIDELINES (MUST FOLLOW ALL)
 
