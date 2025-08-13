@@ -34,7 +34,7 @@ Events are the core content type with a specific structure:
 ```
 content/events/
 ├── _index.md              # Events listing page (paginated, 20 per page)
-└── YYYY-MM-DD-event-name/
+└── YYYY-MM-DD-topic1-topic2-topic3/
     └── index.md           # Individual event page
 ```
 
@@ -109,8 +109,12 @@ When migrating events from old Jekyll site (`/home/dazz/Code/berlinphp/berlinphp
 1. Convert Jekyll frontmatter (YAML) to Zola (TOML)
 2. Transform speaker list to `[taxonomies]` format
 3. Move `date` from `[extra]` to main frontmatter for pages
-4. Create directory structure: `content/events/YYYY-MM-DD-name/index.md`
+4. **Event Slug Pattern**: Create SEO-friendly directory structure: `content/events/YYYY-MM-DD-topic1-topic2-topic3/index.md`
+   - Use main topics/technologies from the event talks
+   - Lowercase with hyphens instead of spaces  
+   - Examples: `2012-03-06-e-commerce-shop-systems/`, `2012-04-03-pimcore-zend-php54-createjs/`
 5. Preserve bilingual content (English + German sections), but in most cases the site will only display English content.
+6. **Link Replacements**: Replace `[co.up](http://www.bephpug.de/location.html)` links with plain text "co.up" - these external links are outdated and should be simplified to just the venue name.
 
 ## Configuration Notes
 

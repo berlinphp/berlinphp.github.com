@@ -27,7 +27,7 @@ So far the following shop systems will be presented:
 * "osCommerce 2.x and a sneak peak into 3.x" by Markus Will
 * "TYPO3 shopping solutions" by Nicole Cordes
 
-As usual the meetup will be at [co.up](http://www.bephpug.de/location.html)
+As usual the meetup will be at co.up
 and drinks will be available for a small fee. We'll meet on March, 6th at 7pm,
 the talks start around 7:30pm.
 
@@ -49,7 +49,7 @@ Bisher haben wir folgende Vorträge:
 * "osCommerce 2.x und Ausblick auf 3.x" von Markus Will
 * "TYPO3 Shoplösungen" von Nicole Cordes
 
-Wie immer treffen wir uns bei [co.up](http://www.bephpug.de/location.html),
+Wie immer treffen wir uns bei co.up,
 Getränke sind gegen ein kleines Entgelt zu haben. Wir treffen uns am 6. März um 19 Uhr,
 die Vorträge beginnen gegen 19:30.
 
