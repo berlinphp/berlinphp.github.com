@@ -1,7 +1,7 @@
 # Berlin PHP Usergroup Website
 # Zola Configuration
 
-base_url = "https://www.bephpug.de"
+base_url = "/"
 title = "Berlin PHP Usergroup"
 description = "The Berlin PHP Usergroup community - Monthly meetups, talks, and networking for PHP developers in Berlin"
 
@@ -19,6 +19,7 @@ generate_feeds = true
 # Taxonomies
 taxonomies = [
     { name = "tags", feed = true },
+    { name = "speaker", feed = true },
 ]
 
 # Markdown configuration
@@ -40,6 +41,7 @@ mastodon_url = "https://phpc.social/@bephpug"
 twitter_url = "https://twitter.com/berlinphp"
 github_url = "https://github.com/berlinphp"
 flickr_url = "https://www.flickr.com/groups/bephpug/"
+meetup_url = "https://www.meetup.com/de-DE/berlin-php-usergroup/"
 
 # Default meetup location
 default_location = "Co-Up Berlin"

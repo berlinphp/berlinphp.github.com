@@ -1,0 +1,56 @@
++++
+title = "Meetup on March, 6th 2012 / Treffen am 6. März 2012"
+description = "March 2012 meetup focused on shop systems with talks about various e-commerce platforms including Sylius, OXID, Magento, osCommerce, and TYPO3."
+date = "2012-03-06"
+
+[taxonomies]
+speaker = ["Daniel Fahlke", "Thomas Lohner", "Martin Rothenberger", "Fabian Blechschmidt", "Markus Will", "Nicole Cordes"]
+tags = ["E-commerce", "Shop Systems", "Sylius", "OXID", "Magento", "osCommerce", "TYPO3"]
+
+[extra]
+location = "co.up"
++++
+
+## English
+
+This month's meetup has a focus on shop systems. Nearly everybody dealt with
+them at some point and there are countless e-commerce systems around.
+In several talks we try to give an overview of pros and cons of a handful
+shopping systems.
+
+So far the following shop systems will be presented:
+
+* "Sylius" by Daniel Fahlke
+* "OXID" by Thomas Lohner
+* "Magento Commerce & Magento Enterprise" by Martin Rothenberger
+* "Preview to Magento 2" by Fabian Blechschmidt
+* "osCommerce 2.x and a sneak peak into 3.x" by Markus Will
+* "TYPO3 shopping solutions" by Nicole Cordes
+
+As usual the meetup will be at [co.up](http://www.bephpug.de/location.html)
+and drinks will be available for a small fee. We'll meet on March, 6th at 7pm,
+the talks start around 7:30pm.
+
+Happy to see you there!
+
+## Deutsch
+
+Nahezu jeder hat mal mit Shoppingsystemen zu tun gehabt oder immer noch damit
+zu tun und den Überblick über die Systeme zu behalten ist nahezu unmöglich.
+Das März Treffen versucht ein wenig Licht auf die Auswahl zu werfen und stellt
+einige Shopsysteme vor.
+
+Bisher haben wir folgende Vorträge:
+
+* "Sylius" von Daniel Fahlke
+* "OXID" von Thomas Lohner
+* "Magento Commerce & Magento Enterprise" von Martin Rothenberger
+* "Preview to Magento 2" von Fabian Blechschmidt
+* "osCommerce 2.x und Ausblick auf 3.x" von Markus Will
+* "TYPO3 Shoplösungen" von Nicole Cordes
+
+Wie immer treffen wir uns bei [co.up](http://www.bephpug.de/location.html),
+Getränke sind gegen ein kleines Entgelt zu haben. Wir treffen uns am 6. März um 19 Uhr,
+die Vorträge beginnen gegen 19:30.
+
+Wir freuen uns auf euch.

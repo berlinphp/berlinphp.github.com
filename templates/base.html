@@ -56,6 +56,14 @@
                 <div class="navbar-end">
                     <div class="navbar-item">
                         <div class="buttons">
+                            {% if config.extra.meetup_url %}
+                            <a class="button is-small is-outlined is-white" href="{{ config.extra.meetup_url }}" target="_blank">
+                                <span class="icon-text">
+                                    <span class="icon">📅</span>
+                                    <span>Meetup</span>
+                                </span>
+                            </a>
+                            {% endif %}
                             {% if config.extra.mastodon_url %}
                             <a class="button is-small is-outlined is-white" href="{{ config.extra.mastodon_url }}" target="_blank">
                                 <span class="icon-text">
@@ -103,6 +111,9 @@
                     <div class="column">
                         <h6 class="title is-6">Social & Legal</h6>
                         <p>
+                            {% if config.extra.meetup_url %}
+                            <a href="{{ config.extra.meetup_url }}" target="_blank">Meetup</a> •
+                            {% endif %}
                             {% if config.extra.mastodon_url %}
                             <a href="{{ config.extra.mastodon_url }}" target="_blank">Mastodon</a> •
                             {% endif %}

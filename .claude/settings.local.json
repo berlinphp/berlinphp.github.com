@@ -7,7 +7,8 @@
       "Bash(mkdir:*)",
       "Bash(curl:*)",
       "Bash(zola serve:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "mcp__playwright__browser_navigate"
     ],
     "deny": []
   }

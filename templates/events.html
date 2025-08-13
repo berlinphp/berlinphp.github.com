@@ -5,54 +5,64 @@
     <div class="container">
         <div class="content">
             <h1 class="title is-1">{{ section.title }}</h1>
-            <div class="content">
-                {{ section.content | safe }}
-            </div>
+            <p class="subtitle">{{ section.description }}</p>
         </div>
         
         <div class="columns">
             <div class="column is-three-quarters">
-                {% if section.pages %}
+                {% if paginator.pages %}
                 <div class="archive-list">
-                    {% for page in section.pages %}
-                    <article class="archive-item">
+                    {% for page in paginator.pages %}
+                    <article class="archive-item box">
                         <div class="columns is-vcentered">
                             <div class="column is-narrow">
                                 <div class="archive-date">
-                                    <span class="tag is-large">{{ page.date | date(format="%b %Y") }}</span>
+                                    {% if page.extra.date %}
+                                        <span class="tag is-large is-php">{{ page.extra.date | date(format="%b %Y") }}</span>
+                                    {% endif %}
                                 </div>
                             </div>
                             <div class="column">
                                 <h3 class="title is-4">
                                     <a href="{{ page.permalink }}">{{ page.title }}</a>
                                 </h3>
-                                <p class="subtitle is-6">{{ page.date | date(format="%B %d, %Y") }}</p>
+                                {% if page.extra.date %}
+                                <p class="subtitle is-6">{{ page.extra.date | date(format="%B %d, %Y") }}</p>
+                                {% endif %}
+                                {% if page.extra.location %}
+                                <p class="subtitle is-6">📍 {{ page.extra.location }}</p>
+                                {% endif %}
                                 {% if page.description %}
                                 <div class="content">
                                     <p>{{ page.description }}</p>
                                 </div>
                                 {% endif %}
                                 
-                                {% if page.extra.speakers %}
+                                {% if page.taxonomies.speaker %}
                                 <div class="field is-grouped is-grouped-multiline">
                                     <div class="control">
                                         <span class="tag">
                                             <strong>Speakers:</strong>
                                         </span>
                                     </div>
-                                    {% for speaker in page.extra.speakers %}
+                                    {% for speaker in page.taxonomies.speaker %}
                                     <div class="control">
-                                        <span class="tag is-light">{{ speaker.name }}</span>
+                                        <a href="/speaker/{{ speaker | slugify }}/" class="tag is-magenta">{{ speaker }}</a>
                                     </div>
                                     {% endfor %}
                                 </div>
                                 {% endif %}
                                 
-                                {% if page.extra.tags %}
+                                {% if page.taxonomies.tags %}
                                 <div class="field is-grouped is-grouped-multiline">
-                                    {% for tag in page.extra.tags %}
                                     <div class="control">
-                                        <span class="tag is-php">{{ tag }}</span>
+                                        <span class="tag">
+                                            <strong>Topics:</strong>
+                                        </span>
+                                    </div>
+                                    {% for tag in page.taxonomies.tags %}
+                                    <div class="control">
+                                        <a href="/tags/{{ tag | slugify }}/" class="tag is-php">{{ tag }}</a>
                                     </div>
                                     {% endfor %}
                                 </div>
@@ -62,16 +72,33 @@
                                 <a class="button is-primary is-outlined" href="{{ page.permalink }}">
                                     <span>View Details</span>
                                 </a>
-                                {% if page.extra.slides %}
-                                <br><br>
-                                <span class="tag is-success">{{ page.extra.slides | length }} slide{% if page.extra.slides | length != 1 %}s{% endif %}</span>
-                                {% endif %}
                             </div>
                         </div>
                     </article>
-                    <hr>
                     {% endfor %}
                 </div>
+                
+                <!-- Pagination -->
+                {% if paginator %}
+                <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+                    {% if paginator.previous %}
+                        <a class="pagination-previous" href="{{ paginator.previous }}">Previous</a>
+                    {% endif %}
+                    {% if paginator.next %}
+                        <a class="pagination-next" href="{{ paginator.next }}">Next page</a>
+                    {% endif %}
+                    <ul class="pagination-list">
+                        {% for pager in range(start=1, end=paginator.number_pagers + 1) %}
+                            {% if pager == paginator.current_index %}
+                                <li><a class="pagination-link is-current" aria-label="Page {{ pager }}" aria-current="page">{{ pager }}</a></li>
+                            {% else %}
+                                <li><a class="pagination-link" aria-label="Goto page {{ pager }}" href="{% if pager == 1 %}/events/{% else %}/events/{{ pager }}/{% endif %}">{{ pager }}</a></li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </nav>
+                {% endif %}
+                
                 {% else %}
                 <div class="notification is-info">
                     <p>No meetups found. Check back soon for our upcoming events!</p>
@@ -83,32 +110,22 @@
                 <div class="box">
                     <h4 class="title is-4">Archive Stats</h4>
                     <div class="content">
-                        {% if section.pages %}
-                        <p><strong>{{ section.pages | length }}</strong> meetups archived</p>
-                        <p><strong>6+</strong> speakers total</p>
-                        <p><strong>4+</strong> slide decks</p>
+                        {% if paginator.pages %}
+                        <p><strong>{{ paginator.pages | length }}</strong> meetups on this page</p>
+                        <p><strong>Page {{ paginator.current_index }}</strong> of {{ paginator.number_pagers }}</p>
                         {% endif %}
                     </div>
                 </div>
                 
                 <div class="box">
-                    <h4 class="title is-4">Popular Topics</h4>
+                    <h4 class="title is-4">Browse by Category</h4>
                     <div class="content">
                         <div class="field is-grouped is-grouped-multiline">
                             <div class="control">
-                                <span class="tag is-php">Laravel</span>
+                                <a href="/speaker/" class="tag is-medium">👤 Speakers</a>
                             </div>
                             <div class="control">
-                                <span class="tag is-php">API</span>
-                            </div>
-                            <div class="control">
-                                <span class="tag is-php">Architecture</span>
-                            </div>
-                            <div class="control">
-                                <span class="tag is-php">Performance</span>
-                            </div>
-                            <div class="control">
-                                <span class="tag is-php">Testing</span>
+                                <a href="/tags/" class="tag is-medium">🏷️ Topics</a>
                             </div>
                         </div>
                     </div>
@@ -125,6 +142,12 @@
                 </div>
             </div>
         </div>
+        
+        {% if section.content %}
+        <div class="content has-text-centered" style="margin-top: 3rem;">
+            {{ section.content | safe }}
+        </div>
+        {% endif %}
     </div>
 </section>
 {% endblock content %}

@@ -1,0 +1,154 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="section">
+    <div class="container">
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/events/">Events</a></li>
+                <li><a href="/{{ taxonomy.name }}/">{{ taxonomy.name | title }}s</a></li>
+                <li class="is-active"><a href="#" aria-current="page">{{ term.name }}</a></li>
+            </ul>
+        </nav>
+        
+        <div class="columns">
+            <div class="column is-three-quarters">
+                <div class="content">
+                    <h1 class="title is-1">
+                        {% if taxonomy.name == "speaker" %}
+                        👤 {{ term.name }}
+                        {% else %}
+                        🏷️ {{ term.name }}
+                        {% endif %}
+                    </h1>
+                    <p class="subtitle">
+                        <strong>{{ term.pages | length }}</strong> event{% if term.pages | length != 1 %}s{% endif %} featuring this {{ taxonomy.name }}
+                    </p>
+                </div>
+                
+                {% if term.pages %}
+                <div class="archive-list">
+                    {% for page in term.pages %}
+                    <article class="archive-item box">
+                        <div class="columns is-vcentered">
+                            <div class="column is-narrow">
+                                <div class="archive-date">
+                                    {% if page.date %}
+                                        <span class="tag is-large is-php">{{ page.date | date(format="%b %Y") }}</span>
+                                    {% elif page.extra.date %}
+                                        <span class="tag is-large is-php">{{ page.extra.date | date(format="%b %Y") }}</span>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div class="column">
+                                <h3 class="title is-4">
+                                    <a href="{{ page.permalink }}">{{ page.title }}</a>
+                                </h3>
+                                {% if page.date %}
+                                <p class="subtitle is-6">{{ page.date | date(format="%B %d, %Y") }}</p>
+                                {% elif page.extra.date %}
+                                <p class="subtitle is-6">{{ page.extra.date | date(format="%B %d, %Y") }}</p>
+                                {% endif %}
+                                {% if page.extra.location %}
+                                <p class="subtitle is-6">📍 {{ page.extra.location }}</p>
+                                {% endif %}
+                                {% if page.description %}
+                                <div class="content">
+                                    <p>{{ page.description }}</p>
+                                </div>
+                                {% endif %}
+                                
+                                {% if page.taxonomies.speaker and taxonomy.name != "speaker" %}
+                                <div class="field is-grouped is-grouped-multiline">
+                                    <div class="control">
+                                        <span class="tag">
+                                            <strong>Speakers:</strong>
+                                        </span>
+                                    </div>
+                                    {% for speaker in page.taxonomies.speaker %}
+                                    <div class="control">
+                                        <a href="/speaker/{{ speaker | slugify }}/" class="tag is-magenta">{{ speaker }}</a>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                                
+                                {% if page.taxonomies.tags and taxonomy.name != "tags" %}
+                                <div class="field is-grouped is-grouped-multiline">
+                                    {% for tag in page.taxonomies.tags %}
+                                    <div class="control">
+                                        <a href="/tags/{{ tag | slugify }}/" class="tag is-php">{{ tag }}</a>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                            </div>
+                            <div class="column is-narrow">
+                                <a class="button is-primary is-outlined" href="{{ page.permalink }}">
+                                    <span>View Details</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <div class="notification is-info">
+                    <p>No events found for this {{ taxonomy.name }}.</p>
+                </div>
+                {% endif %}
+            </div>
+            
+            <div class="column">
+                <div class="box">
+                    <h4 class="title is-4">
+                        {% if taxonomy.name == "speaker" %}
+                        👤 About This Speaker
+                        {% else %}
+                        🏷️ About This Topic
+                        {% endif %}
+                    </h4>
+                    <div class="content">
+                        <p><strong>{{ term.name }}</strong></p>
+                        <p>{{ term.pages | length }} event{% if term.pages | length != 1 %}s{% endif %} in our archive</p>
+                        
+                        {% if taxonomy.name == "speaker" %}
+                        <span class="tag is-magenta">👤 Speaker</span>
+                        {% else %}
+                        <span class="tag is-php">🏷️ Topic</span>
+                        {% endif %}
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <h4 class="title is-4">📅 More Events</h4>
+                    <div class="content">
+                        <p>Browse more meetups in our archive.</p>
+                        <a class="button is-fullwidth is-primary" href="/events/">
+                            <span>View All Events</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <h4 class="title is-4">🔍 Browse More</h4>
+                    <div class="content">
+                        <div class="buttons">
+                            <a class="button is-fullwidth" href="/{{ taxonomy.name }}/">
+                                <span>← All {{ taxonomy.name | title }}s</span>
+                            </a>
+                            <a class="button is-fullwidth" href="/speaker/">
+                                <span>👤 All Speakers</span>
+                            </a>
+                            <a class="button is-fullwidth" href="/tags/">
+                                <span>🏷️ All Topics</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}

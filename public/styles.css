@@ -1,16 +1,23 @@
 /* Berlin PHP Custom Styles */
 
-/* Brand colors - https://coolors.co/333333-4f5b93-8892bf-f75900-f2f2f2 */
+/* Global link styling - remove all underlines */
+a, a:hover, a:focus, a:active {
+    text-decoration: none !important;
+}
+
+/* Brand colors - Berlin PHP Usergroup Color Palette */
 :root {
-    --dark-charcoal: #333333;
-    --dark-blue: #4F5B93;
-    --php-blue: #8892BF;
-    --orange-red: #F75900;
-    --light-gray: #F2F2F2;
+    --dark-charcoal: #333333;      /* Dark gray/black */
+    --dark-blue: #4F5B93;          /* Primary brand blue */
+    --php-blue: #8892BF;           /* Light PHP blue */
+    --orange-red: #F75900;         /* Bright orange accent */
+    --warning-yellow: #FFAA00;     /* Warning/highlight yellow */
+    --light-gray: #F2F2F2;         /* Background gray */
+    --dark-magenta-color: #793862; /* Speaker tags magenta */
     
     /* Legacy aliases for compatibility */
     --php-light-blue: #8892BF;
-    --berlin-red: #F75900;
+    --berlin-red: #e30613;
 }
 
 /* Custom navbar styling */
@@ -89,6 +96,39 @@
 .tag.is-php {
     background-color: var(--php-blue);
     color: white;
+}
+
+.tag.is-magenta {
+    background-color: var(--light-gray);
+    color: var(--dark-charcoal);
+    font-weight: 600;
+}
+
+/* Tag link hover effects - only for clickable tags */
+a.tag.is-php {
+    border: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+a.tag.is-php:hover {
+    border-color: var(--orange-red);
+    transform: translateY(-1px);
+}
+
+a.tag.is-magenta {
+    border: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+a.tag.is-magenta:hover {
+    border-color: var(--orange-red);
+    transform: translateY(-1px);
+}
+
+.tag.is-warning {
+    background-color: var(--warning-yellow);
+    color: var(--dark-charcoal);
+    font-weight: 600;
 }
 
 .tag.is-highlight {
@@ -277,10 +317,13 @@ pre {
 /* Links */
 a {
     color: var(--dark-blue);
+    text-decoration: none !important;
+    transition: all 0.2s ease;
 }
 
 a:hover {
     color: var(--php-blue);
+    text-decoration: none !important;
 }
 
 /* Navigation links */
@@ -291,14 +334,46 @@ a:hover {
 /* Content links */
 .content a {
     color: var(--dark-blue);
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: border-color 0.2s ease;
+    text-decoration: none !important;
+    padding: 2px 4px;
+    border-radius: 3px;
+    transition: all 0.2s ease;
 }
 
 .content a:hover {
-    color: var(--php-blue);
-    border-bottom-color: var(--php-blue);
+    color: white;
+    background-color: var(--php-blue);
+    text-decoration: none !important;
+}
+
+/* Event title links and other prominent links */
+.title a, .subtitle a {
+    color: inherit;
+    text-decoration: none;
+    padding: 2px 6px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    display: inline-block;
+}
+
+.title a:hover, .subtitle a:hover {
+    color: white;
+    background-color: var(--dark-blue);
+    transform: translateY(-1px);
+}
+
+/* Breadcrumb links */
+.breadcrumb a {
+    color: var(--dark-blue);
+    text-decoration: none;
+    padding: 2px 4px;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+}
+
+.breadcrumb a:hover {
+    color: white;
+    background-color: var(--php-blue);
 }
 
 /* Buttons - Primary for CTAs and highlights */

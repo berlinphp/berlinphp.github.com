@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="section">
+    <div class="container">
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/events/">Events</a></li>
+                <li class="is-active"><a href="#" aria-current="page">{{ page.date | date(format="%B %Y") }}</a></li>
+            </ul>
+        </nav>
+        
+        <div class="columns">
+            <div class="column is-three-quarters">
+                <article class="content">
+                    <h1 class="title is-1">{{ page.title }}</h1>
+                    
+                    <div class="columns is-mobile is-vcentered mb-5">
+                        {% if page.date %}
+                        <div class="column is-narrow">
+                            <span class="tag is-large is-php">📅 {{ page.date | date(format="%B %d, %Y") }}</span>
+                        </div>
+                        {% endif %}
+                        
+                        {% if page.extra.location %}
+                        <div class="column is-narrow">
+                            <span class="tag is-large">📍 {{ page.extra.location }}</span>
+                        </div>
+                        {% endif %}
+                    </div>
+                    
+                    {% if page.description %}
+                    <div class="notification is-light">
+                        <p class="is-size-5"><strong>{{ page.description }}</strong></p>
+                    </div>
+                    {% endif %}
+                    
+                    <div class="content">
+                        {{ page.content | safe }}
+                    </div>
+                </article>
+            </div>
+            
+            <div class="column">
+                {% if page.taxonomies.speaker %}
+                <div class="box">
+                    <h4 class="title is-4">👥 Speakers</h4>
+                    <div class="content">
+                        <div class="field is-grouped is-grouped-multiline">
+                            {% for speaker in page.taxonomies.speaker %}
+                            <div class="control">
+                                <a href="/speaker/{{ speaker | slugify }}/" class="tag is-magenta">{{ speaker }}</a>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                
+                {% if page.taxonomies.tags %}
+                <div class="box">
+                    <h4 class="title is-4">🏷️ Topics</h4>
+                    <div class="field is-grouped is-grouped-multiline">
+                        {% for tag in page.taxonomies.tags %}
+                        <div class="control">
+                            <a href="/tags/{{ tag | slugify }}/" class="tag is-php">{{ tag }}</a>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+                
+                <div class="box">
+                    <h4 class="title is-4">📅 More Events</h4>
+                    <div class="content">
+                        <p>Browse more meetups in our archive.</p>
+                        <a class="button is-fullwidth is-primary" href="/events/">
+                            <span>View All Events</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <h4 class="title is-4">📧 Stay Updated</h4>
+                    <div class="content">
+                        <p>Get notified about upcoming meetups.</p>
+                        <div class="buttons">
+                            <a class="button is-fullwidth" href="/feed.xml">
+                                <span>RSS Feed</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}

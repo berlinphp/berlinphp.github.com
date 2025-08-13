@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="section">
+    <div class="container">
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/events/">Events</a></li>
+                <li class="is-active"><a href="#" aria-current="page">{{ taxonomy.name | title }}s</a></li>
+            </ul>
+        </nav>
+        
+        <div class="content">
+            <h1 class="title is-1">
+                {% if taxonomy.name == "speaker" %}
+                👥 All Speakers
+                {% else %}
+                🏷️ All {{ taxonomy.name | title }}s
+                {% endif %}
+            </h1>
+            <p class="subtitle">Browse {{ taxonomy.name }}s from Berlin PHP events</p>
+        </div>
+        
+        <div class="columns is-multiline">
+            {% for term in terms %}
+            <div class="column is-one-third">
+                <div class="box">
+                    <div class="content">
+                        <h2 class="title is-4">
+                            <a href="{{ term.permalink }}">{{ term.name }}</a>
+                        </h2>
+                        <p class="subtitle is-6">
+                            <strong>{{ term.pages | length }}</strong> event{% if term.pages | length != 1 %}s{% endif %}
+                        </p>
+                        
+                        {% if taxonomy.name == "speaker" %}
+                        <span class="tag is-magenta">👤 Speaker</span>
+                        {% else %}
+                        <span class="tag is-php">🏷️ Topic</span>
+                        {% endif %}
+                        
+                        <div class="buttons is-right">
+                            <a href="{{ term.permalink }}" class="button is-primary is-outlined is-small">
+                                <span>View Events</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        
+        {% if terms | length == 0 %}
+        <div class="notification is-info">
+            <p>No {{ taxonomy.name }}s found yet. Check back soon as we add more events!</p>
+        </div>
+        {% endif %}
+        
+        <div class="content has-text-centered" style="margin-top: 3rem;">
+            <div class="buttons is-centered">
+                <a href="/events/" class="button is-primary">
+                    <span>← Back to All Events</span>
+                </a>
+                <a href="/feed.xml" class="button">
+                    <span>RSS Feed</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}
