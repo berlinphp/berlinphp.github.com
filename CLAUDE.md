@@ -47,7 +47,7 @@ date = "YYYY-MM-DD"
 
 [taxonomies]
 speaker = ["Speaker Name 1", "Speaker Name 2"]
-tags = ["Topic1", "Topic2"]
+topic = ["Topic1", "Topic2"]
 
 [extra]
 location = "Venue Name"
@@ -57,14 +57,14 @@ location = "Venue Name"
 ### Taxonomies System
 The site uses two main taxonomies defined in `config.toml`:
 - `speaker`: Links events by speakers (generates `/speaker/` pages)  
-- `tags`: Links events by topics (generates `/tags/` pages)
+- `topic`: Links events by topics (generates `/topic/` pages)
 
 ### Template Architecture
 - `base.html`: Main layout with Bulma navbar, footer, meta tags
 - `events.html`: Event listing with pagination and sidebar
 - `event.html`: Individual event page template
 - `taxonomy_list.html`: Lists all speakers/tags
-- `taxonomy_single.html`: Shows all events for a specific speaker/tag
+- `taxonomy_single.html`: Shows all events for a specific speaker/topic
 
 ## CSS Framework: Bulma Only
 
@@ -115,7 +115,7 @@ When migrating events from old Jekyll site (`/home/dazz/Code/berlinphp/berlinphp
 ## Configuration Notes
 
 **config.toml Key Settings:**
-- Taxonomies: `speaker` and `tags` with RSS feeds enabled
+- Taxonomies: `speaker` and `topic` with RSS feeds enabled
 - Pagination: Events paginated at 20 per page
 - Feeds: RSS enabled for main content and taxonomies
 - Social: Mastodon, GitHub, Flickr integration configured
@@ -140,7 +140,7 @@ When migrating events from old Jekyll site (`/home/dazz/Code/berlinphp/berlinphp
 - `/`: Homepage with hero and recent events
 - `/events/`: Paginated archive of all meetups
 - `/speaker/`: Taxonomy pages for speakers
-- `/tags/`: Taxonomy pages for topics
+- `/topic/`: Taxonomy pages for topics
 - `/pages/`: Static pages (contact, imprint, etc.)
 
 **Static Assets in `/static/`:**

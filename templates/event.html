@@ -58,13 +58,13 @@
                 </div>
                 {% endif %}
                 
-                {% if page.taxonomies.tags %}
+                {% if page.taxonomies.topic %}
                 <div class="box">
                     <h4 class="title is-4">🏷️ Topics</h4>
                     <div class="field is-grouped is-grouped-multiline">
-                        {% for tag in page.taxonomies.tags %}
+                        {% for topic in page.taxonomies.topic %}
                         <div class="control">
-                            <a href="/tags/{{ tag | slugify }}/" class="tag is-php">{{ tag }}</a>
+                            <a href="/topic/{{ topic | slugify }}/" class="tag is-php">{{ topic }}</a>
                         </div>
                         {% endfor %}
                     </div>

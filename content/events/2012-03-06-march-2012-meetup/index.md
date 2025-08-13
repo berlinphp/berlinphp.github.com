@@ -5,7 +5,7 @@ date = "2012-03-06"
 
 [taxonomies]
 speaker = ["Daniel Fahlke", "Thomas Lohner", "Martin Rothenberger", "Fabian Blechschmidt", "Markus Will", "Nicole Cordes"]
-tags = ["E-commerce", "Shop Systems", "Sylius", "OXID", "Magento", "osCommerce", "TYPO3"]
+topic = ["E-commerce", "Shop Systems", "Sylius", "OXID", "Magento", "osCommerce", "TYPO3"]
 
 [extra]
 location = "co.up"
