@@ -5,7 +5,7 @@ date = "2013-03-05"
 
 [taxonomies]
 speaker = ["Michael Scholl", "Timon Schroeter", "Nikolas Martens"]
-topic = ["Zend Framework 2", "Application Development", "Symfony 2", "Forms", "Validators", "RDFa", "Template Animation", "Semantic Web"]
+topic = ["Zend Framework 2", "Application Development", "Symfony", "Forms", "Validators", "RDFa", "Template Animation", "Semantic Web"]
 
 [extra]
 location = "co.up Coworking Space, Adalbertstr. 7-8, 10999 Berlin"
