@@ -1,5 +1,5 @@
 +++
-title = "Meetup on March, 6th 2012 / Treffen am 6. März 2012"
+title = "Meetup on March, 6th 2012 // Treffen am 6. März 2012"
 description = "March 2012 meetup focused on shop systems with talks about various e-commerce platforms including Sylius, OXID, Magento, osCommerce, and TYPO3."
 date = "2012-03-06"
 
@@ -8,7 +8,7 @@ speaker = ["Daniel Fahlke", "Thomas Lohner", "Martin Rothenberger", "Fabian Blec
 topic = ["E-commerce", "Shop Systems", "Sylius", "OXID", "Magento", "osCommerce", "TYPO3"]
 
 [extra]
-location = "co.up"
+location = "co.up Coworking Space, Adalbertstr. 7-8, 10999 Berlin"
 +++
 
 ## English

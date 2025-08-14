@@ -8,7 +8,7 @@ speaker = ["Christoph Luehr", "Marc Bennewitz", "Martin Holzhauer", "Henri Bergi
 topic = ["pimcore", "Zend Framework 2", "PHP 5.4", "CreateJS"]
 
 [extra]
-location = "co.up"
+location = "co.up Coworking Space, Adalbertstr. 7-8, 10999 Berlin"
 +++
 
 ## English

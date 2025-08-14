@@ -115,6 +115,7 @@ When migrating events from old Jekyll site (`/home/dazz/Code/berlinphp/berlinphp
    - Examples: `2012-03-06-e-commerce-shop-systems/`, `2012-04-03-pimcore-zend-php54-createjs/`
 5. Preserve bilingual content (English + German sections), but in most cases the site will only display English content.
 6. **Link Replacements**: Replace `[co.up](http://www.bephpug.de/location.html)` links with plain text "co.up" - these external links are outdated and should be simplified to just the venue name.
+7. **Location Format**: Use full venue details in frontmatter: `location = "co.up Coworking Space, Adalbertstr. 7-8, 10999 Berlin"` instead of just "co.up" for better SEO and user information.
 
 ## Configuration Notes
 
