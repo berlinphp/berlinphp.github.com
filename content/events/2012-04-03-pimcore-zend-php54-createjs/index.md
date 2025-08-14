@@ -4,7 +4,7 @@ description = "April 2012 meetup featuring talks on pimcore CMS, Zend Framework 
 date = "2012-04-03"
 
 [taxonomies]
-speaker = ["Christoph Luehr", "Marc Bennewitz", "Martin Holzhauer", "Henri Bergius"]
+speaker = ["Christoph Lühr", "Marc Bennewitz", "Martin Holzhauer", "Henri Bergius"]
 topic = ["pimcore", "Zend Framework 2", "PHP 5.4", "CreateJS"]
 
 [extra]
@@ -13,7 +13,7 @@ location = "co.up Coworking Space, Adalbertstr. 7-8, 10999 Berlin"
 
 ## English
 
-* [pimcore](http://www.pimcore.org/) by Christoph Luehr
+* [pimcore](http://www.pimcore.org/) by Christoph Lühr
 * zf2 components: Zend\Cache, Zend\Serializer, Zend\EventManager, Zend\Stdlib\ErrorHandler by Marc Bennewitz
 * An Introduction to PHP 5.4 by Martin Holzhauer
 * [CreateJS](http://createjs.org/) by Henri Bergius
@@ -25,7 +25,7 @@ Looking forward to seeing all of you.
 
 ## Deutsch
 
-* [pimcore](http://www.pimcore.org/) von Christoph Luehr
+* [pimcore](http://www.pimcore.org/) von Christoph Lühr
 * zf2-Komponenten vorgestellt: Zend\Cache, Zend\Serializer, Zend\EventManager, Zend\Stdlib\ErrorHandler von Marc Bennewitz
 * Einführung in PHP 5.4 von Martin Holzhauer
 * Einführung in [CreateJS](http://createjs.org) von Henri Bergius

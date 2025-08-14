@@ -17,7 +17,9 @@
                         <div class="columns is-vcentered">
                             <div class="column is-narrow">
                                 <div class="archive-date">
-                                    {% if page.extra.date %}
+                                    {% if page.date %}
+                                        <span class="tag is-large is-php">{{ page.date | date(format="%b %Y") }}</span>
+                                    {% elif page.extra.date %}
                                         <span class="tag is-large is-php">{{ page.extra.date | date(format="%b %Y") }}</span>
                                     {% endif %}
                                 </div>
@@ -26,7 +28,9 @@
                                 <h3 class="title is-4">
                                     <a href="{{ page.permalink }}">{{ page.title }}</a>
                                 </h3>
-                                {% if page.extra.date %}
+                                {% if page.date %}
+                                <p class="subtitle is-6">{{ page.date | date(format="%B %d, %Y") }}</p>
+                                {% elif page.extra.date %}
                                 <p class="subtitle is-6">{{ page.extra.date | date(format="%B %d, %Y") }}</p>
                                 {% endif %}
                                 {% if page.extra.location %}
@@ -90,9 +94,9 @@
                     <ul class="pagination-list">
                         {% for pager in range(start=1, end=paginator.number_pagers + 1) %}
                             {% if pager == paginator.current_index %}
-                                <li><a class="pagination-link is-current" aria-label="Page {{ pager }}" aria-current="page">{{ pager }}</a></li>
+                                <li><a class="pagination-link is-current is-primary" aria-label="Page {{ pager }}" aria-current="page">{{ pager }}</a></li>
                             {% else %}
-                                <li><a class="pagination-link" aria-label="Goto page {{ pager }}" href="{% if pager == 1 %}/events/{% else %}/events/{{ pager }}/{% endif %}">{{ pager }}</a></li>
+                                <li><a class="pagination-link" aria-label="Goto page {{ pager }}" href="{% if pager == 1 %}/events/{% else %}/events/page/{{ pager }}/{% endif %}">{{ pager }}</a></li>
                             {% endif %}
                         {% endfor %}
                     </ul>

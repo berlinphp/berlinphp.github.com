@@ -116,6 +116,12 @@ When migrating events from old Jekyll site (`/home/dazz/Code/berlinphp/berlinphp
 5. Preserve bilingual content (English + German sections), but in most cases the site will only display English content.
 6. **Link Replacements**: Replace `[co.up](http://www.bephpug.de/location.html)` links with plain text "co.up" - these external links are outdated and should be simplified to just the venue name.
 7. **Location Format**: Use full venue details in frontmatter: `location = "co.up Coworking Space, Adalbertstr. 7-8, 10999 Berlin"` instead of just "co.up" for better SEO and user information.
+8. **HTML File Conversion**: Starting from June 2013, posts are in HTML format. Convert HTML structure to Markdown format while preserving content, apply same migration rules as MD files.
+   - Use individual talk sections: `## Talk 1: Title` (no bold formatting)
+   - Speaker name as linked line: `by [Speaker Name](twitter_link)` placed AFTER description if description exists, otherwise directly after title
+   - Include talk descriptions when available from HTML content
+   - No "English/Deutsch" section headers for HTML-converted events
+   - Skip empty slots, only create talks for filled content
 
 ## Configuration Notes
 

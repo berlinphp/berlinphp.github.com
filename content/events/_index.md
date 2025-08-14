@@ -4,5 +4,5 @@ description = "Archive of all Berlin PHP Usergroup meetups, talks, and presentat
 sort_by = "date"
 template = "events.html"
 page_template = "event.html"
-paginate_by = 20
+paginate_by = 10
 +++
