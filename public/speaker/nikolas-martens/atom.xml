@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Berlin PHP Usergroup - Nikolas Martens</title>
+    <subtitle>The Berlin PHP Usergroup community - Monthly meetups, talks, and networking for PHP developers in Berlin</subtitle>
+    <link rel="self" type="application/atom+xml" href="/speaker/nikolas-martens/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2014-02-04T00:00:00+00:00</updated>
+    <id>/speaker/nikolas-martens/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Meetup on the 4th of February, 2014</title>
+        <published>2014-02-04T00:00:00+00:00</published>
+        <updated>2014-02-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2014-02-04-abstract-machines-tdd-sudoku/"/>
+        <id>/events/2014-02-04-abstract-machines-tdd-sudoku/</id>
+        
+        <content type="html" xml:base="/events/2014-02-04-abstract-machines-tdd-sudoku/">&lt;h2 id=&quot;talk-1-abstract-machines&quot;&gt;Talk 1: Abstract Machines&lt;&#x2F;h2&gt;
+&lt;p&gt;From cellular automata to turing machines...&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;igorwhiletrue&quot;&gt;Igor Wiedler&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-small-steps-the-magic-of-tdd-sudoku-edition&quot;&gt;Talk 2: Small Steps - The Magic of TDD (sudoku edition)&lt;&#x2F;h2&gt;
+&lt;p&gt;Programming is magic! Watch live, as I make a &lt;a href=&quot;https:&#x2F;&#x2F;www.google.de&#x2F;search?q=sudoku+tdd&quot;&gt;Sudoku solver&lt;&#x2F;a&gt; jump out of an empty TDD hat.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;http:&#x2F;&#x2F;rtens.org&quot;&gt;Nikolas Martens&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 1st of October, 2013</title>
+        <published>2013-10-01T00:00:00+00:00</published>
+        <updated>2013-10-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2013-10-01-composer-plugins-tdd/"/>
+        <id>/events/2013-10-01-composer-plugins-tdd/</id>
+        
+        <content type="html" xml:base="/events/2013-10-01-composer-plugins-tdd/">&lt;h2 id=&quot;talk-1-extending-composer&quot;&gt;Talk 1: Extending composer&lt;&#x2F;h2&gt;
+&lt;p&gt;Introducing composer&#x27;s new plugin API with real-world use-cases.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;klimpong&quot;&gt;Till Klampäckel&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-small-steps-the-magic-of-tdd&quot;&gt;Talk 2: Small steps - the magic of TDD&lt;&#x2F;h2&gt;
+&lt;p&gt;In a live coding session, I will make an algorithmic problem solves itself using test-driven development.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;http:&#x2F;&#x2F;rtens.org&quot;&gt;Nikolas Martens&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 7th May, 2013 &#x2F;&#x2F; Treffen am 7. Mai, 2013</title>
+        <published>2013-05-07T00:00:00+00:00</published>
+        <updated>2013-05-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2013-05-07-bdd-tdd-testing/"/>
+        <id>/events/2013-05-07-bdd-tdd-testing/</id>
+        
+        <content type="html" xml:base="/events/2013-05-07-bdd-tdd-testing/">&lt;h2 id=&quot;english&quot;&gt;English&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;rtens.org&quot;&gt;Nikolas Martens&lt;&#x2F;a&gt;: BDD - TDD done right - &lt;a href=&quot;&#x2F;events&#x2F;2013-05-07-bdd-tdd-testing&#x2F;2013-05-07_BDD_to_the_point-Nikoas_Martens.pdf&quot;&gt;Slides&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;We meet at co.up as always, drinks are
+available for a small fee. The meetup starts at 7pm, talks start at 7:30pm.&lt;&#x2F;p&gt;
+&lt;p&gt;Looking forward to seeing all of you.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;deutsch&quot;&gt;Deutsch&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;rtens.org&quot;&gt;Nikolas Martens&lt;&#x2F;a&gt;: BDD - das bessere TDD - &lt;a href=&quot;&#x2F;events&#x2F;2013-05-07-bdd-tdd-testing&#x2F;2013-05-07_BDD_to_the_point-Nikoas_Martens.pdf&quot;&gt;Slides&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Wie immer treffen wir uns bei co.up,
+Getränke sind gegen ein kleines Entgelt zu haben.
+Wir treffen uns um 19:00 Uhr, die Vorträge beginnen gegen 19:30 Uhr.&lt;&#x2F;p&gt;
+&lt;p&gt;Wir freuen uns auf euch.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 5th March, 2013 &#x2F;&#x2F; Treffen am 5. März, 2013</title>
+        <published>2013-03-05T00:00:00+00:00</published>
+        <updated>2013-03-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2013-03-05-zf2-symfony-rdfa-templates/"/>
+        <id>/events/2013-03-05-zf2-symfony-rdfa-templates/</id>
+        
+        <content type="html" xml:base="/events/2013-03-05-zf2-symfony-rdfa-templates/">&lt;h2 id=&quot;english&quot;&gt;English&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;sch0ll.de&quot;&gt;Michael Scholl&lt;&#x2F;a&gt;: Application development with Zend Framework 2&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;www.php-schulung.de&quot;&gt;Timon Schroeter&lt;&#x2F;a&gt;: Introduction to Forms &amp;amp; Validators in Symfony 2&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;rtens&quot;&gt;Nikolas Martens&lt;&#x2F;a&gt;: Template Animation using RDFa&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;We meet at co.up as always, drinks are
+available for a small fee. The meetup starts at 7pm, talks start at 7:30pm.&lt;&#x2F;p&gt;
+&lt;p&gt;Looking forward to seeing all of you.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;deutsch&quot;&gt;Deutsch&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;sch0ll.de&quot;&gt;Michael Scholl&lt;&#x2F;a&gt;: Anwendungen mit Zend Framework 2 entwickeln&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;www.php-schulung.de&quot;&gt;Timon Schroeter&lt;&#x2F;a&gt;: Einführung in Formulare und Validatoren in Symfony 2&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;rtens&quot;&gt;Nikolas Martens&lt;&#x2F;a&gt;: Template Animationen mit RDFa&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Wie immer treffen wir uns bei co.up,
+Getränke sind gegen ein kleines Entgelt zu haben.
+Wir treffen uns um 19:00 Uhr, die Vorträge beginnen gegen 19:30 Uhr.&lt;&#x2F;p&gt;
+&lt;p&gt;Wir freuen uns auf euch.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 3rd July, 2012 &#x2F;&#x2F; Treffen am 3. Juli, 2012</title>
+        <published>2012-07-03T00:00:00+00:00</published>
+        <updated>2012-07-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2012-07-03-irc-couchbase-persistence-hashing/"/>
+        <id>/events/2012-07-03-irc-couchbase-persistence-hashing/</id>
+        
+        <content type="html" xml:base="/events/2012-07-03-irc-couchbase-persistence-hashing/">&lt;h2 id=&quot;english&quot;&gt;English&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Daniel Fahlke: Webbased IRC (including POC code)&lt;&#x2F;li&gt;
+&lt;li&gt;Jan Lehnardt:
+&lt;ul&gt;
+&lt;li&gt;Password Hashing Best Practices&lt;&#x2F;li&gt;
+&lt;li&gt;Introduction to &lt;a href=&quot;http:&#x2F;&#x2F;pecl.php.net&#x2F;package&#x2F;couchbase&quot;&gt;ext&#x2F;couchbase&lt;&#x2F;a&gt; - &lt;a href=&quot;&#x2F;events&#x2F;2012-07-03-irc-couchbase-persistence-hashing&#x2F;2012-07-03_Couchbase_andext_couchbase_BEPHPUG.pdf&quot;&gt;Slides&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Nikolas Martens: Walk the line - A relentless approach to transparent persistence&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;We meet at co.up as always, drinks are
+available for a small fee. The meetup starts at 7pm, talks start at 7:30pm.&lt;&#x2F;p&gt;
+&lt;p&gt;Looking forward to seeing all of you.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;deutsch&quot;&gt;Deutsch&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Daniel Fahlke: IRC für den Browser (Mit Beispiel-Code!)&lt;&#x2F;li&gt;
+&lt;li&gt;Jan Lehnardt:
+&lt;ul&gt;
+&lt;li&gt;Passwörter richtig verschlüsseln&lt;&#x2F;li&gt;
+&lt;li&gt;Einführung in &lt;a href=&quot;http:&#x2F;&#x2F;pecl.php.net&#x2F;package&#x2F;couchbase&quot;&gt;ext&#x2F;couchbase&lt;&#x2F;a&gt; - &lt;a href=&quot;&#x2F;events&#x2F;2012-07-03-irc-couchbase-persistence-hashing&#x2F;2012-07-03_Couchbase_andext_couchbase_BEPHPUG.pdf&quot;&gt;Slides&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Nikolas Martens: Walk the line - Ein kompromissloser Ansatz für transparente Persistenz&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Wie immer treffen wir uns bei co.up,
+Getränke sind gegen ein kleines Entgelt zu haben.
+Wir treffen uns um 19:00 Uhr, die Vorträge beginnen gegen 19:30 Uhr.&lt;&#x2F;p&gt;
+&lt;p&gt;Wir freuen uns auf euch.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

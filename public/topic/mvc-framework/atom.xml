@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Berlin PHP Usergroup - MVC Framework</title>
+    <subtitle>The Berlin PHP Usergroup community - Monthly meetups, talks, and networking for PHP developers in Berlin</subtitle>
+    <link rel="self" type="application/atom+xml" href="/topic/mvc-framework/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2014-03-04T00:00:00+00:00</updated>
+    <id>/topic/mvc-framework/atom.xml</id>
+    <entry xml:lang="en">
+        <title>PHP Framework Special - Meetup on the 4th of March, 2014</title>
+        <published>2014-03-04T00:00:00+00:00</published>
+        <updated>2014-03-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2014-03-04-php-framework-special/"/>
+        <id>/events/2014-03-04-php-framework-special/</id>
+        
+        <content type="html" xml:base="/events/2014-03-04-php-framework-special/">&lt;h2 id=&quot;talk-1-symfony2&quot;&gt;Talk 1: Symfony2&lt;&#x2F;h2&gt;
+&lt;p&gt;A brief introduction to Symfony2, the popular PHP MVC framework&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;http:&#x2F;&#x2F;eike.se&#x2F;nd&quot;&gt;Eike Send&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-magento-as-a-framework&quot;&gt;Talk 2: Magento as a Framework&lt;&#x2F;h2&gt;
+&lt;p&gt;A brief introduction to Magento, the popular e-commerce system, and why it is a very advanced framework&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;Flyingmana&quot;&gt;Daniel Fahlke aka Flyingmana&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-3-apigility&quot;&gt;Talk 3: Apigility&lt;&#x2F;h2&gt;
+&lt;p&gt;A short overview of the REST and RPC services generator framework. Apigility is based on ZF2.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;ridculy&quot;&gt;Jörg Ohnheiser&lt;&#x2F;a&gt;- &lt;a href=&quot;&#x2F;events&#x2F;2014-03-04-php-framework-special&#x2F;2014-03-04_Magento_as_a_framework.pdf&quot;&gt;Slides: 2014-03-04_Magento_as_a_framework.pdf&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

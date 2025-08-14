@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Berlin PHP Usergroup - Getters</title>
+    <subtitle>The Berlin PHP Usergroup community - Monthly meetups, talks, and networking for PHP developers in Berlin</subtitle>
+    <link rel="self" type="application/atom+xml" href="/topic/getters/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2019-12-03T00:00:00+00:00</updated>
+    <id>/topic/getters/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Meetup on the 3rd of December, 2019</title>
+        <published>2019-12-03T00:00:00+00:00</published>
+        <updated>2019-12-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2019-12-03-getters-setters-mocks/"/>
+        <id>/events/2019-12-03-getters-setters-mocks/</id>
+        
+        <content type="html" xml:base="/events/2019-12-03-getters-setters-mocks/">&lt;h2 id=&quot;talk-1-get-set-no&quot;&gt;Talk 1: Get, set... NO&lt;&#x2F;h2&gt;
+&lt;p&gt;Cargo cult programming is defined by Wikipedia as &quot;Ritual inclusion of code or program structures that serve no real purpose.&quot;&lt;&#x2F;p&gt;
+&lt;p&gt;One ritual, deeply embedded into the hearts and minds of many software developers is the creation of getters and setter on entities. It&#x27; so widespread that IDEs have tools to do it automatically.&lt;&#x2F;p&gt;
+&lt;p&gt;Why do we do it? Does it serve some purpose or is it just a cargo cult programming ritual?&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;konrad_126&quot;&gt;Zvonimir Spajic&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-5-ways-to-write-better-mocks&quot;&gt;Talk 2: 5 ways to write better mocks&lt;&#x2F;h2&gt;
+&lt;p&gt;Tips on how to write better test doubles (often referred to as mocks in PHP-land). Cats included.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;JeroenDeDauw&quot;&gt;Jeroen De Dauw&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

@@ -15,7 +15,7 @@ location = "co.up Coworking Space, Adalbertstr. 7-8, 10999 Berlin"
 
 Taking a closer look at how DI-Containers work by writing our own.
 
-by [Kai Sassnowski](https://kai-sassnowski.com)
+by [Kai Sassnowski](https://kai-sassnowski.com) - [Slides](https://github.com/ksassnowski/demystify-di-containers)
 
 ## Talk 2: Dockerized CI-Pipeline for PHP Applications
 
@@ -27,4 +27,4 @@ by [Bernd Alter](https://www.linkedin.com/in/bernd-alter-8a20b0122/) & [David Sa
 
 Virtualized PHP Environments
 
-by [Christoph Lühr](https://twitter.com/chluehr)
+by [Christoph Lühr](https://twitter.com/chluehr) - [Slides](https://speakerdeck.com/chluehr/lxd-system-containers-en)

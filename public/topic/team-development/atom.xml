@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Berlin PHP Usergroup - Team Development</title>
+    <subtitle>The Berlin PHP Usergroup community - Monthly meetups, talks, and networking for PHP developers in Berlin</subtitle>
+    <link rel="self" type="application/atom+xml" href="/topic/team-development/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-02-28T00:00:00+00:00</updated>
+    <id>/topic/team-development/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Specing out teamwork &amp; Composer Behind the Scenes</title>
+        <published>2025-02-28T00:00:00+00:00</published>
+        <updated>2025-02-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2025-02-28-teamwork-specs-composer-internals/"/>
+        <id>/events/2025-02-28-teamwork-specs-composer-internals/</id>
+        
+        <content type="html" xml:base="/events/2025-02-28-teamwork-specs-composer-internals/">&lt;h2 id=&quot;talk-1-specing-out-teamwork&quot;&gt;Talk 1: Specing out teamwork&lt;&#x2F;h2&gt;
+&lt;p&gt;Strategies for Symfony team development practices. Team processes, collaboration, delivery improvements.&lt;&#x2F;p&gt;
+&lt;p&gt;by Stiven Llupa&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-composer-behind-the-scenes&quot;&gt;Talk 2: Composer Behind the Scenes&lt;&#x2F;h2&gt;
+&lt;p&gt;Composer&#x27;s inner workings and future plans. Update processes, performance improvements.&lt;&#x2F;p&gt;
+&lt;p&gt;by Nils Adermann&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

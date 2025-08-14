@@ -17,7 +17,7 @@ Git is a standard tool for version control these days so we all use it daily. An
 
 Let's face it - git is hard. And one of the main reasons for this is that it's UI is full of leaky abstractions. That is why to get comfortable with git one must gain some understanding of how git works "under the hood". So in this talk, we're gonna do exactly that and see how gits data model works, how git handles branching and what staging area really is.
 
-by [Zvonimir Spajic](https://twitter.com/konrad_126)
+by [Zvonimir Spajic](https://twitter.com/konrad_126) - [Slides](https://slides.com/konrad126/understanding-git-12#/)
 
 ## Talk 2: Mutation Testing!
 
@@ -25,10 +25,10 @@ Have you ever wanted to testing super powers? Well mutations could be your ticke
 
 In this talk we'll be looking at how to check your unit tests rock or suck. We'll be using mutation testing to test your test. A must know for anyone who comes into contact with unit tests.
 
-by [Billie Thompson](https://twitter.com/PurpleBooth)
+by [Billie Thompson](https://twitter.com/PurpleBooth) - [Slides](https://docs.google.com/presentation/d/19Rxj6yAR_gT6zHD10zwjC20Lf7NSz85BzMHHNoYJcmU/edit?usp=sharing)
 
 ## Talk 3: Introduction to Frontend Testing
 
 With Puppeteer and Jest
 
-by [Daniel Fahlke](https://twitter.com/Flyingmana)
+by [Daniel Fahlke](https://twitter.com/Flyingmana)- [Slides: 2019-11_Frontend_testing_automation.pdf](2019-11_Frontend_testing_automation.pdf)

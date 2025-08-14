@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Berlin PHP Usergroup - Daniel Fahlke</title>
+    <subtitle>The Berlin PHP Usergroup community - Monthly meetups, talks, and networking for PHP developers in Berlin</subtitle>
+    <link rel="self" type="application/atom+xml" href="/speaker/daniel-fahlke/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2019-11-05T00:00:00+00:00</updated>
+    <id>/speaker/daniel-fahlke/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Meetup on the 5th of November, 2019</title>
+        <published>2019-11-05T00:00:00+00:00</published>
+        <updated>2019-11-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2019-11-05-git-mutation-testing-frontend/"/>
+        <id>/events/2019-11-05-git-mutation-testing-frontend/</id>
+        
+        <content type="html" xml:base="/events/2019-11-05-git-mutation-testing-frontend/">&lt;h2 id=&quot;talk-1-understanding-git&quot;&gt;Talk 1: Understanding Git&lt;&#x2F;h2&gt;
+&lt;p&gt;Git is a standard tool for version control these days so we all use it daily. And we all understand it. Or do we?&lt;&#x2F;p&gt;
+&lt;p&gt;Let&#x27;s face it - git is hard. And one of the main reasons for this is that it&#x27;s UI is full of leaky abstractions. That is why to get comfortable with git one must gain some understanding of how git works &quot;under the hood&quot;. So in this talk, we&#x27;re gonna do exactly that and see how gits data model works, how git handles branching and what staging area really is.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;konrad_126&quot;&gt;Zvonimir Spajic&lt;&#x2F;a&gt; - &lt;a href=&quot;https:&#x2F;&#x2F;slides.com&#x2F;konrad126&#x2F;understanding-git-12#&#x2F;&quot;&gt;Slides&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-mutation-testing&quot;&gt;Talk 2: Mutation Testing!&lt;&#x2F;h2&gt;
+&lt;p&gt;Have you ever wanted to testing super powers? Well mutations could be your ticket!&lt;&#x2F;p&gt;
+&lt;p&gt;In this talk we&#x27;ll be looking at how to check your unit tests rock or suck. We&#x27;ll be using mutation testing to test your test. A must know for anyone who comes into contact with unit tests.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;PurpleBooth&quot;&gt;Billie Thompson&lt;&#x2F;a&gt; - &lt;a href=&quot;https:&#x2F;&#x2F;docs.google.com&#x2F;presentation&#x2F;d&#x2F;19Rxj6yAR_gT6zHD10zwjC20Lf7NSz85BzMHHNoYJcmU&#x2F;edit?usp=sharing&quot;&gt;Slides&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-3-introduction-to-frontend-testing&quot;&gt;Talk 3: Introduction to Frontend Testing&lt;&#x2F;h2&gt;
+&lt;p&gt;With Puppeteer and Jest&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;Flyingmana&quot;&gt;Daniel Fahlke&lt;&#x2F;a&gt;- &lt;a href=&quot;&#x2F;events&#x2F;2019-11-05-git-mutation-testing-frontend&#x2F;2019-11_Frontend_testing_automation.pdf&quot;&gt;Slides: 2019-11_Frontend_testing_automation.pdf&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 3rd of July, 2018</title>
+        <published>2018-07-03T00:00:00+00:00</published>
+        <updated>2018-07-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2018-07-03-symfony-flex-php-next-women-it/"/>
+        <id>/events/2018-07-03-symfony-flex-php-next-women-it/</id>
+        
+        <content type="html" xml:base="/events/2018-07-03-symfony-flex-php-next-women-it/">&lt;h2 id=&quot;talk-1-migrating-to-symfony-flex&quot;&gt;Talk 1: Migrating to Symfony Flex&lt;&#x2F;h2&gt;
+&lt;p&gt;A quick walkthrough for upgrading your Symfony 2&#x2F;3 application to the new Flex structure&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;dbrumann&quot;&gt;Denis Brumann&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-php-next&quot;&gt;Talk 2: PHP Next&lt;&#x2F;h2&gt;
+&lt;p&gt;What will be hot and new in PHP!&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;woodworker&quot;&gt;Martin Holzhauer&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-3-woman-in-it&quot;&gt;Talk 3: Woman in IT&lt;&#x2F;h2&gt;
+&lt;p&gt;A History 101&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;Flyingmana&quot;&gt;Daniel Fahlke&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 5th of December, 2017</title>
+        <published>2017-12-05T00:00:00+00:00</published>
+        <updated>2017-12-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2017-12-05-recruiting-microcaching/"/>
+        <id>/events/2017-12-05-recruiting-microcaching/</id>
+        
+        <content type="html" xml:base="/events/2017-12-05-recruiting-microcaching/">&lt;h2 id=&quot;talk-1-recruiting-recruiter-and-how-to-find-developers&quot;&gt;Talk 1: Recruiting, Recruiter, and how to find Developers&lt;&#x2F;h2&gt;
+&lt;p&gt;Learn about all sides of the table, and how to solve this problem&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;Flyingmana&quot;&gt;Daniel Fahlke&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-microcaching&quot;&gt;Talk 2: Microcaching&lt;&#x2F;h2&gt;
+&lt;p&gt;For when all else fails …&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;mailto:webmaster@dasourcerer.net&quot;&gt;Stephan Hohmann&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 7th of February, 2017</title>
+        <published>2017-02-07T00:00:00+00:00</published>
+        <updated>2017-02-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2017-02-07-clean-architecture-silex-data-types/"/>
+        <id>/events/2017-02-07-clean-architecture-silex-data-types/</id>
+        
+        <content type="html" xml:base="/events/2017-02-07-clean-architecture-silex-data-types/">&lt;h2 id=&quot;talk-1-implementing-the-clean-architecture&quot;&gt;Talk 1: Implementing the Clean Architecture&lt;&#x2F;h2&gt;
+&lt;p&gt;Story of using the CC in an OS PHP project. &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;JeroenDeDauw&#x2F;fun-architecture&#x2F;blob&#x2F;master&#x2F;README.md&quot;&gt;read the abstract&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;www.entropywins.wtf&#x2F;&quot;&gt;@JeroenDeDauw&lt;&#x2F;a&gt; from &lt;a href=&quot;https:&#x2F;&#x2F;wikimedia.de&quot;&gt;@WikimediaDE&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-silex-2&quot;&gt;Talk 2: Silex 2&lt;&#x2F;h2&gt;
+&lt;p&gt;Whats New, Whats different, how to implement User Accounts&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;Flyingmana&quot;&gt;Daniel Fahlke aka @Flyingmana&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-3-a-beginner-s-guide-to-complex-data-types&quot;&gt;Talk 3: A Beginner&#x27;s guide to Complex Data Types&lt;&#x2F;h2&gt;
+&lt;p&gt;An introduction on how to spot composite types hiding in your code and ways to model and persist them&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;dbrumann&quot;&gt;Denis Brumann&lt;&#x2F;a&gt;- &lt;a href=&quot;&#x2F;events&#x2F;2017-02-07-clean-architecture-silex-data-types&#x2F;2017-02_Silex_2_and_user_support.pdf&quot;&gt;Slides: 2017-02_Silex_2_and_user_support.pdf&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 1st of November, 2016</title>
+        <published>2016-11-01T00:00:00+00:00</published>
+        <updated>2016-11-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2016-11-01-soap-siesta-orm-github-archive/"/>
+        <id>/events/2016-11-01-soap-siesta-orm-github-archive/</id>
+        
+        <content type="html" xml:base="/events/2016-11-01-soap-siesta-orm-github-archive/">&lt;h2 id=&quot;talk-1-soap-is-beautiful-again&quot;&gt;Talk 1: SOAP is beautiful (again)&lt;&#x2F;h2&gt;
+&lt;p&gt;Enjoy using legacy SOAP webservices with a brand new SOAP client&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;goetas_asmir&quot;&gt;Asmir Mustafic&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-siesta-orm-slides-for-php7&quot;&gt;Talk 2: Siesta ORM - &lt;a href=&quot;&#x2F;events&#x2F;2016-11-01-soap-siesta-orm-github-archive&#x2F;siesta.pdf&quot;&gt;Slides&lt;&#x2F;a&gt; for php7&lt;&#x2F;h2&gt;
+&lt;p&gt;Stored procedure based object relational mapper for php7&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;gperler.github.io&quot;&gt;Gregor Müller&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-3-parse-the-githubarchive-for-fun-slides-improvised&quot;&gt;Talk 3: Parse the GithubArchive for Fun - &lt;a href=&quot;&#x2F;events&#x2F;2016-11-01-soap-siesta-orm-github-archive&#x2F;201611_Parse_the_GithubArchive_for_Fun.pdf&quot;&gt;Slides&lt;&#x2F;a&gt; (improvised)&lt;&#x2F;h2&gt;
+&lt;p&gt;What Data it has, where it comes from, and how to play with it.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;flyingmana&quot;&gt;Daniel Fahlke aka Flyingmana&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 4th of October, 2016</title>
+        <published>2016-10-04T00:00:00+00:00</published>
+        <updated>2016-10-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2016-10-04-soap-github-archive/"/>
+        <id>/events/2016-10-04-soap-github-archive/</id>
+        
+        <content type="html" xml:base="/events/2016-10-04-soap-github-archive/">&lt;h2 id=&quot;talk-1-soap-is-beautiful-again&quot;&gt;Talk 1: SOAP is beautiful (again)&lt;&#x2F;h2&gt;
+&lt;p&gt;Enjoy using legacy SOAP webservices with a brand new SOAP client&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;goetas_asmir&quot;&gt;Asmir Mustafic&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-parse-the-githubarchive-for-fun-improvised&quot;&gt;Talk 2: Parse the GithubArchive for Fun (improvised)&lt;&#x2F;h2&gt;
+&lt;p&gt;What Data it has, where it comes from, and how to play with it.&lt;&#x2F;p&gt;
+&lt;p&gt;by Daniel Fahlke aka Flyingmana&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 4th of August, 2015</title>
+        <published>2015-08-04T00:00:00+00:00</published>
+        <updated>2015-08-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2015-08-04-composer-package-development/"/>
+        <id>/events/2015-08-04-composer-package-development/</id>
+        
+        <content type="html" xml:base="/events/2015-08-04-composer-package-development/">&lt;h2 id=&quot;talk-1-creating-composer-packages&quot;&gt;Talk 1: Creating Composer Packages&lt;&#x2F;h2&gt;
+&lt;p&gt;Best practices for developing and distributing PHP packages.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;Flyingmana&quot;&gt;Daniel Fahlke aka Flyingmana&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-library-design-principles&quot;&gt;Talk 2: Library Design Principles&lt;&#x2F;h2&gt;
+&lt;p&gt;Building reusable and maintainable PHP libraries.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;ircmaxell&quot;&gt;Anthony Ferrara&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 3rd of March, 2015</title>
+        <published>2015-03-03T00:00:00+00:00</published>
+        <updated>2015-03-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2015-03-03-elasticsearch-git-workflows/"/>
+        <id>/events/2015-03-03-elasticsearch-git-workflows/</id>
+        
+        <content type="html" xml:base="/events/2015-03-03-elasticsearch-git-workflows/">&lt;h2 id=&quot;talk-1-advanced-elasticsearch&quot;&gt;Talk 1: Advanced Elasticsearch&lt;&#x2F;h2&gt;
+&lt;p&gt;Deep dive into search functionality and optimization.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;chluehr&quot;&gt;Christoph Lühr&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-git-workflows-for-teams&quot;&gt;Talk 2: Git Workflows for Teams&lt;&#x2F;h2&gt;
+&lt;p&gt;Effective branching strategies and collaboration patterns.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;Flyingmana&quot;&gt;Daniel Fahlke aka Flyingmana&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 2nd of September, 2014</title>
+        <published>2014-09-02T00:00:00+00:00</published>
+        <updated>2014-09-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2014-09-02-vagrant-ansible-deployment/"/>
+        <id>/events/2014-09-02-vagrant-ansible-deployment/</id>
+        
+        <content type="html" xml:base="/events/2014-09-02-vagrant-ansible-deployment/">&lt;h2 id=&quot;talk-1-vagrant-for-php-development&quot;&gt;Talk 1: Vagrant for PHP Development&lt;&#x2F;h2&gt;
+&lt;p&gt;Setting up consistent development environments with Vagrant.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;Flyingmana&quot;&gt;Daniel Fahlke aka Flyingmana&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-deployment-with-ansible&quot;&gt;Talk 2: Deployment with Ansible&lt;&#x2F;h2&gt;
+&lt;p&gt;Automating application deployment and server configuration.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;lampmi&quot;&gt;Michael Lämmermeyer&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-3-naming-things-considered-hard&quot;&gt;Talk 3: Naming Things Considered Hard&lt;&#x2F;h2&gt;
+&lt;p&gt;About creating meaning by giving a thing a context.&lt;&#x2F;p&gt;
+&lt;p&gt;Slides: &lt;a href=&quot;https:&#x2F;&#x2F;speakerdeck.com&#x2F;dazz&#x2F;nomen-est-omen-naming-things-considered-hard&quot;&gt;https:&#x2F;&#x2F;speakerdeck.com&#x2F;dazz&#x2F;nomen-est-omen-naming-things-considered-hard&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;by Anne-Julia Seitz&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 3rd of June, 2014</title>
+        <published>2014-06-03T00:00:00+00:00</published>
+        <updated>2014-06-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2014-06-03-webrtc-elasticsearch-rest/"/>
+        <id>/events/2014-06-03-webrtc-elasticsearch-rest/</id>
+        
+        <content type="html" xml:base="/events/2014-06-03-webrtc-elasticsearch-rest/">&lt;h2 id=&quot;talk-1-webrtc&quot;&gt;Talk 1: WebRTC&lt;&#x2F;h2&gt;
+&lt;p&gt;Real-time peer-to-peer communication in the browser.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;Flyingmana&quot;&gt;Daniel Fahlke aka Flyingmana&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-elasticsearch-for-php-developers&quot;&gt;Talk 2: Elasticsearch for PHP developers&lt;&#x2F;h2&gt;
+&lt;p&gt;How to integrate powerful search capabilities into your PHP applications.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;chluehr&quot;&gt;Christoph Lühr&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-3-rest-more-than-get-and-post&quot;&gt;Talk 3: REST - more than GET and POST&lt;&#x2F;h2&gt;
+&lt;p&gt;Understanding the full spectrum of HTTP methods and REST principles.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;klimpong&quot;&gt;Till Klampäckel&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 1st of April, 2014</title>
+        <published>2014-04-01T00:00:00+00:00</published>
+        <updated>2014-04-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2014-04-01-wtf-php-computers-april-fools/"/>
+        <id>/events/2014-04-01-wtf-php-computers-april-fools/</id>
+        
+        <content type="html" xml:base="/events/2014-04-01-wtf-php-computers-april-fools/">&lt;h2 id=&quot;talk-1-wtf-php&quot;&gt;Talk 1: WTF.php&lt;&#x2F;h2&gt;
+&lt;p&gt;This is wy we love PHP!&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;woodworker&quot;&gt;Martin Holzhauer&lt;&#x2F;a&gt; &amp;amp; &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;__edorian&quot;&gt;Volker Dusch&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-concrete-machines&quot;&gt;Talk 2: Concrete Machines&lt;&#x2F;h2&gt;
+&lt;p&gt;Computers!!! How do they work?&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;igorwhiletrue&quot;&gt;Igor Wiedler&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-3-how-to-write-php&quot;&gt;Talk 3: How to write PHP&lt;&#x2F;h2&gt;
+&lt;p&gt;nothing more&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;flyingmana&quot;&gt;Daniel Fahlke aka Flyingmana&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>PHP Framework Special - Meetup on the 4th of March, 2014</title>
+        <published>2014-03-04T00:00:00+00:00</published>
+        <updated>2014-03-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2014-03-04-php-framework-special/"/>
+        <id>/events/2014-03-04-php-framework-special/</id>
+        
+        <content type="html" xml:base="/events/2014-03-04-php-framework-special/">&lt;h2 id=&quot;talk-1-symfony2&quot;&gt;Talk 1: Symfony2&lt;&#x2F;h2&gt;
+&lt;p&gt;A brief introduction to Symfony2, the popular PHP MVC framework&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;http:&#x2F;&#x2F;eike.se&#x2F;nd&quot;&gt;Eike Send&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-magento-as-a-framework&quot;&gt;Talk 2: Magento as a Framework&lt;&#x2F;h2&gt;
+&lt;p&gt;A brief introduction to Magento, the popular e-commerce system, and why it is a very advanced framework&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;Flyingmana&quot;&gt;Daniel Fahlke aka Flyingmana&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-3-apigility&quot;&gt;Talk 3: Apigility&lt;&#x2F;h2&gt;
+&lt;p&gt;A short overview of the REST and RPC services generator framework. Apigility is based on ZF2.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;ridculy&quot;&gt;Jörg Ohnheiser&lt;&#x2F;a&gt;- &lt;a href=&quot;&#x2F;events&#x2F;2014-03-04-php-framework-special&#x2F;2014-03-04_Magento_as_a_framework.pdf&quot;&gt;Slides: 2014-03-04_Magento_as_a_framework.pdf&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 7th of January, 2014</title>
+        <published>2014-01-07T00:00:00+00:00</published>
+        <updated>2014-01-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2014-01-07-php-gtk-fishbowl/"/>
+        <id>/events/2014-01-07-php-gtk-fishbowl/</id>
+        
+        <content type="html" xml:base="/events/2014-01-07-php-gtk-fishbowl/">&lt;h2 id=&quot;talk-1-php-gtk-it-still-exists&quot;&gt;Talk 1: PHP-GTK - It still exists&lt;&#x2F;h2&gt;
+&lt;p&gt;What is GTK, how to get it working and how it looks. Also a look into the future of PHP GUI development.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;Flyingmana&quot;&gt;Daniel Fahlke aka Flyingmana&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-fishbowl&quot;&gt;Talk 2: Fishbowl&lt;&#x2F;h2&gt;
+&lt;p&gt;Let&#x27;s do a Fishbowl! Topic to be discussed at the meet-up!&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;klimpong&quot;&gt;Till Klampäckel&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 3rd July, 2012 &#x2F;&#x2F; Treffen am 3. Juli, 2012</title>
+        <published>2012-07-03T00:00:00+00:00</published>
+        <updated>2012-07-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2012-07-03-irc-couchbase-persistence-hashing/"/>
+        <id>/events/2012-07-03-irc-couchbase-persistence-hashing/</id>
+        
+        <content type="html" xml:base="/events/2012-07-03-irc-couchbase-persistence-hashing/">&lt;h2 id=&quot;english&quot;&gt;English&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Daniel Fahlke: Webbased IRC (including POC code)&lt;&#x2F;li&gt;
+&lt;li&gt;Jan Lehnardt:
+&lt;ul&gt;
+&lt;li&gt;Password Hashing Best Practices&lt;&#x2F;li&gt;
+&lt;li&gt;Introduction to &lt;a href=&quot;http:&#x2F;&#x2F;pecl.php.net&#x2F;package&#x2F;couchbase&quot;&gt;ext&#x2F;couchbase&lt;&#x2F;a&gt; - &lt;a href=&quot;&#x2F;events&#x2F;2012-07-03-irc-couchbase-persistence-hashing&#x2F;2012-07-03_Couchbase_andext_couchbase_BEPHPUG.pdf&quot;&gt;Slides&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Nikolas Martens: Walk the line - A relentless approach to transparent persistence&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;We meet at co.up as always, drinks are
+available for a small fee. The meetup starts at 7pm, talks start at 7:30pm.&lt;&#x2F;p&gt;
+&lt;p&gt;Looking forward to seeing all of you.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;deutsch&quot;&gt;Deutsch&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Daniel Fahlke: IRC für den Browser (Mit Beispiel-Code!)&lt;&#x2F;li&gt;
+&lt;li&gt;Jan Lehnardt:
+&lt;ul&gt;
+&lt;li&gt;Passwörter richtig verschlüsseln&lt;&#x2F;li&gt;
+&lt;li&gt;Einführung in &lt;a href=&quot;http:&#x2F;&#x2F;pecl.php.net&#x2F;package&#x2F;couchbase&quot;&gt;ext&#x2F;couchbase&lt;&#x2F;a&gt; - &lt;a href=&quot;&#x2F;events&#x2F;2012-07-03-irc-couchbase-persistence-hashing&#x2F;2012-07-03_Couchbase_andext_couchbase_BEPHPUG.pdf&quot;&gt;Slides&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Nikolas Martens: Walk the line - Ein kompromissloser Ansatz für transparente Persistenz&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Wie immer treffen wir uns bei co.up,
+Getränke sind gegen ein kleines Entgelt zu haben.
+Wir treffen uns um 19:00 Uhr, die Vorträge beginnen gegen 19:30 Uhr.&lt;&#x2F;p&gt;
+&lt;p&gt;Wir freuen uns auf euch.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on March, 6th 2012 &#x2F;&#x2F; Treffen am 6. März 2012</title>
+        <published>2012-03-06T00:00:00+00:00</published>
+        <updated>2012-03-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2012-03-06-e-commerce-systems/"/>
+        <id>/events/2012-03-06-e-commerce-systems/</id>
+        
+        <content type="html" xml:base="/events/2012-03-06-e-commerce-systems/">&lt;h2 id=&quot;english&quot;&gt;English&lt;&#x2F;h2&gt;
+&lt;p&gt;This month&#x27;s meetup has a focus on shop systems. Nearly everybody dealt with
+them at some point and there are countless e-commerce systems around.
+In several talks we try to give an overview of pros and cons of a handful
+shopping systems.&lt;&#x2F;p&gt;
+&lt;p&gt;So far the following shop systems will be presented:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&quot;Sylius&quot; by Daniel Fahlke&lt;&#x2F;li&gt;
+&lt;li&gt;&quot;OXID&quot; by Thomas Lohner - &lt;a href=&quot;&#x2F;events&#x2F;2012-03-06-e-commerce-systems&#x2F;2012-03-06_thomas.lohner_oxid.pdf&quot;&gt;Slides&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&quot;Magento Commerce &amp;amp; Magento Enterprise&quot; by Martin Rothenberger&lt;&#x2F;li&gt;
+&lt;li&gt;&quot;Preview to Magento 2&quot; by Fabian Blechschmidt&lt;&#x2F;li&gt;
+&lt;li&gt;&quot;osCommerce 2.x and a sneak peak into 3.x&quot; by Markus Will&lt;&#x2F;li&gt;
+&lt;li&gt;&quot;TYPO3 shopping solutions&quot; by Nicole Cordes&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;As usual the meetup will be at co.up
+and drinks will be available for a small fee. We&#x27;ll meet on March, 6th at 7pm,
+the talks start around 7:30pm.&lt;&#x2F;p&gt;
+&lt;p&gt;Happy to see you there!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;deutsch&quot;&gt;Deutsch&lt;&#x2F;h2&gt;
+&lt;p&gt;Nahezu jeder hat mal mit Shoppingsystemen zu tun gehabt oder immer noch damit
+zu tun und den Überblick über die Systeme zu behalten ist nahezu unmöglich.
+Das März Treffen versucht ein wenig Licht auf die Auswahl zu werfen und stellt
+einige Shopsysteme vor.&lt;&#x2F;p&gt;
+&lt;p&gt;Bisher haben wir folgende Vorträge:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&quot;Sylius&quot; von Daniel Fahlke&lt;&#x2F;li&gt;
+&lt;li&gt;&quot;OXID&quot; von Thomas Lohner - &lt;a href=&quot;&#x2F;events&#x2F;2012-03-06-e-commerce-systems&#x2F;2012-03-06_thomas.lohner_oxid.pdf&quot;&gt;Slides&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&quot;Magento Commerce &amp;amp; Magento Enterprise&quot; von Martin Rothenberger&lt;&#x2F;li&gt;
+&lt;li&gt;&quot;Preview to Magento 2&quot; von Fabian Blechschmidt&lt;&#x2F;li&gt;
+&lt;li&gt;&quot;osCommerce 2.x und Ausblick auf 3.x&quot; von Markus Will&lt;&#x2F;li&gt;
+&lt;li&gt;&quot;TYPO3 Shoplösungen&quot; von Nicole Cordes&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Wie immer treffen wir uns bei co.up,
+Getränke sind gegen ein kleines Entgelt zu haben. Wir treffen uns am 6. März um 19 Uhr,
+die Vorträge beginnen gegen 19:30.&lt;&#x2F;p&gt;
+&lt;p&gt;Wir freuen uns auf euch.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

@@ -21,7 +21,7 @@ shopping systems.
 So far the following shop systems will be presented:
 
 * "Sylius" by Daniel Fahlke
-* "OXID" by Thomas Lohner
+* "OXID" by Thomas Lohner - [Slides](2012-03-06_thomas.lohner_oxid.pdf)
 * "Magento Commerce & Magento Enterprise" by Martin Rothenberger
 * "Preview to Magento 2" by Fabian Blechschmidt
 * "osCommerce 2.x and a sneak peak into 3.x" by Markus Will
@@ -43,7 +43,7 @@ einige Shopsysteme vor.
 Bisher haben wir folgende Vorträge:
 
 * "Sylius" von Daniel Fahlke
-* "OXID" von Thomas Lohner
+* "OXID" von Thomas Lohner - [Slides](2012-03-06_thomas.lohner_oxid.pdf)
 * "Magento Commerce & Magento Enterprise" von Martin Rothenberger
 * "Preview to Magento 2" von Fabian Blechschmidt
 * "osCommerce 2.x und Ausblick auf 3.x" von Markus Will

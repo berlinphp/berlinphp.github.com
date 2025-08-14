@@ -68,7 +68,7 @@ Berlin PHP is organized by volunteers from the local PHP community:
 ### Core Team:
 
 - **Anne-Julia Seitz** - Event Organization & Community Management, all of it, but looking for support
-- **[Your Name]** - [Role/Responsibility]
+- **Your Name** - Role/Responsibility
 
 *Want to help organize? We're always looking for volunteers!*
 

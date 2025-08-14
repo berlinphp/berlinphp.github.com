@@ -27,4 +27,4 @@ by [Daniel Fahlke aka @Flyingmana](https://twitter.com/Flyingmana)
 
 An introduction on how to spot composite types hiding in your code and ways to model and persist them
 
-by [Denis Brumann](https://twitter.com/dbrumann)
+by [Denis Brumann](https://twitter.com/dbrumann)- [Slides: 2017-02_Silex_2_and_user_support.pdf](2017-02_Silex_2_and_user_support.pdf)

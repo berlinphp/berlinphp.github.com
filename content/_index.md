@@ -38,10 +38,10 @@ Whether you're a **seasoned PHP architect** or just **getting started** with web
 
 ### Meeting Format
 
-**When:** Usually third Thursday of each month  
-**Time:** 19:00 - 21:30 (7:00 - 9:30 PM)  
-**Where:** Co-Up Berlin, Adalbertstraße 8, 10999 Berlin  
-**Cost:** Free! Drinks and snacks provided  
+**When:** Usually a Wednesday of each month
+**Time:** 19:00 - 21:30 (7:00 - 9:30 PM)
+**Where:** Changing locations
+**Cost:** Free! Drinks and snacks provided
 **Languages:** All talks and discussions in English
 
 ### Get Involved

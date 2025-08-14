@@ -15,7 +15,7 @@ location = "co.up Coworking Space, Adalbertstr. 7-8, 10999 Berlin"
 
 * [Volker Dusch](http://twitter.com/__edorian): Nginx and php-fpm — the webserver you might actually like
 * [Till Klampäckel](http://twitter.com/klimpong): Using statsd to collect metrics in your applications, charting the results with Librato
-* [fortrabbit](http://fortrabbit.com/): Introduction to the PHP PaaS
+* [fortrabbit](http://fortrabbit.com/): Introduction to the PHP PaaS - [Slides](fortrabbit-bephpug-2012-11-s.pdf)
 * Gordon Franke: PHP libraries you should know
 
 We meet at co.up as always, drinks are

@@ -1,5 +1,5 @@
 +++
-title = "Previous Events"
+title = "Events"
 description = "Archive of all Berlin PHP Usergroup meetups, talks, and presentations. Browse our history of community events and technical content."
 sort_by = "date"
 template = "events.html"

@@ -13,7 +13,7 @@ location = "co.up Coworking Space, Adalbertstr. 7-8, 10999 Berlin"
 
 ## English
 
-* Michael Krenz: Cache Busting with PHP
+* Michael Krenz: Cache Busting with PHP - [Slides](asset_fingerprinting_with_php_demo_2012-08-07.pdf)
   * A short intro on "cache busting" or "asset fingerprinting", a technique from RoR that allows you to set far-future cache expiry dates for static files and still have the browser re-load them whenever they change. The same method can easily be used with PHP.
 * Leander Damme: Dependency management with Composer
   * Quick practical introduction to Composer: Managing your project dependencies, autoloading and installation.
@@ -25,7 +25,7 @@ Looking forward to seeing all of you.
 
 ## Deutsch
 
-* Michael Krenz: Cache Busting mit PHP
+* Michael Krenz: Cache Busting mit PHP - [Slides](asset_fingerprinting_with_php_demo_2012-08-07.pdf)
   * Kurze Einführung in "Cache-Busting" oder "Asset-Fingerprinting", ein aus RoR bekanntes Verfahren, bei dem statische Dateien so aufbereitet werden, dass sie trotz einem weit in der Zukunft liegenden Cache-Ablaufdatum bei jeder Änderung an der Datei erneut vom Browser geladen werden. Das Verfahren lässt sich leicht auf PHP übertragen.
 * Leander Damme: Dependency management mit Composer
   * Kurze praktische Einführung in Composer: Abhängigkeiten, Autoloading und installation.

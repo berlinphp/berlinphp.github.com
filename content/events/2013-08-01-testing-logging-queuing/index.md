@@ -27,4 +27,4 @@ by [Bastian Hofmann](https://twitter.com/BastianHofmann)
 
 What is queuing and why it improves your life? Introduction to offloading tasks with the new Bernard queue.
 
-by [Ulrich Kautz](https://twitter.com/ukautz)
+by [Ulrich Kautz](https://twitter.com/ukautz)- [Slides: chris-hartjes-why-you-cant-test.pdf](chris-hartjes-why-you-cant-test.pdf)

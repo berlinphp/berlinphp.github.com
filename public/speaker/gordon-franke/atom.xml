@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Berlin PHP Usergroup - Gordon Franke</title>
+    <subtitle>The Berlin PHP Usergroup community - Monthly meetups, talks, and networking for PHP developers in Berlin</subtitle>
+    <link rel="self" type="application/atom+xml" href="/speaker/gordon-franke/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2012-11-06T00:00:00+00:00</updated>
+    <id>/speaker/gordon-franke/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Meetup on the 6th November, 2012 &#x2F;&#x2F; Treffen am 6. November, 2012</title>
+        <published>2012-11-06T00:00:00+00:00</published>
+        <updated>2012-11-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2012-11-06-nginx-statsd-fortrabbit-libraries/"/>
+        <id>/events/2012-11-06-nginx-statsd-fortrabbit-libraries/</id>
+        
+        <content type="html" xml:base="/events/2012-11-06-nginx-statsd-fortrabbit-libraries/">&lt;h2 id=&quot;english&quot;&gt;English&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;twitter.com&#x2F;__edorian&quot;&gt;Volker Dusch&lt;&#x2F;a&gt;: Nginx and php-fpm — the webserver you might actually like&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;twitter.com&#x2F;klimpong&quot;&gt;Till Klampäckel&lt;&#x2F;a&gt;: Using statsd to collect metrics in your applications, charting the results with Librato&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;fortrabbit.com&#x2F;&quot;&gt;fortrabbit&lt;&#x2F;a&gt;: Introduction to the PHP PaaS - &lt;a href=&quot;&#x2F;events&#x2F;2012-11-06-nginx-statsd-fortrabbit-libraries&#x2F;fortrabbit-bephpug-2012-11-s.pdf&quot;&gt;Slides&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Gordon Franke: PHP libraries you should know&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;We meet at co.up as always, drinks are
+available for a small fee. The meetup starts at 7pm, talks start at 7:30pm.&lt;&#x2F;p&gt;
+&lt;p&gt;Looking forward to seeing all of you.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;deutsch&quot;&gt;Deutsch&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;twitter.com&#x2F;__edorian&quot;&gt;Volker Dusch&lt;&#x2F;a&gt;: Nginx und php-fpm&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;twitter.com&#x2F;klimpong&quot;&gt;Till Klampäckel&lt;&#x2F;a&gt;: Mit StatsD Metriken aus der Anwendungen sammeln, und mit Librato Graphen bauen&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;fortrabbit.com&#x2F;&quot;&gt;fortrabbit&lt;&#x2F;a&gt;: Vorstellung der Plattform&lt;&#x2F;li&gt;
+&lt;li&gt;Gordon Franke: PHP Bibliotheken die man kennen sollte&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Wie immer treffen wir uns bei co.up,
+Getränke sind gegen ein kleines Entgelt zu haben.
+Wir treffen uns um 19:00 Uhr, die Vorträge beginnen gegen 19:30 Uhr.&lt;&#x2F;p&gt;
+&lt;p&gt;Wir freuen uns auf euch.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

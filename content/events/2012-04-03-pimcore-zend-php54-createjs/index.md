@@ -13,9 +13,10 @@ location = "co.up Coworking Space, Adalbertstr. 7-8, 10999 Berlin"
 
 ## English
 
-* [pimcore](http://www.pimcore.org/) by Christoph Lühr
+* [pimcore](http://www.pimcore.org/) by Christoph Lühr - [Slides](chluehr-pimcore_primer-bephpug_201204.pdf)
 * zf2 components: Zend\Cache, Zend\Serializer, Zend\EventManager, Zend\Stdlib\ErrorHandler by Marc Bennewitz
 * An Introduction to PHP 5.4 by Martin Holzhauer
+* Secure Server-Side Password Storage - [Slides](2012-04-03-Secure-Server-Side-Password-Storage.pdf)
 * [CreateJS](http://createjs.org/) by Henri Bergius
 
 We meet at co.up as always, drinks are
@@ -25,9 +26,10 @@ Looking forward to seeing all of you.
 
 ## Deutsch
 
-* [pimcore](http://www.pimcore.org/) von Christoph Lühr
+* [pimcore](http://www.pimcore.org/) von Christoph Lühr - [Slides](chluehr-pimcore_primer-bephpug_201204.pdf)
 * zf2-Komponenten vorgestellt: Zend\Cache, Zend\Serializer, Zend\EventManager, Zend\Stdlib\ErrorHandler von Marc Bennewitz
 * Einführung in PHP 5.4 von Martin Holzhauer
+* Secure Server-Side Password Storage - [Slides](2012-04-03-Secure-Server-Side-Password-Storage.pdf)
 * Einführung in [CreateJS](http://createjs.org) von Henri Bergius
 
 Wie immer treffen wir uns bei co.up,

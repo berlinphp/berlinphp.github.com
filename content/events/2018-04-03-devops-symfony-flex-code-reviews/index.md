@@ -25,4 +25,4 @@ by [Sebastian Sellmeier](https://twitter.com/iSebTM)
 
 ## Talk 3: How code reviews should not be done
 
-by [Erik Witthauer](https://twitter.com/ewnx01)
+by [Erik Witthauer](https://twitter.com/ewnx01)- [Slides: 2018_04_03-devops_culture_lean_development.pdf](2018_04_03-devops_culture_lean_development.pdf)

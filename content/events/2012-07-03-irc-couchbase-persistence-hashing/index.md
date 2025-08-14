@@ -16,7 +16,7 @@ location = "co.up Coworking Space, Adalbertstr. 7-8, 10999 Berlin"
 * Daniel Fahlke: Webbased IRC (including POC code)
 * Jan Lehnardt:
   * Password Hashing Best Practices
-  * Introduction to [ext/couchbase](http://pecl.php.net/package/couchbase)
+  * Introduction to [ext/couchbase](http://pecl.php.net/package/couchbase) - [Slides](2012-07-03_Couchbase_andext_couchbase_BEPHPUG.pdf)
 * Nikolas Martens: Walk the line - A relentless approach to transparent persistence
 
 We meet at co.up as always, drinks are
@@ -29,7 +29,7 @@ Looking forward to seeing all of you.
 * Daniel Fahlke: IRC für den Browser (Mit Beispiel-Code!)
 * Jan Lehnardt:
   * Passwörter richtig verschlüsseln
-  * Einführung in [ext/couchbase](http://pecl.php.net/package/couchbase)
+  * Einführung in [ext/couchbase](http://pecl.php.net/package/couchbase) - [Slides](2012-07-03_Couchbase_andext_couchbase_BEPHPUG.pdf)
 * Nikolas Martens: Walk the line - Ein kompromissloser Ansatz für transparente Persistenz
 
 Wie immer treffen wir uns bei co.up,

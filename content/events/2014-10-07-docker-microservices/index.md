@@ -21,4 +21,4 @@ by [Igor Wiedler](https://twitter.com/igorwhiletrue)
 
 Breaking down monoliths into manageable services.
 
-by [Christian Lück](https://twitter.com/another_clue)
+by [Christian Lück](https://twitter.com/another_clue)- [Slides: 2014-10-07_rapid_protyping-nikolas_martens.zip](2014-10-07_rapid_protyping-nikolas_martens.zip)

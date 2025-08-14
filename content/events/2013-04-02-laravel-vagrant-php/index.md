@@ -14,7 +14,7 @@ location = "co.up Coworking Space, Adalbertstr. 7-8, 10999 Berlin"
 ## English
 
 * [Franz Liedke](http://www.develophp.org): Introduction to the Laravel framework
-* Christoph Lühr: Rags to Riches - Vagrant for PHP
+* Christoph Lühr: Rags to Riches - Vagrant for PHP - [Slides](chluehr-vagrant_for_php-bephpug_201304.pdf)
 
 We meet at co.up as always, drinks are
 available for a small fee. The meetup starts at 7pm, talks start at 7:30pm.
@@ -24,7 +24,7 @@ Looking forward to seeing all of you.
 ## Deutsch
 
 * [Franz Liedke](http://www.develophp.org): Einführung in das Laravel framework
-* Christoph Lühr: Rags to Riches - Vagrant for PHP
+* Christoph Lühr: Rags to Riches - Vagrant for PHP - [Slides](chluehr-vagrant_for_php-bephpug_201304.pdf)
 
 Wie immer treffen wir uns bei co.up,
 Getränke sind gegen ein kleines Entgelt zu haben.

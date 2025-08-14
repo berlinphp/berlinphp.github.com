@@ -5,7 +5,7 @@ date = "2014-03-04"
 
 [taxonomies]
 speaker = ["Eike Send", "Daniel Fahlke", "Jörg Ohnheiser"]
-topic = ["PHP Frameworks", "Symfony2", "MVC Framework", "Magento", "E-commerce Framework", "Apigility", "REST API", "RPC Services", "Zend Framework 2"]
+topic = ["PHP Frameworks", "Symfony", "MVC Framework", "Magento", "E-commerce Framework", "Apigility", "REST API", "RPC Services", "Zend Framework 2"]
 
 [extra]
 location = "co.up Coworking Space, Adalbertstr. 7-8, 10999 Berlin"
@@ -27,4 +27,4 @@ by [Daniel Fahlke aka Flyingmana](https://twitter.com/Flyingmana)
 
 A short overview of the REST and RPC services generator framework. Apigility is based on ZF2.
 
-by [Jörg Ohnheiser](https://twitter.com/ridculy)
+by [Jörg Ohnheiser](https://twitter.com/ridculy)- [Slides: 2014-03-04_Magento_as_a_framework.pdf](2014-03-04_Magento_as_a_framework.pdf)

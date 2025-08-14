@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Berlin PHP Usergroup - Dependency Management</title>
+    <subtitle>The Berlin PHP Usergroup community - Monthly meetups, talks, and networking for PHP developers in Berlin</subtitle>
+    <link rel="self" type="application/atom+xml" href="/topic/dependency-management/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2012-08-07T00:00:00+00:00</updated>
+    <id>/topic/dependency-management/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Meetup on the 7th August, 2012 &#x2F;&#x2F; Treffen am 7. August, 2012</title>
+        <published>2012-08-07T00:00:00+00:00</published>
+        <updated>2012-08-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2012-08-07-cache-busting-composer/"/>
+        <id>/events/2012-08-07-cache-busting-composer/</id>
+        
+        <content type="html" xml:base="/events/2012-08-07-cache-busting-composer/">&lt;h2 id=&quot;english&quot;&gt;English&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Michael Krenz: Cache Busting with PHP - &lt;a href=&quot;&#x2F;events&#x2F;2012-08-07-cache-busting-composer&#x2F;asset_fingerprinting_with_php_demo_2012-08-07.pdf&quot;&gt;Slides&lt;&#x2F;a&gt;
+&lt;ul&gt;
+&lt;li&gt;A short intro on &quot;cache busting&quot; or &quot;asset fingerprinting&quot;, a technique from RoR that allows you to set far-future cache expiry dates for static files and still have the browser re-load them whenever they change. The same method can easily be used with PHP.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Leander Damme: Dependency management with Composer
+&lt;ul&gt;
+&lt;li&gt;Quick practical introduction to Composer: Managing your project dependencies, autoloading and installation.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;We meet at co.up as always, drinks are
+available for a small fee. The meetup starts at 7pm, talks start at 7:30pm.&lt;&#x2F;p&gt;
+&lt;p&gt;Looking forward to seeing all of you.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;deutsch&quot;&gt;Deutsch&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Michael Krenz: Cache Busting mit PHP - &lt;a href=&quot;&#x2F;events&#x2F;2012-08-07-cache-busting-composer&#x2F;asset_fingerprinting_with_php_demo_2012-08-07.pdf&quot;&gt;Slides&lt;&#x2F;a&gt;
+&lt;ul&gt;
+&lt;li&gt;Kurze Einführung in &quot;Cache-Busting&quot; oder &quot;Asset-Fingerprinting&quot;, ein aus RoR bekanntes Verfahren, bei dem statische Dateien so aufbereitet werden, dass sie trotz einem weit in der Zukunft liegenden Cache-Ablaufdatum bei jeder Änderung an der Datei erneut vom Browser geladen werden. Das Verfahren lässt sich leicht auf PHP übertragen.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Leander Damme: Dependency management mit Composer
+&lt;ul&gt;
+&lt;li&gt;Kurze praktische Einführung in Composer: Abhängigkeiten, Autoloading und installation.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Wie immer treffen wir uns bei co.up,
+Getränke sind gegen ein kleines Entgelt zu haben.
+Wir treffen uns um 19:00 Uhr, die Vorträge beginnen gegen 19:30 Uhr.&lt;&#x2F;p&gt;
+&lt;p&gt;Wir freuen uns auf euch.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

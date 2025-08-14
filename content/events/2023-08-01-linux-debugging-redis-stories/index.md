@@ -21,4 +21,4 @@ by [Volker Dusch](https://phpc.social/@edorian)
 
 3 Redis short stories. 30000 requests per second. 3 lessons learned.
 
-by [Igor Wiedler](https://igor.io/)
+by [Igor Wiedler](https://igor.io/) - [Slides](https://speakerdeck.com/igorw/redis-bedtime-stories)

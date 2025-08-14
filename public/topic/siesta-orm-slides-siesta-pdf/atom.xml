@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Berlin PHP Usergroup - Siesta ORM - [Slides](siesta.pdf)</title>
+    <subtitle>The Berlin PHP Usergroup community - Monthly meetups, talks, and networking for PHP developers in Berlin</subtitle>
+    <link rel="self" type="application/atom+xml" href="/topic/siesta-orm-slides-siesta-pdf/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2016-11-01T00:00:00+00:00</updated>
+    <id>/topic/siesta-orm-slides-siesta-pdf/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Meetup on the 1st of November, 2016</title>
+        <published>2016-11-01T00:00:00+00:00</published>
+        <updated>2016-11-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2016-11-01-soap-siesta-orm-github-archive/"/>
+        <id>/events/2016-11-01-soap-siesta-orm-github-archive/</id>
+        
+        <content type="html" xml:base="/events/2016-11-01-soap-siesta-orm-github-archive/">&lt;h2 id=&quot;talk-1-soap-is-beautiful-again&quot;&gt;Talk 1: SOAP is beautiful (again)&lt;&#x2F;h2&gt;
+&lt;p&gt;Enjoy using legacy SOAP webservices with a brand new SOAP client&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;goetas_asmir&quot;&gt;Asmir Mustafic&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-siesta-orm-slides-for-php7&quot;&gt;Talk 2: Siesta ORM - &lt;a href=&quot;&#x2F;events&#x2F;2016-11-01-soap-siesta-orm-github-archive&#x2F;siesta.pdf&quot;&gt;Slides&lt;&#x2F;a&gt; for php7&lt;&#x2F;h2&gt;
+&lt;p&gt;Stored procedure based object relational mapper for php7&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;gperler.github.io&quot;&gt;Gregor Müller&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-3-parse-the-githubarchive-for-fun-slides-improvised&quot;&gt;Talk 3: Parse the GithubArchive for Fun - &lt;a href=&quot;&#x2F;events&#x2F;2016-11-01-soap-siesta-orm-github-archive&#x2F;201611_Parse_the_GithubArchive_for_Fun.pdf&quot;&gt;Slides&lt;&#x2F;a&gt; (improvised)&lt;&#x2F;h2&gt;
+&lt;p&gt;What Data it has, where it comes from, and how to play with it.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;flyingmana&quot;&gt;Daniel Fahlke aka Flyingmana&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

@@ -13,7 +13,7 @@ location = "co.up Coworking Space, Adalbertstr. 7-8, 10999 Berlin"
 
 ## English
 
-* [Nikolas Martens](http://rtens.org): BDD - TDD done right
+* [Nikolas Martens](http://rtens.org): BDD - TDD done right - [Slides](2013-05-07_BDD_to_the_point-Nikoas_Martens.pdf)
 
 We meet at co.up as always, drinks are
 available for a small fee. The meetup starts at 7pm, talks start at 7:30pm.
@@ -22,7 +22,7 @@ Looking forward to seeing all of you.
 
 ## Deutsch
 
-* [Nikolas Martens](http://rtens.org): BDD - das bessere TDD
+* [Nikolas Martens](http://rtens.org): BDD - das bessere TDD - [Slides](2013-05-07_BDD_to_the_point-Nikoas_Martens.pdf)
 
 Wie immer treffen wir uns bei co.up,
 Getränke sind gegen ein kleines Entgelt zu haben.

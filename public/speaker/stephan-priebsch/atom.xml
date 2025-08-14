@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Berlin PHP Usergroup - Stephan Priebsch</title>
+    <subtitle>The Berlin PHP Usergroup community - Monthly meetups, talks, and networking for PHP developers in Berlin</subtitle>
+    <link rel="self" type="application/atom+xml" href="/speaker/stephan-priebsch/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-09-17T00:00:00+00:00</updated>
+    <id>/speaker/stephan-priebsch/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Democratic Architecture &amp; TBA</title>
+        <published>2025-09-17T00:00:00+00:00</published>
+        <updated>2025-09-17T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2025-09-17-democratic-architecture/"/>
+        <id>/events/2025-09-17-democratic-architecture/</id>
+        
+        <content type="html" xml:base="/events/2025-09-17-democratic-architecture/">&lt;h2 id=&quot;talk-1-democratic-architecture&quot;&gt;Talk 1: Democratic Architecture&lt;&#x2F;h2&gt;
+&lt;p&gt;When we see architecture as a shared guide rather than a rigid blueprint, we can build systems that are both flexible and robust. This approach also encourages collaboration, where everyone contributes ideas instead of simply following top-down rules.
+By keeping the core architecture separate from the actual implementation, we can adapt more easily to new requirements and technologies—making sure the system remains useful in the long run and stays aligned with business goals.&lt;&#x2F;p&gt;
+&lt;p&gt;by Stephan Priebsch&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-tba&quot;&gt;Talk 2: tba&lt;&#x2F;h2&gt;
+&lt;p&gt;tba&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Berlin PHP Usergroup - Performance</title>
+    <subtitle>The Berlin PHP Usergroup community - Monthly meetups, talks, and networking for PHP developers in Berlin</subtitle>
+    <link rel="self" type="application/atom+xml" href="/topic/performance/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-07-23T00:00:00+00:00</updated>
+    <id>/topic/performance/atom.xml</id>
+    <entry xml:lang="en">
+        <title>What&#x27;s Coming in PHP 8.5 – A Talk with PHP 8.5 Release Manager Volker Dusch</title>
+        <published>2025-07-23T00:00:00+00:00</published>
+        <updated>2025-07-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2025-07-23-php-85-release/"/>
+        <id>/events/2025-07-23-php-85-release/</id>
+        
+        <content type="html" xml:base="/events/2025-07-23-php-85-release/">&lt;h2 id=&quot;talk-what-s-coming-in-php-8-5&quot;&gt;Talk: What&#x27;s Coming in PHP 8.5&lt;&#x2F;h2&gt;
+&lt;p&gt;Join Volker, PHP 8.5 Release Manager, talking about upcoming changes in PHP&#x27;s November 2025 release. We&#x27;ll discuss performance, new features, big ecosystem news, and how to easily deal with upcoming deprecations.&lt;&#x2F;p&gt;
+&lt;p&gt;by Volker Dusch&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;extended-q-a-session&quot;&gt;Extended Q&amp;amp;A Session&lt;&#x2F;h2&gt;
+&lt;p&gt;Extended Q&amp;amp;A session to discuss PHP 8.5 features, ecosystem updates, and community questions.&lt;&#x2F;p&gt;
+&lt;p&gt;by Volker Dusch&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Specing out teamwork &amp; Composer Behind the Scenes</title>
+        <published>2025-02-28T00:00:00+00:00</published>
+        <updated>2025-02-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2025-02-28-teamwork-specs-composer-internals/"/>
+        <id>/events/2025-02-28-teamwork-specs-composer-internals/</id>
+        
+        <content type="html" xml:base="/events/2025-02-28-teamwork-specs-composer-internals/">&lt;h2 id=&quot;talk-1-specing-out-teamwork&quot;&gt;Talk 1: Specing out teamwork&lt;&#x2F;h2&gt;
+&lt;p&gt;Strategies for Symfony team development practices. Team processes, collaboration, delivery improvements.&lt;&#x2F;p&gt;
+&lt;p&gt;by Stiven Llupa&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-composer-behind-the-scenes&quot;&gt;Talk 2: Composer Behind the Scenes&lt;&#x2F;h2&gt;
+&lt;p&gt;Composer&#x27;s inner workings and future plans. Update processes, performance improvements.&lt;&#x2F;p&gt;
+&lt;p&gt;by Nils Adermann&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 1st of August, 2023</title>
+        <published>2023-08-01T00:00:00+00:00</published>
+        <updated>2023-08-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2023-08-01-linux-debugging-redis-stories/"/>
+        <id>/events/2023-08-01-linux-debugging-redis-stories/</id>
+        
+        <content type="html" xml:base="/events/2023-08-01-linux-debugging-redis-stories/">&lt;h2 id=&quot;talk-1-linux-systems-tools-for-php-debugging&quot;&gt;Talk 1: Linux Systems Tools for PHP debugging&lt;&#x2F;h2&gt;
+&lt;p&gt;How to use Linux System tooling, like strace and gdb to debug your PHP code and look deeper into what&#x27;s going on than userland tools allow you to!&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;phpc.social&#x2F;@edorian&quot;&gt;Volker Dusch&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-redis-bedtime-stories&quot;&gt;Talk 2: Redis Bedtime Stories&lt;&#x2F;h2&gt;
+&lt;p&gt;3 Redis short stories. 30000 requests per second. 3 lessons learned.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;igor.io&#x2F;&quot;&gt;Igor Wiedler&lt;&#x2F;a&gt; - &lt;a href=&quot;https:&#x2F;&#x2F;speakerdeck.com&#x2F;igorw&#x2F;redis-bedtime-stories&quot;&gt;Slides&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 4th of February, 2020</title>
+        <published>2020-02-04T00:00:00+00:00</published>
+        <updated>2020-02-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2020-02-04-async-php/"/>
+        <id>/events/2020-02-04-async-php/</id>
+        
+        <content type="html" xml:base="/events/2020-02-04-async-php/">&lt;h2 id=&quot;talk-1-exploring-async-php&quot;&gt;Talk 1: Exploring Async PHP&lt;&#x2F;h2&gt;
+&lt;p&gt;As PHP programmers we are used to waiting for network I&#x2F;O, in general we may not even consider any other option. But why wait? Why not jump on board the Async bullet-train and experience life in the fast lane and give Go and NodeJS a run for the money. This talk will aim to make the audience aware of the benefits, opportunities, and pitfalls of asynchronous programming in PHP, and guide them through the native functionality, frameworks and PHP extensions though which it can be facilitated.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;dantleech&quot;&gt;Daniel Leech&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 4th of September, 2018</title>
+        <published>2018-09-04T00:00:00+00:00</published>
+        <updated>2018-09-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2018-09-04-wordpress-laravel-refactoring/"/>
+        <id>/events/2018-09-04-wordpress-laravel-refactoring/</id>
+        
+        <content type="html" xml:base="/events/2018-09-04-wordpress-laravel-refactoring/">&lt;h2 id=&quot;talk-1-ascending-to-the-rank-of-wordpress-developer&quot;&gt;Talk 1: Ascending to the Rank of WordPress Developer&lt;&#x2F;h2&gt;
+&lt;p&gt;Achieving high performance with technology agnostic component driven development.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;phil_bennett&quot;&gt;Philip Bennett&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-from-legacy-to-laravel-a-refactoring-journey&quot;&gt;Talk 2: From Legacy To Laravel: A Refactoring Journey&lt;&#x2F;h2&gt;
+&lt;p&gt;So you have a large, often messy, sometimes convoluted legacy PHP code base. There&#x27;s no framework, no routing, no templates. Hard to maintain, even harder to extend.&lt;&#x2F;p&gt;
+&lt;p&gt;So, how do you clean up your act? A complete rewrite? Almost certainly doomed to fail at a startup with limited resources, financial pressure and endless feature requests. Extract things step by step? Really hard with an entangled code base without sane boundaries.&lt;&#x2F;p&gt;
+&lt;p&gt;by Christopher Fuchs (ready2order)&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 5th of December, 2017</title>
+        <published>2017-12-05T00:00:00+00:00</published>
+        <updated>2017-12-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2017-12-05-recruiting-microcaching/"/>
+        <id>/events/2017-12-05-recruiting-microcaching/</id>
+        
+        <content type="html" xml:base="/events/2017-12-05-recruiting-microcaching/">&lt;h2 id=&quot;talk-1-recruiting-recruiter-and-how-to-find-developers&quot;&gt;Talk 1: Recruiting, Recruiter, and how to find Developers&lt;&#x2F;h2&gt;
+&lt;p&gt;Learn about all sides of the table, and how to solve this problem&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;Flyingmana&quot;&gt;Daniel Fahlke&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-microcaching&quot;&gt;Talk 2: Microcaching&lt;&#x2F;h2&gt;
+&lt;p&gt;For when all else fails …&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;mailto:webmaster@dasourcerer.net&quot;&gt;Stephan Hohmann&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 4th of July, 2017</title>
+        <published>2017-07-04T00:00:00+00:00</published>
+        <updated>2017-07-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2017-07-04-php-history-fastcgi-nextcloud/"/>
+        <id>/events/2017-07-04-php-history-fastcgi-nextcloud/</id>
+        
+        <content type="html" xml:base="/events/2017-07-04-php-history-fastcgi-nextcloud/">&lt;h2 id=&quot;talk-1-php-the-past-and-the-future&quot;&gt;Talk 1: PHP - The past and the future&lt;&#x2F;h2&gt;
+&lt;p&gt;A talk about the history of PHP as a technology, a programming language and a part of the whole technological infrastructure and the OSS world.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;mailto:ranware2200@yahoo.com&quot;&gt;Ran Argaman&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-high-performance-fastcgi&quot;&gt;Talk 2: High Performance FastCGI&lt;&#x2F;h2&gt;
+&lt;p&gt;by Stephan Hohmann&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-3-introducing-nextcloud&quot;&gt;Talk 3: Introducing Nextcloud&lt;&#x2F;h2&gt;
+&lt;p&gt;and inviting you to its conference&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;www.arthur-schiwon.de&quot;&gt;Arthur Schiwon&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 5th of April, 2016</title>
+        <published>2016-04-05T00:00:00+00:00</published>
+        <updated>2016-04-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2016-04-05-feature-toggles-cloudflare/"/>
+        <id>/events/2016-04-05-feature-toggles-cloudflare/</id>
+        
+        <content type="html" xml:base="/events/2016-04-05-feature-toggles-cloudflare/">&lt;h2 id=&quot;talk-1-feature-toggles&quot;&gt;Talk 1: Feature Toggles&lt;&#x2F;h2&gt;
+&lt;p&gt;Preventing a mess when transitioning to a new feature&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;dbrumann&quot;&gt;Denis Brumann&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-cloudflare-to-the-rescue&quot;&gt;Talk 2: Cloudflare to the rescue&lt;&#x2F;h2&gt;
+&lt;p&gt;How to use Cloudflare to bail yourself out of technical debt.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;ircambridge&quot;&gt;Iain Cambridge&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 9th of June, 2015</title>
+        <published>2015-06-09T00:00:00+00:00</published>
+        <updated>2015-06-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2015-06-09-redis-caching-strategies/"/>
+        <id>/events/2015-06-09-redis-caching-strategies/</id>
+        
+        <content type="html" xml:base="/events/2015-06-09-redis-caching-strategies/">&lt;h2 id=&quot;talk-1-redis-for-php-developers&quot;&gt;Talk 1: Redis for PHP Developers&lt;&#x2F;h2&gt;
+&lt;p&gt;Leveraging Redis for high-performance applications.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;klimpong&quot;&gt;Till Klampäckel&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-advanced-caching-strategies&quot;&gt;Talk 2: Advanced Caching Strategies&lt;&#x2F;h2&gt;
+&lt;p&gt;Beyond basic caching: sophisticated approaches to speed.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;lstrojny&quot;&gt;Lars Strojny&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 6th of November, 2013</title>
+        <published>2013-11-06T00:00:00+00:00</published>
+        <updated>2013-11-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2013-11-06-cdn-solid-principles/"/>
+        <id>/events/2013-11-06-cdn-solid-principles/</id>
+        
+        <content type="html" xml:base="/events/2013-11-06-cdn-solid-principles/">&lt;h2 id=&quot;talk-1-cdns-can-be-free-cheap-or-expensive&quot;&gt;Talk 1: CDNs can be free, cheap or expensive&lt;&#x2F;h2&gt;
+&lt;p&gt;Content delivery networks used to be technically advanced but expensive solutions used by big corporations only. Nowadays there&#x27;s players with cheap offers (like Amazon CloudFront) and even free offers (like Google&#x27;s unlimited free beta of the Pagespeed CDN). This talk includes a live demo of how CloudFront and Pagespeed CDN are configured and a discussion of their respective pros and cons. Participants may want to apply for a free &lt;a href=&quot;https:&#x2F;&#x2F;developers.google.com&#x2F;speed&#x2F;pagespeed&#x2F;service&quot;&gt;Pagespeed CDN&lt;&#x2F;a&gt; invitation in advance, b.c. it takes a couple of days to be invited.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;http:&#x2F;&#x2F;www.php-schulung.de&#x2F;&quot;&gt;Timon Schroeter&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-don-t-be-stupid-grasp-solid&quot;&gt;Talk 2: Don&#x27;t Be Stupid, Grasp Solid&lt;&#x2F;h2&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;ircmaxell&quot;&gt;Anthony Ferrara&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 3rd of september, 2013</title>
+        <published>2013-09-03T00:00:00+00:00</published>
+        <updated>2013-09-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2013-09-03-qb-extension-silex/"/>
+        <id>/events/2013-09-03-qb-extension-silex/</id>
+        
+        <content type="html" xml:base="/events/2013-09-03-qb-extension-silex/">&lt;h2 id=&quot;talk-1-the-qb-extension-performing-computationally-intensive-tasks-in-php&quot;&gt;Talk 1: The QB extension: Performing computationally intensive tasks in PHP&lt;&#x2F;h2&gt;
+&lt;p&gt;While PHP is an excellent language for building complex web application, it imposes certain limitations. Writing code that performs low-level, computationally intensive tasks in PHP is generally impractical--it&#x27;d simply be too slow. The QB extension addresses this particular weakness of PHP. By translating Zend opcodes and executing them through a statically typed virtual machine, QB offers an order-of-magnitude gain in performance. The added power allows PHP programmers do things they were unable to do before, such as complex pixel-level image manipulation.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;chung-leong&quot;&gt;Chung Leong&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-silex-why-less-can-be-so-much-more&quot;&gt;Talk 2: Silex - Why &#x27;less&#x27; can be so much more&lt;&#x2F;h2&gt;
+&lt;p&gt;A framework talk to fill the void - Still going to be fun :)&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;__edorian&quot;&gt;Volker Dusch&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 4th December, 2012 &#x2F;&#x2F; Treffen am 4. Dezember, 2012</title>
+        <published>2012-12-04T00:00:00+00:00</published>
+        <updated>2012-12-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2012-12-04-php55-dependency-injection-traffic-spikes/"/>
+        <id>/events/2012-12-04-php55-dependency-injection-traffic-spikes/</id>
+        
+        <content type="html" xml:base="/events/2012-12-04-php55-dependency-injection-traffic-spikes/">&lt;h2 id=&quot;english&quot;&gt;English&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;David Soria Parra: PHP 5.5&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;www.php-entwickler-berlin.de&quot;&gt;Timon Schroeter&lt;&#x2F;a&gt;: Dependency Injection for Beginners&lt;&#x2F;li&gt;
+&lt;li&gt;Christoph Lühr: Brace for impact - how to survive TV ads&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;We meet at co.up as always, drinks are
+available for a small fee. The meetup starts at 7pm, talks start at 7:30pm.&lt;&#x2F;p&gt;
+&lt;p&gt;Looking forward to seeing all of you.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;deutsch&quot;&gt;Deutsch&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;David Soria Parra: PHP 5.5&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;www.php-entwickler-berlin.de&quot;&gt;Timon Schroeter&lt;&#x2F;a&gt;: Dependency Injection für Beginner&lt;&#x2F;li&gt;
+&lt;li&gt;Christoph Lühr: Wie überlebt meine Seite Trafficspitzen?&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Wie immer treffen wir uns bei co.up,
+Getränke sind gegen ein kleines Entgelt zu haben.
+Wir treffen uns um 19:00 Uhr, die Vorträge beginnen gegen 19:30 Uhr.&lt;&#x2F;p&gt;
+&lt;p&gt;Wir freuen uns auf euch.- &lt;a href=&quot;&#x2F;events&#x2F;2012-12-04-php55-dependency-injection-traffic-spikes&#x2F;chluehr-brace_for_impact-bephpug_201212.pdf&quot;&gt;Slides: chluehr-brace_for_impact-bephpug_201212.pdf&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 7th August, 2012 &#x2F;&#x2F; Treffen am 7. August, 2012</title>
+        <published>2012-08-07T00:00:00+00:00</published>
+        <updated>2012-08-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2012-08-07-cache-busting-composer/"/>
+        <id>/events/2012-08-07-cache-busting-composer/</id>
+        
+        <content type="html" xml:base="/events/2012-08-07-cache-busting-composer/">&lt;h2 id=&quot;english&quot;&gt;English&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Michael Krenz: Cache Busting with PHP - &lt;a href=&quot;&#x2F;events&#x2F;2012-08-07-cache-busting-composer&#x2F;asset_fingerprinting_with_php_demo_2012-08-07.pdf&quot;&gt;Slides&lt;&#x2F;a&gt;
+&lt;ul&gt;
+&lt;li&gt;A short intro on &quot;cache busting&quot; or &quot;asset fingerprinting&quot;, a technique from RoR that allows you to set far-future cache expiry dates for static files and still have the browser re-load them whenever they change. The same method can easily be used with PHP.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Leander Damme: Dependency management with Composer
+&lt;ul&gt;
+&lt;li&gt;Quick practical introduction to Composer: Managing your project dependencies, autoloading and installation.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;We meet at co.up as always, drinks are
+available for a small fee. The meetup starts at 7pm, talks start at 7:30pm.&lt;&#x2F;p&gt;
+&lt;p&gt;Looking forward to seeing all of you.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;deutsch&quot;&gt;Deutsch&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Michael Krenz: Cache Busting mit PHP - &lt;a href=&quot;&#x2F;events&#x2F;2012-08-07-cache-busting-composer&#x2F;asset_fingerprinting_with_php_demo_2012-08-07.pdf&quot;&gt;Slides&lt;&#x2F;a&gt;
+&lt;ul&gt;
+&lt;li&gt;Kurze Einführung in &quot;Cache-Busting&quot; oder &quot;Asset-Fingerprinting&quot;, ein aus RoR bekanntes Verfahren, bei dem statische Dateien so aufbereitet werden, dass sie trotz einem weit in der Zukunft liegenden Cache-Ablaufdatum bei jeder Änderung an der Datei erneut vom Browser geladen werden. Das Verfahren lässt sich leicht auf PHP übertragen.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Leander Damme: Dependency management mit Composer
+&lt;ul&gt;
+&lt;li&gt;Kurze praktische Einführung in Composer: Abhängigkeiten, Autoloading und installation.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Wie immer treffen wir uns bei co.up,
+Getränke sind gegen ein kleines Entgelt zu haben.
+Wir treffen uns um 19:00 Uhr, die Vorträge beginnen gegen 19:30 Uhr.&lt;&#x2F;p&gt;
+&lt;p&gt;Wir freuen uns auf euch.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

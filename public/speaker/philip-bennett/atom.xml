@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Berlin PHP Usergroup - Philip Bennett</title>
+    <subtitle>The Berlin PHP Usergroup community - Monthly meetups, talks, and networking for PHP developers in Berlin</subtitle>
+    <link rel="self" type="application/atom+xml" href="/speaker/philip-bennett/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2018-09-04T00:00:00+00:00</updated>
+    <id>/speaker/philip-bennett/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Meetup on the 4th of September, 2018</title>
+        <published>2018-09-04T00:00:00+00:00</published>
+        <updated>2018-09-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2018-09-04-wordpress-laravel-refactoring/"/>
+        <id>/events/2018-09-04-wordpress-laravel-refactoring/</id>
+        
+        <content type="html" xml:base="/events/2018-09-04-wordpress-laravel-refactoring/">&lt;h2 id=&quot;talk-1-ascending-to-the-rank-of-wordpress-developer&quot;&gt;Talk 1: Ascending to the Rank of WordPress Developer&lt;&#x2F;h2&gt;
+&lt;p&gt;Achieving high performance with technology agnostic component driven development.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;phil_bennett&quot;&gt;Philip Bennett&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-from-legacy-to-laravel-a-refactoring-journey&quot;&gt;Talk 2: From Legacy To Laravel: A Refactoring Journey&lt;&#x2F;h2&gt;
+&lt;p&gt;So you have a large, often messy, sometimes convoluted legacy PHP code base. There&#x27;s no framework, no routing, no templates. Hard to maintain, even harder to extend.&lt;&#x2F;p&gt;
+&lt;p&gt;So, how do you clean up your act? A complete rewrite? Almost certainly doomed to fail at a startup with limited resources, financial pressure and endless feature requests. Extract things step by step? Really hard with an entangled code base without sane boundaries.&lt;&#x2F;p&gt;
+&lt;p&gt;by Christopher Fuchs (ready2order)&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

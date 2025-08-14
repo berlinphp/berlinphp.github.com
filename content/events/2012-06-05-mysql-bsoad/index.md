@@ -32,4 +32,4 @@ Wie immer treffen wir uns bei co.up,
 Getränke sind gegen ein kleines Entgelt zu haben.
 Wir treffen uns um 19:00 Uhr, die Vorträge beginnen gegen 19:30 Uhr.
 
-Wir freuen uns auf euch.
+Wir freuen uns auf euch.- [Slides: 12_05_ipc_se_testen_state_of_the_art.pdf](12_05_ipc_se_testen_state_of_the_art.pdf)

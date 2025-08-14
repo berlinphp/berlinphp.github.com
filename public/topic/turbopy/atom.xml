@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Berlin PHP Usergroup - TURBOPY</title>
+    <subtitle>The Berlin PHP Usergroup community - Monthly meetups, talks, and networking for PHP developers in Berlin</subtitle>
+    <link rel="self" type="application/atom+xml" href="/topic/turbopy/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2016-12-06T00:00:00+00:00</updated>
+    <id>/topic/turbopy/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Meetup on the 6th of December, 2016</title>
+        <published>2016-12-06T00:00:00+00:00</published>
+        <updated>2016-12-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2016-12-06-functional-programming-lizards-pumpkins-turbopy/"/>
+        <id>/events/2016-12-06-functional-programming-lizards-pumpkins-turbopy/</id>
+        
+        <content type="html" xml:base="/events/2016-12-06-functional-programming-lizards-pumpkins-turbopy/">&lt;h2 id=&quot;talk-1-functional-programming-principles-in-php&quot;&gt;Talk 1: Functional Programming Principles in PHP&lt;&#x2F;h2&gt;
+&lt;p&gt;Taking a look at common FP principles and if&#x2F;how they can be applied to PHP.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ksassnowski&quot;&gt;Kai Sassnowski&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-solving-the-hardest-problem-in-it&quot;&gt;Talk 2: Solving the hardest problem in IT&lt;&#x2F;h2&gt;
+&lt;p&gt;Introduction to &lt;a href=&quot;http:&#x2F;&#x2F;lizardsandpumpkins.com&#x2F;&quot;&gt;Lizards &amp;amp; Pumpkins&lt;&#x2F;a&gt; and techniques we are using and why.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;Fabian_ikono&quot;&gt;Fabian Blechschmidt&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-3-vorstellung-turbopy-framework&quot;&gt;Talk 3: Vorstellung TURBOPY Framework&lt;&#x2F;h2&gt;
+&lt;p&gt;Einführung in Architektur und Konzepte des noSQL Publishing Frameworks&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;http:&#x2F;&#x2F;turbopy.org&#x2F;&quot;&gt;Johannes Reichardt&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

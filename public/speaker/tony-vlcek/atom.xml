@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Berlin PHP Usergroup - Tony VLCEK</title>
+    <subtitle>The Berlin PHP Usergroup community - Monthly meetups, talks, and networking for PHP developers in Berlin</subtitle>
+    <link rel="self" type="application/atom+xml" href="/speaker/tony-vlcek/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-07-04T00:00:00+00:00</updated>
+    <id>/speaker/tony-vlcek/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Meetup on the 4th of July, 2023</title>
+        <published>2023-07-04T00:00:00+00:00</published>
+        <updated>2023-07-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2023-07-04-php-google-cloud-functions/"/>
+        <id>/events/2023-07-04-php-google-cloud-functions/</id>
+        
+        <content type="html" xml:base="/events/2023-07-04-php-google-cloud-functions/">&lt;h2 id=&quot;talk-1-php-and-google-cloud-functions&quot;&gt;Talk 1: PHP and Google Cloud Functions&lt;&#x2F;h2&gt;
+&lt;p&gt;I&#x27;ll use a &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;snoofa-com&#x2F;statuspage-and-gcp-monitoring&quot;&gt;simple open-source tool&lt;&#x2F;a&gt; that connects Google&#x27;s Uptime Checks to Atlassian Statuspage as an example showing you how PHP can be used in Google Cloud Functions and how it can interact with Pub&#x2F;Sub. We&#x27;ll walk through the process of building and deploying a PHP 8.1 function. (lightning talk)&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;TonyVlcek&quot;&gt;Tony VLCEK&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

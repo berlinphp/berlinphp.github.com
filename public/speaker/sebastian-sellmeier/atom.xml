@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Berlin PHP Usergroup - Sebastian Sellmeier</title>
+    <subtitle>The Berlin PHP Usergroup community - Monthly meetups, talks, and networking for PHP developers in Berlin</subtitle>
+    <link rel="self" type="application/atom+xml" href="/speaker/sebastian-sellmeier/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2019-05-07T00:00:00+00:00</updated>
+    <id>/speaker/sebastian-sellmeier/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Meetup on the 7th of May, 2019</title>
+        <published>2019-05-07T00:00:00+00:00</published>
+        <updated>2019-05-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2019-05-07-symfony-flex-contract-testing-behat/"/>
+        <id>/events/2019-05-07-symfony-flex-contract-testing-behat/</id>
+        
+        <content type="html" xml:base="/events/2019-05-07-symfony-flex-contract-testing-behat/">&lt;h2 id=&quot;talk-1-symfony-flex-reloaded&quot;&gt;Talk 1: Symfony Flex - Reloaded&lt;&#x2F;h2&gt;
+&lt;p&gt;Since the start of Symfony Flex several things changed. I will give you a short overview about Symfony Flex, the features and why it is cool to use it! In the end, we will create our own recipe and have a look at the different possibilities to publish recipes.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;iSebTM&quot;&gt;Sebastian Sellmeier&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-consumer-driven-contract-testing&quot;&gt;Talk 2: Consumer-Driven Contract Testing&lt;&#x2F;h2&gt;
+&lt;p&gt;What are contracts? Who are my consumers? Does my service solves problems as requested?&lt;&#x2F;p&gt;
+&lt;p&gt;Reliable communication paths between applications are key in a distributed service architechture. While more and more agility leads to evolution and transformation of software and products, it is still required to keep an eye on compatibility and consumer requirements ...but what if they change?&lt;&#x2F;p&gt;
+&lt;p&gt;I would like to introduce you this powerful framework and show you how it can help to ensure the development of sustainable APIs.&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;eddiriarte&quot;&gt;Eduardo Iriarte&lt;&#x2F;a&gt;, Software Engineer @ Ratepay GmbH&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-3-test-drive-your-api-with-functional-tests-in-behat&quot;&gt;Talk 3: Test drive your API with functional tests in Behat&lt;&#x2F;h2&gt;
+&lt;p&gt;While there are many test tools that guarantee the health of code units, only BDD oriented test scenarios ensure that also humans understand what&#x27;s going on in your application. We&#x27;re using Behat to write feature tests for our api-platform based API and it saved our life on Friday night deployments more than once.&lt;&#x2F;p&gt;
+&lt;p&gt;In this talk Stefan demonstrates how:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Behat is wired into a Symfony application&lt;&#x2F;li&gt;
+&lt;li&gt;to write database driven tests that don&#x27;t interfere with each other&lt;&#x2F;li&gt;
+&lt;li&gt;to issue requests to the API and check their sideeffects&lt;&#x2F;li&gt;
+&lt;li&gt;mock a JWT authentication scheme&lt;&#x2F;li&gt;
+&lt;li&gt;write reusable context classes&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;stadolf&quot;&gt;Stefan Adolf&lt;&#x2F;a&gt;, Developer Ambassador @ Turbine Kreuzberg&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 3rd of April, 2018</title>
+        <published>2018-04-03T00:00:00+00:00</published>
+        <updated>2018-04-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2018-04-03-devops-symfony-flex-code-reviews/"/>
+        <id>/events/2018-04-03-devops-symfony-flex-code-reviews/</id>
+        
+        <content type="html" xml:base="/events/2018-04-03-devops-symfony-flex-code-reviews/">&lt;h2 id=&quot;talk-1-devops-culture&quot;&gt;Talk 1: DevOps Culture&lt;&#x2F;h2&gt;
+&lt;p&gt;... and Lean Software development&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;nahpeps&quot;&gt;Stephan Schulze&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-symfony-flex-introduction&quot;&gt;Talk 2: Symfony Flex - Introduction&lt;&#x2F;h2&gt;
+&lt;p&gt;Basic&#x27;s + Howto private Recipe Server&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;iSebTM&quot;&gt;Sebastian Sellmeier&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-3-how-code-reviews-should-not-be-done&quot;&gt;Talk 3: How code reviews should not be done&lt;&#x2F;h2&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;ewnx01&quot;&gt;Erik Witthauer&lt;&#x2F;a&gt;- &lt;a href=&quot;&#x2F;events&#x2F;2018-04-03-devops-symfony-flex-code-reviews&#x2F;2018_04_03-devops_culture_lean_development.pdf&quot;&gt;Slides: 2018_04_03-devops_culture_lean_development.pdf&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meetup on the 6th of Mar, 2018</title>
+        <published>2018-03-06T00:00:00+00:00</published>
+        <updated>2018-03-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/events/2018-03-06-career-jmeter-scs-lumen/"/>
+        <id>/events/2018-03-06-career-jmeter-scs-lumen/</id>
+        
+        <content type="html" xml:base="/events/2018-03-06-career-jmeter-scs-lumen/">&lt;h2 id=&quot;talk-1-how-to-find-the-best-php-position&quot;&gt;Talk 1: How to find the best PHP position&lt;&#x2F;h2&gt;
+&lt;p&gt;... which fits your skills perfect&lt;&#x2F;p&gt;
+&lt;p&gt;by Alexander Kley &amp;amp; Kai Niehues&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-2-creating-a-j-meter&quot;&gt;Talk 2: Creating a J-Meter&lt;&#x2F;h2&gt;
+&lt;p&gt;with Pipelines and Generators in PHP&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;dantleech&quot;&gt;Daniel Leech&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;talk-3-self-contained-system-scs&quot;&gt;Talk 3: Self-contained System (SCS)&lt;&#x2F;h2&gt;
+&lt;p&gt;... with a practical example (based on Lumen)&lt;&#x2F;p&gt;
+&lt;p&gt;by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;iSebTM&quot;&gt;Sebastian Sellmeier&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

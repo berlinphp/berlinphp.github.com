@@ -32,4 +32,4 @@ Wie immer treffen wir uns bei co.up,
 Getränke sind gegen ein kleines Entgelt zu haben.
 Wir treffen uns um 19:00 Uhr, die Vorträge beginnen gegen 19:30 Uhr.
 
-Wir freuen uns auf euch.
+Wir freuen uns auf euch.- [Slides: PHPUnit-Best-Practices-Fosdem-2013.pdf](PHPUnit-Best-Practices-Fosdem-2013.pdf)
