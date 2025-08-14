@@ -8,7 +8,7 @@ speaker = ["Anne-Julia Seitz", "Volker Dusch"]
 topic = ["s6-overlay", "Symfony", "Containers", "Multi-process", "PHP 8.4", "Property Hooks", "Docker", "Deployment"]
 
 [extra]
-location = "c-base Raumstation, Rungestrasse 20, (2nd backyard), Berlin"
+location = "c-base Raumstation, Rungestrasse 20, (2nd backyard), 10179 Berlin"
 +++
 
 ## Talk 1: s6-overlay: symfony in a multi-process container

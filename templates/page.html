@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="section">
+    <div class="container">
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li class="is-active"><a href="#" aria-current="page">{{ page.title }}</a></li>
+            </ul>
+        </nav>
+        
+        <div class="columns">
+            <div class="column is-8 is-offset-2">
+                <div class="content">
+                    <h1 class="title is-1">{{ page.title }}</h1>
+                    {% if page.description %}
+                    <p class="subtitle is-4 has-text-grey">{{ page.description }}</p>
+                    {% endif %}
+                    
+                    <div class="content is-medium">
+                        {{ page.content | safe }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content has-text-centered" style="margin-top: 3rem;">
+            <div class="buttons is-centered">
+                <a href="/" class="button is-primary">
+                    <span>← Back to Home</span>
+                </a>
+                <a href="/events/" class="button">
+                    <span>View Events</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}

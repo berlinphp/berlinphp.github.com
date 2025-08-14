@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 
 {% block content %}
-{% if section.extra.next_meetup %}
+{% set events_section = get_section(path="events/_index.md") %}
+{% set latest_event = events_section.pages | sort(attribute="date") | last %}
+{% if latest_event %}
 <!-- Event Hero Section -->
 <section class="hero is-large is-primary" style="position: relative; overflow: hidden;">
     <div class="hero-body">
@@ -15,22 +17,29 @@
                     <!-- Event details with more space -->
                     <h1 class="title is-1 has-text-white">
                         <span class="has-text-warning">Next Event:</span><br>
-                        {{ section.extra.next_meetup.title }}
+                        {{ latest_event.title }}
                     </h1>
                     <h2 class="subtitle is-3 has-text-white-ter">
-                        <strong>{{ section.extra.next_meetup.date }}</strong> • {{ section.extra.next_meetup.time }}
+                        <strong>{{ latest_event.date | date(format="%B %d, %Y") }}</strong>{% if latest_event.extra.time %} • {{ latest_event.extra.time }}{% endif %}
                     </h2>
                     <div class="content has-text-white-bis is-size-5">
-                        <p><strong>📍 {{ section.extra.next_meetup.location }}</strong> • {{ section.extra.next_meetup.address }}</p>
+                        <p><strong>📍 {{ latest_event.extra.location }}</strong></p>
                     </div>
                 </div>
                 <div class="column is-3 has-text-centered">
-                    {% if section.extra.next_meetup.meetup_url %}
-                    <a class="button is-large is-rounded" href="{{ section.extra.next_meetup.meetup_url }}" target="_blank" style="background-color: var(--orange-red); color: white; border: none;">
+                    {% if latest_event.extra.meetup_url %}
+                    <a class="button is-large is-rounded" href="{{ latest_event.extra.meetup_url }}" target="_blank" style="background-color: var(--orange-red); color: white; border: none;">
                         <span class="icon">
                             <strong>🎫</strong>
                         </span>
                         <span><strong>RSVP FREE</strong></span>
+                    </a>
+                    {% else %}
+                    <a class="button is-large is-rounded" href="{{ latest_event.permalink }}" style="background-color: var(--orange-red); color: white; border: none;">
+                        <span class="icon">
+                            <strong>📋</strong>
+                        </span>
+                        <span><strong>VIEW EVENT</strong></span>
                     </a>
                     {% endif %}
                     <div class="content has-text-white-ter mt-4">
@@ -43,41 +52,25 @@
     </div>
 </section>
 
-<!-- Talks Preview -->
-{% if section.extra.next_meetup.talks %}
-<section class="section">
+<!-- Event Details -->
+<section class="section" style="padding-top: 2rem;">
     <div class="container">
-        <h3 class="title is-2 has-text-centered mb-6">Featured Talks</h3>
         <div class="columns is-centered">
-            {% for talk in section.extra.next_meetup.talks %}
-            <div class="column is-5">
-                <div class="card is-shadowless" style="border: 2px solid var(--php-blue); border-radius: 12px;">
-                    <div class="card-content">
-                        <div class="content">
-                            <h4 class="title is-4">{{ talk.title }}</h4>
-                            <p class="subtitle is-6">
-                                <span class="icon-text">
-                                    <span class="icon">👤</span>
-                                    <span><strong>{{ talk.speaker }}</strong></span>
-                                </span>
-                            </p>
-                            <p>{{ talk.description }}</p>
-                        </div>
+            <div class="column is-10">
+                <div class="content is-size-5">
+                    {{ latest_event.content | safe }}
+                    {% if latest_event.taxonomies.topic %}
+                    <div class="tags are-large mt-4">
+                        {% for topic in latest_event.taxonomies.topic %}
+                        <span class="tag is-php is-large">{{ topic }}</span>
+                        {% endfor %}
                     </div>
+                    {% endif %}
                 </div>
             </div>
-            {% if not loop.last %}
-            <div class="column is-1 has-text-centered">
-                <span class="icon is-large" style="color: var(--php-blue);">
-                    <strong style="font-size: 2rem;">+</strong>
-                </span>
-            </div>
-            {% endif %}
-            {% endfor %}
         </div>
     </div>
 </section>
-{% endif %}
 {% endif %}
 
 <!-- About Section -->
@@ -132,36 +125,39 @@
 </section>
 
 <!-- Recent Talks -->
-{% if section.extra.recent_talks %}
+{% set recent_events = events_section.pages | sort(attribute="date") | reverse | slice(start=1, end=5) %}
+{% if recent_events %}
 <section class="section">
     <div class="container">
         <h3 class="title is-3 has-text-centered mb-6">Recent Talks</h3>
         <div class="columns is-multiline">
-            {% for talk in section.extra.recent_talks | slice(end=4) %}
+            {% for event in recent_events %}
             <div class="column is-6">
-                <article class="media">
-                    <div class="media-left">
-                        <span class="icon is-large has-background-primary is-rounded">
-                            <span class="has-text-white is-size-4">🎤</span>
-                        </span>
-                    </div>
-                    <div class="media-content">
-                        <div class="content">
-                            <p>
-                                <strong><a href="{{ talk.url }}">{{ talk.title }}</a></strong><br>
-                                <small>{{ talk.speaker }} • {{ talk.date }}</small><br>
-                                {{ talk.description }}
-                            </p>
-                            {% if talk.tags %}
-                            <div class="tags">
-                                {% for tag in talk.tags %}
-                                <span class="tag is-primary is-light">{{ tag }}</span>
-                                {% endfor %}
-                            </div>
-                            {% endif %}
+                <div class="box" style="height: 100%; display: flex; flex-direction: column;">
+                    <article class="media" style="flex-grow: 1;">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                                <img src="{{ get_url(path='logo.svg') }}" alt="Berlin PHP Logo" style="width: 48px; height: 48px; object-fit: contain;">
+                            </figure>
                         </div>
-                    </div>
-                </article>
+                        <div class="media-content">
+                            <div class="content">
+                                <p>
+                                    <strong><a href="{{ event.permalink }}">{{ event.title }}</a></strong><br>
+                                    <small>{{ event.taxonomies.speaker | join(sep=", ") }} • {{ event.date | date(format="%B %Y") }}</small><br>
+                                    {{ event.description }}
+                                </p>
+                                {% if event.taxonomies.topic %}
+                                <div class="tags">
+                                    {% for topic in event.taxonomies.topic | slice(end=3) %}
+                                    <span class="tag is-php">{{ topic }}</span>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </article>
+                </div>
             </div>
             {% endfor %}
         </div>

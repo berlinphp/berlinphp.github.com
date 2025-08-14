@@ -112,11 +112,17 @@
             
             <div class="column">
                 <div class="box">
-                    <h4 class="title is-4">Archive Stats</h4>
+                    <h4 class="title is-4">Event Stats</h4>
                     <div class="content">
-                        {% if paginator.pages %}
-                        <p><strong>{{ paginator.pages | length }}</strong> meetups on this page</p>
-                        <p><strong>Page {{ paginator.current_index }}</strong> of {{ paginator.number_pagers }}</p>
+                        {% set events_section = get_section(path="events/_index.md") %}
+                        {% set speaker_terms = get_taxonomy(kind="speaker") %}
+                        {% set topic_terms = get_taxonomy(kind="topic") %}
+                        <p><strong>{{ events_section.pages | length }}</strong> total meetups</p>
+                        <p><strong>{{ speaker_terms.items | length }}</strong> unique speakers</p>
+                        <p><strong>{{ topic_terms.items | length }}</strong> different topics</p>
+                        {% if paginator %}
+                        <hr>
+                        <p><small>Page {{ paginator.current_index }} of {{ paginator.number_pagers }}</small></p>
                         {% endif %}
                     </div>
                 </div>

@@ -9,6 +9,8 @@ topic = ["PHP 8.5", "Release Management", "PHP Internals", "Performance", "Ecosy
 
 [extra]
 location = "Turbine Kreuzberg GmbH, Prinzessinnenstraße 19, Berlin"
+time = "19:00h - 21:30h"
+meetup_url = "https://www.meetup.com/berlin-php-usergroup/events/"
 +++
 
 ## Talk: What's Coming in PHP 8.5

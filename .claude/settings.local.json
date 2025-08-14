@@ -9,8 +9,13 @@
       "Bash(zola serve:*)",
       "Bash(git add:*)",
       "mcp__playwright__browser_navigate",
-      "WebFetch(domain:www.meetup.com)"
+      "WebFetch(domain:www.meetup.com)",
+      "Bash(rg:*)",
+      "Bash(zola build:*)",
+      "WebFetch(domain:127.0.0.1)",
+      "Bash(grep:*)"
     ],
-    "deny": []
+    "deny": [],
+    "defaultMode": "acceptEdits"
   }
 }

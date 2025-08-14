@@ -40,12 +40,7 @@ paths_keep_dates = true
 mastodon_url = "https://phpc.social/@bephpug"
 twitter_url = "https://twitter.com/berlinphp"
 github_url = "https://github.com/berlinphp"
-flickr_url = "https://www.flickr.com/groups/bephpug/"
-meetup_url = "https://www.meetup.com/de-DE/berlin-php-usergroup/"
-
-# Default meetup location
-default_location = "Co-Up Berlin"
-default_address = "Adalbertstraße 8, 10999 Berlin"
+meetup_url = "https://www.meetup.com/berlin-php-usergroup/"
 
 # Analytics (optional)
 # google_analytics = "UA-XXXXXXXX-X"

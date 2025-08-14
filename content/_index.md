@@ -2,55 +2,6 @@
 title = "Berlin PHP Usergroup"
 description = "Monthly meetups for PHP developers in Berlin. Join our community for talks, networking, and learning about PHP, web development, and related technologies."
 
-[extra.next_meetup]
-title = "Democratic Architecture & TBA"
-date = "September 17, 2025"
-time = "18:30h - 21:00h"
-location = "c-base space station"
-address = "Rungestraße 20, 10179 Berlin"
-meetup_url = "https://www.meetup.com/berlin-php-usergroup/events/298123456/"
-
-[[extra.next_meetup.talks]]
-title = "Democratic Architecture"
-speaker = "Stephan Priebsch"
-description = "Learn how embracing Democratic Architecture can lead to the creation of adaptable and resilient systems, as well as collaborative development cultures where architecture provides guidance rather than dictation. By decoupling architecture from implementation, we can better accommodate evolving requirements and technological shifts, thereby ensuring the long-term viability of systems and their alignment with business goals."
-
-[[extra.next_meetup.talks]]
-title = "TBA"
-speaker = "tba"
-description = "Stay tuned for the second talk announcement!"
-
-[[extra.recent_talks]]
-title = "Building Scalable APIs with Laravel"
-speaker = "Max Mustermann"
-date = "December 2023"
-description = "Learn best practices for creating robust, scalable APIs using Laravel's powerful features."
-url = "/archive/2023-12-21-scalable-apis-laravel/"
-tags = ["Laravel", "API", "Architecture"]
-
-[[extra.recent_talks]]
-title = "Modern PHP Testing Strategies"
-speaker = "Sarah Schmidt"
-date = "November 2023"
-description = "Comprehensive guide to testing PHP applications with PHPUnit, Pest, and integration testing."
-url = "/archive/2023-11-16-modern-php-testing/"
-tags = ["Testing", "PHPUnit", "Quality"]
-
-[[extra.recent_talks]]
-title = "Docker for PHP Developers"
-speaker = "Thomas Weber"
-date = "October 2023"
-description = "Containerizing PHP applications: from development to production deployment."
-url = "/archive/2023-10-19-docker-php-developers/"
-tags = ["Docker", "DevOps", "Deployment"]
-
-[[extra.recent_talks]]
-title = "PHP Performance Optimization"
-speaker = "Lisa Hoffmann"
-date = "September 2023"
-description = "Techniques and tools for optimizing PHP application performance and scalability."
-url = "/archive/2023-09-21-php-performance-optimization/"
-tags = ["Performance", "Optimization", "Profiling"]
 +++
 
 ## Welcome to Berlin PHP
@@ -65,7 +16,6 @@ Every month, we gather for **free meetups** featuring:
 - **Lightning talks** for quick knowledge sharing
 - **Networking opportunities** with fellow developers
 - **Q&A sessions** and open discussions
-- **Job board** for PHP-related positions in Berlin
 
 ### Who Should Join?
 
