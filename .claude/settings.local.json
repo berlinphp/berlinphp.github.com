@@ -14,7 +14,8 @@
       "Bash(zola build:*)",
       "WebFetch(domain:127.0.0.1)",
       "Bash(grep:*)",
-      "Bash(cp:*)"
+      "Bash(cp:*)",
+      "Bash(cat:*)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
